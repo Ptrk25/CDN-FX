@@ -1,0 +1,11 @@
+.split-pane *.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+}
+
+#tableTickets .table-column {
+    -fx-alignment: CENTER;
+}
+
+#listCategory .list-cell {
+                 -fx-alignment: center;
+}
