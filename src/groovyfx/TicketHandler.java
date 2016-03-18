@@ -28,7 +28,7 @@ public class TicketHandler {
     private ObservableList<Ticket> ticketlist;
 
     /**
-     * Constructor for class TicketHandler
+     * Constructor for class TicketHandle
      */
     public TicketHandler(){
         TICKET_HEADER = ConvertingTools.hexStringToByteArray("526f6f742d434130303030303030332d58533030303030303063");
