@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -88,10 +89,15 @@ public class GroovyCIAController implements Initializable {
     @FXML
     TableColumn<Ticket, Boolean> columnDL;
 
+    //Tickethandler
+    TicketHandler thandler;
+
     public void initialize(URL location, ResourceBundle resources){
 
+        //Load some stuff
+        thandler = new TicketHandler();
+
         //DISABLE STUFF
-        //btnDownload.setDisable(true);
 
     }
 

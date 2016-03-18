@@ -28,11 +28,13 @@ public class TicketHandler {
     private ObservableList<Ticket> ticketlist;
 
     /**
-     * Constructor for class TicketHandle
+     * Constructor for class TicketHandler
      */
     public TicketHandler(){
         TICKET_HEADER = ConvertingTools.hexStringToByteArray("526f6f742d434130303030303030332d58533030303030303063");
         ticketData = null;
+        ticketOffsets = new ArrayList<>();
+        ticketlist = FXCollections.observableArrayList();
         ticketCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0);
         apptypeCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         tk = 0x140;
