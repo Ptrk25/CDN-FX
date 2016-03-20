@@ -11,8 +11,8 @@ public class Main extends Application {
     /**
      * Loads GroovyCIA Mainwindow
      *
-     * @param primaryStage
-     * @throws Exception
+     * @param primaryStage      First Stage
+     * @throws                  Exception
      */
     @Override
     public void start(Stage primaryStage) throws Exception{
