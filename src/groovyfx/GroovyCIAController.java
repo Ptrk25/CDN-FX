@@ -5,7 +5,15 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.TextField;
 
+import java.awt.*;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -122,7 +130,13 @@ public class GroovyCIAController implements Initializable {
 
     @FXML
     protected void clickedThread(){
-
+        try {
+            Desktop.getDesktop().browse(new URI("http://www.example.com"));
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        } catch (URISyntaxException e1) {
+            e1.printStackTrace();
+        }
     }
 
     @FXML

@@ -145,7 +145,7 @@ public class Downloader {
 
     public void prepareDownload(){
         /*
-        final_title = downloadList.size()
+        final_title = downloadList.size();
         createRawCia(path);
         */
     }
