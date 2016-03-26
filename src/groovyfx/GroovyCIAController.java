@@ -3,12 +3,18 @@ package groovyfx;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.awt.*;
 import java.io.IOException;
@@ -125,13 +131,24 @@ public class GroovyCIAController implements Initializable {
 
     @FXML
     protected void clickedSettings(){
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../gui/GroovyCIASettings.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.initStyle(StageStyle.DECORATED);
+            stage.setTitle("Settings");
+            stage.setScene(new Scene(root1));
+            stage.show();
+        }catch (Exception e){
 
+        }
     }
 
     @FXML
     protected void clickedThread(){
         try {
-            Desktop.getDesktop().browse(new URI("http://www.example.com"));
+            Desktop.getDesktop().browse(new URI("http://gbatemp.net/threads/wip-groovycia.414004/"));
         } catch (IOException e1) {
             e1.printStackTrace();
         } catch (URISyntaxException e1) {
@@ -161,7 +178,7 @@ public class GroovyCIAController implements Initializable {
 
     @FXML
     protected void selectedDLC(){
-  ;
+
     }
 
     @FXML
