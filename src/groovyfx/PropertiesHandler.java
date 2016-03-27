@@ -3,15 +3,23 @@ package groovyfx;
 import java.io.*;
 import java.net.URLDecoder;
 import java.util.Properties;
+import java.util.logging.Level;
 
 public class PropertiesHandler {
 
     private static Properties p = new Properties();
     private static String decodedPath;
 
-    public static void createFile() throws IOException {
-        if(getPath() == null){
-            new File(decodedPath).createNewFile();
+    public static void createFile(){
+        try{
+            if(getPath() == null){
+                new File(decodedPath).createNewFile();
+                DebugLogger.log("Properties file created!", Level.INFO);
+            }
+        }catch (IOException e){
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }
     }
 
@@ -28,7 +36,9 @@ public class PropertiesHandler {
             data = data.replaceAll(":", "!");
             p.setProperty(content, data);
         }catch (Exception e){
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }
     }
 
@@ -44,7 +54,9 @@ public class PropertiesHandler {
                 return data;
             }
         }catch(Exception e){
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }
         return null;
     }
@@ -52,37 +64,49 @@ public class PropertiesHandler {
     public static void saveProperties(){
         try {
             p.store(new FileOutputStream(getPath()), "Config File");
+            DebugLogger.log("Properties saved!", Level.INFO);
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         } catch (IOException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }catch (Exception e){
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }
     }
 
-    //ADD THINGS HERE
+    private static String getPath(){
 
-    private static String getPath() throws UnsupportedEncodingException{
+        try{
+            String path = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+            decodedPath = URLDecoder.decode(path, "UTF-8");
 
-        String path = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-        decodedPath = URLDecoder.decode(path, "UTF-8");
+            decodedPath = decodedPath.substring(0, decodedPath.lastIndexOf("/")) + "/settings.properties";
 
-        decodedPath = decodedPath.substring(0, decodedPath.lastIndexOf("/")) + "/settings.properties";
-
-        if(new File(decodedPath).exists()){
-            if(DetectOS.returnOS() == "Windows")
-                return decodedPath;
-            else if(DetectOS.returnOS() == "Unix")
-                return decodedPath;
-            else if(DetectOS.returnOS() == "Mac")
-                return decodedPath;
-            else
-                return null;
+            if(new File(decodedPath).exists()){
+                if(DetectOS.returnOS() == "Windows")
+                    return decodedPath;
+                else if(DetectOS.returnOS() == "Unix")
+                    return decodedPath;
+                else if(DetectOS.returnOS() == "Mac")
+                    return decodedPath;
+                else
+                    return null;
+            }
+            return null;
+        }catch (Exception e){
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
+            return null;
         }
-        return null;
     }
 
 }
