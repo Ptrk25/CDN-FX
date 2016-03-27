@@ -16,13 +16,15 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.*;
 
 import java.awt.*;
-import java.awt.List;
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.*;
+import java.util.logging.Level;
 
 public class GroovyCIAController implements Initializable {
     //Datafields
@@ -117,12 +119,16 @@ public class GroovyCIAController implements Initializable {
             if(PropertiesHandler.getInputPath() != null && PropertiesHandler.getInputPath().length() > 1){
                 dbpath = PropertiesHandler.getInputPath();
                 openTicketDB();
+                DebugLogger.log("INIT: Ticket.db opened", Level.INFO);
             }
             if(PropertiesHandler.getOutputPath() != null && PropertiesHandler.getOutputPath().length() > 1){
                 outputpath = PropertiesHandler.getOutputPath();
+                DebugLogger.log("INIT: Outputfolder setted", Level.INFO);
             }
         }catch (Exception e){
-            e.printStackTrace();
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
         }
     }
 
@@ -293,7 +299,7 @@ public class GroovyCIAController implements Initializable {
         Alert about = new Alert(Alert.AlertType.INFORMATION);
         about.setTitle("About");
         about.setHeaderText("Credits");
-        about.setContentText("GroovyCIA by Ptrk25\nFunkyCia2 by cearp\n\nTesters:\n\nduwen\nMadridi\nXenosaiga\nihaveamac\nCha0s Em3rald\n\nStarter XML by\n\nCha0s Em3rald\nMadridi\n\nVersion 1.0");
+        about.setContentText("GroovyCIA by Ptrk25\nFunkyCia2 by cearp\n\nTesters:\n\nduwen\nMadridi\nXenosaiga\nihaveamac\nCha0s Em3rald\n\nStarter XML by\n\nCha0s Em3rald\nMadridi\n\nVersion 0.91");
 
         about.showAndWait();
     }
