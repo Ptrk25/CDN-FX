@@ -6,6 +6,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.logging.Level;
+
 public class Main extends Application {
 
     /**
@@ -16,16 +20,24 @@ public class Main extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception{
+        DebugLogger.init();
+        try{
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../gui/GroovyCIA.fxml"));
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
 
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("../gui/GroovyCIA.fxml"));
-        Parent root = loader.load();
-        Scene scene = new Scene(root);
+            scene.getStylesheets().add("gui/StyleSheet.css");
+            primaryStage.setTitle("GroovyCIA (Testers FX Edition)");
+            primaryStage.setScene(scene);
+            primaryStage.show();
 
-        scene.getStylesheets().add("gui/StyleSheet.css");
-        primaryStage.setTitle("GroovyCIA (Testers FX Edition)");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+            DebugLogger.log("Initialization successful!", Level.INFO);
+        }catch(Exception e){
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
+        }
     }
 
 
