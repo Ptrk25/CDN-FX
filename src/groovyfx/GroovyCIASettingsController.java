@@ -15,7 +15,8 @@ public class GroovyCIASettingsController implements Initializable{
     CheckBox chbxDefaultTicket,
             chbxDefaultOutput,
             chbxAllowSystemTitles,
-            chbxAllowNonUniqueConsoleID;
+            chbxAllowNonUniqueConsoleID,
+            chbxDisableDBSupport;
     @FXML
     Button btnTicketSelect,
             btnOutputSelect,
@@ -59,6 +60,11 @@ public class GroovyCIASettingsController implements Initializable{
 
     @FXML
     protected void selectNonUniqueTickets(){
+
+    }
+
+    @FXML
+    protected void selectDisableDBSupport(){
 
     }
 
