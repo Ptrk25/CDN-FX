@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.PrintWriter;
@@ -29,7 +30,10 @@ public class Main extends Application {
 
             scene.getStylesheets().add("gui/StyleSheet.css");
             primaryStage.setTitle("GroovyCIA (Testers FX Edition)");
+            primaryStage.getIcons().add(new Image("/resources/gciaicon.png"));
             primaryStage.setScene(scene);
+            primaryStage.setMinHeight(609);
+            primaryStage.setMinWidth(1091);
             primaryStage.show();
 
             DebugLogger.log("Initialization successful!", Level.INFO);
