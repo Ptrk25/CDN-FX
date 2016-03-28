@@ -6,6 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
@@ -28,7 +29,8 @@ public class GroovyCIASettingsController implements Initializable{
             btnOutputSelect,
             btnResetDatabase,
             btnOK,
-            btnCancel;
+            btnCancel,
+            btnCommunityXML;
 
     @FXML
     TextField textTicket, textOutput;
@@ -149,6 +151,8 @@ public class GroovyCIASettingsController implements Initializable{
     protected void selectSysTitles(){
         if(chbxAllowSystemTitles.isSelected()){
             Alert warning = new Alert(Alert.AlertType.WARNING);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Warning");
             warning.setHeaderText("Download Systemtitles");
             warning.setContentText("This feature is experimental and should only be used for debugging purposes.\n\n" +
@@ -162,6 +166,11 @@ public class GroovyCIASettingsController implements Initializable{
     }
 
     @FXML
+    protected void clickedCommunityXML(){
+
+    }
+
+    @FXML
     protected void resetDatabase(){
         //TODO: Reset custom Database
     }
@@ -170,6 +179,8 @@ public class GroovyCIASettingsController implements Initializable{
     protected void selectNonUniqueTickets(){
         if(chbxAllowNonUniqueConsoleID.isSelected()){
             Alert warning = new Alert(Alert.AlertType.WARNING);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Warning");
             warning.setHeaderText("Download Non-Unique Titles");
             warning.setContentText("This will allow you to download content from your Ticket.db that is not attached to your eShop.\n\n" +
@@ -187,6 +198,8 @@ public class GroovyCIASettingsController implements Initializable{
     protected void selectDisableDBSupport(){
         if(chbxDisableDBSupport.isSelected()){
             Alert warning = new Alert(Alert.AlertType.INFORMATION);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Information");
             warning.setHeaderText("Disable 3dsdb support");
             warning.setContentText("By disabling this option:\n - The program will boot a lot faster.\n\n- The program will get all title information from the community.xml and database.xml");
@@ -201,6 +214,8 @@ public class GroovyCIASettingsController implements Initializable{
     protected void selectEnableDebugmode(){
         if(chbxEnableDebugmode.isSelected()){
             Alert warning = new Alert(Alert.AlertType.INFORMATION);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Information");
             warning.setHeaderText("Enable Debugmode");
             warning.setContentText("If you are having a problem with this program, enable this option then replicate the issue. A log file will be produced by the program. Report the issue by posting the log file in the GroovyCIA thread");
