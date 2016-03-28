@@ -28,7 +28,7 @@
                <MenuItem fx:id="menuClose" mnemonicParsing="false" onAction="#close" text="Close" />
            </Menu>
            <Menu mnemonicParsing="false" text="Options">
-            <MenuItem fx:id="menuRebuildRawContent" mnemonicParsing="false" onAction="#selectRebuildRawContent" text="Rebuild raw content" />
+            <MenuItem fx:id="menuRebuildRawContent" disable="true" mnemonicParsing="false" onAction="#selectRebuildRawContent" text="Rebuild raw content" />
             <SeparatorMenuItem mnemonicParsing="false" />
                <MenuItem fx:id="menuSettings" mnemonicParsing="false" onAction="#clickedSettings" text="Settings" />
            </Menu>
@@ -133,7 +133,7 @@
                        <Font name="System Bold" size="12.0" />
                    </font>
                </Label>
-               <ToggleButton fx:id="tgbtnShowPreinstalledGame" layoutX="13.0" layoutY="236.0" mnemonicParsing="false" onAction="#toggled" prefHeight="25.0" prefWidth="201.0" text="Show preinstalled game" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+               <ToggleButton fx:id="tgbtnShowPreinstalledGame" disable="true" layoutX="13.0" layoutY="236.0" mnemonicParsing="false" onAction="#toggled" prefHeight="25.0" prefWidth="201.0" text="Show preinstalled game" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
            </AnchorPane>
            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <Label layoutX="72.0" layoutY="14.0" text="Download" AnchorPane.topAnchor="14.0">
@@ -141,19 +141,19 @@
                        <Font size="18.0" />
                    </font>
                </Label>
-               <Button fx:id="btnDownload" layoutX="14.0" layoutY="249.0" mnemonicParsing="false" onAction="#clickedDownload" prefHeight="25.0" prefWidth="202.0" text="Download" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+               <Button fx:id="btnDownload" disable="true" layoutX="14.0" layoutY="249.0" mnemonicParsing="false" onAction="#clickedDownload" prefHeight="25.0" prefWidth="202.0" text="Download" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
                <ProgressBar fx:id="progressbarDownload" layoutX="14.0" layoutY="223.0" prefHeight="22.0" prefWidth="201.0" progress="0.0" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
-               <Label layoutX="14.0" layoutY="64.0" text="Title:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="64.0">
+               <Label layoutX="12.0" layoutY="48.0" text="Title:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="48.0">
                    <font>
                        <Font name="System Bold" size="12.0" />
                    </font>
                </Label>
-               <Label layoutX="14.0" layoutY="81.0" text="Attempt:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="81.0">
+               <Label layoutX="12.0" layoutY="65.0" text="Attempt:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="65.0">
                    <font>
                        <Font name="System Bold" size="12.0" />
                    </font>
                </Label>
-               <Label layoutX="14.0" layoutY="98.0" text="Failed:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="98.0">
+               <Label layoutX="12.0" layoutY="82.0" text="Failed:" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="82.0">
                    <font>
                        <Font name="System Bold" size="12.0" />
                    </font>
@@ -178,18 +178,24 @@
                        <Font name="System Bold" size="12.0" />
                    </font>
                </Label>
-               <Label layoutX="14.0" layoutY="122.0" text="Current Title" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="122.0">
+               <Label layoutX="12.0" layoutY="106.0" text="Current Title" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="106.0">
                    <font>
                        <Font size="15.0" />
                    </font>
                </Label>
-               <Label fx:id="lblTitleCount" layoutX="172.0" layoutY="64.0" text="0/0" />
-               <Label fx:id="lblAttemptCount" layoutX="172.0" layoutY="81.0" text="0/0" />
-               <Label fx:id="lblFailedCount" layoutX="178.0" layoutY="98.0" text="0" />
+               <Label fx:id="lblTitleCount" layoutX="174.0" layoutY="48.0" text="0/0" />
+               <Label fx:id="lblAttemptCount" layoutX="174.0" layoutY="65.0" text="0/0" />
+               <Label fx:id="lblFailedCount" layoutX="180.0" layoutY="82.0" text="0" />
                <Label fx:id="lblTitleID" layoutX="102.0" layoutY="151.0" text="0000000000000000" />
                <Label fx:id="lblTMD" layoutX="183.0" layoutY="168.0" text="-" />
                <Label fx:id="lblFilesCount" layoutX="176.0" layoutY="185.0" text="0/0" />
                <Label fx:id="lblDownloadStats" layoutX="137.0" layoutY="202.0" text="0 MB / 0 MB" />
+            <Label layoutX="12.0" layoutY="134.0" text="Name:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTitleName" layoutX="154.0" layoutY="134.0" text="Titlename" />
            </AnchorPane>
        </SplitPane>
    </right>
@@ -206,7 +212,7 @@
                    <TableColumn fx:id="columnDL" prefWidth="24.0" text="DL" />
                </columns>
            </TableView>
-           <TextField fx:id="textSearch" layoutX="14.0" layoutY="545.0" onKeyTyped="#typed" prefHeight="25.0" prefWidth="652.0" promptText="Search..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="9.0" />
+           <TextField fx:id="textSearch" disable="true" layoutX="14.0" layoutY="545.0" onKeyTyped="#typed" prefHeight="25.0" prefWidth="652.0" promptText="Search..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="9.0" />
        </AnchorPane>
    </center>
 </BorderPane>
