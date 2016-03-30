@@ -186,16 +186,16 @@
                <Label fx:id="lblTitleCount" layoutX="174.0" layoutY="48.0" text="0/0" />
                <Label fx:id="lblAttemptCount" layoutX="174.0" layoutY="65.0" text="0/0" />
                <Label fx:id="lblFailedCount" layoutX="180.0" layoutY="82.0" text="0" />
-               <Label fx:id="lblTitleID" layoutX="102.0" layoutY="151.0" text="0000000000000000" />
-               <Label fx:id="lblTMD" layoutX="183.0" layoutY="168.0" text="-" />
+               <Label fx:id="lblTitleID" layoutX="102.0" layoutY="151.0" />
+               <Label fx:id="lblTMD" layoutX="178.0" layoutY="168.0" text="-" />
                <Label fx:id="lblFilesCount" layoutX="176.0" layoutY="185.0" text="0/0" />
-               <Label fx:id="lblDownloadStats" layoutX="137.0" layoutY="202.0" text="0 MB / 0 MB" />
+               <Label fx:id="lblDownloadStats" layoutX="137.0" layoutY="202.0" text="0 MB / 0 MB" AnchorPane.rightAnchor="21.0" />
             <Label layoutX="12.0" layoutY="134.0" text="Name:">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="lblTitleName" layoutX="154.0" layoutY="134.0" text="Titlename" />
+            <Label fx:id="lblTitleName" layoutX="152.0" layoutY="134.0" AnchorPane.rightAnchor="21.0" />
            </AnchorPane>
        </SplitPane>
    </right>

@@ -5,19 +5,29 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RebuildCIAController implements Initializable{
 
     @FXML
-    Label labelStatus;
+    public Label labelStatus;
 
     @FXML
-    ProgressBar progressBar1;
+    private ProgressBar progressBar1;
+
+    String path;
 
     public void initialize(URL location, ResourceBundle resources){
-        //INIT
+
+    }
+    public void setInput(String path){
+        this.path = path;
+        Downloader dl = new Downloader(null, path);
+        dl.setComponents(labelStatus, null, null, null, null, null, null, null, progressBar1, null);
+        dl.setDownload(false);
+        dl.start();
     }
 
 }

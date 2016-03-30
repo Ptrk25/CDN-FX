@@ -4,10 +4,13 @@ package groovyfx;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -18,9 +21,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
-import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.web.WebView;
 import javafx.stage.*;
 
@@ -120,11 +125,17 @@ public class GroovyCIAController implements Initializable {
     TableColumn<Ticket, Boolean> columnDL;
 
     private String dbpath, outputpath;
+    private ObservableList<Ticket> downloadList = FXCollections.observableArrayList();
+    public ObservableList<Ticket> editedEntries = FXCollections.observableArrayList();
     private XMLHandler xml_handler = new XMLHandler(null);
+    private Downloader dl;
+
+    private MenuItem mnuAddToDownloadList;
+    private MenuItem mnuRemoveFromDownloadList;
 
     public void initialize(URL location, ResourceBundle resources){
-        //DISABLE STUFF
         xml_handler.getXMLFileFromServer();
+        CustomXMLHandler.createCustomDatabase();
         initProperties();
         addListener();
     }
@@ -248,7 +259,13 @@ public class GroovyCIAController implements Initializable {
 
         //DATABASE
         xml_handler.setTicketList(thandler.getTicketList());
-        ticketlist = xml_handler.readXMLFile();
+        xml_handler.readXMLFile();
+        xml_handler.readCommunityXMLFile();
+        ticketlist = xml_handler.readCustomXMLFile();
+
+        if(ticketlist == null){
+            ticketlist = thandler.getTicketList();
+        }
 
         updateCounters(thandler);
 
@@ -261,20 +278,83 @@ public class GroovyCIAController implements Initializable {
                 change.next();
                 if(change.wasReplaced()) {
                     tableTickets.getColumns().clear();
-                    tableTickets.getColumns().addAll(columnName, columnRegion, columnSerial, columnType, columnTitleID, columnConsoleID, columnDL);
+                    tableTickets.getColumns().addAll(columnName, columnRegion, columnSerial, columnType, columnTitleID, columnConsoleID);
                 }
             }
         });
 
         //TABLEFILTER
         TableFilter.filteredTickets = new FilteredList<>(ticketlist, t -> true);
-        SortedList<Ticket> sortedTicket = new SortedList<>(TableFilter.createTableFilter(textSearch, tgbtnShowPreinstalledGame, listCategory));
+        SortedList<Ticket> sortedTicket;
+        sortedTicket = new SortedList<>(TableFilter.createTableFilter(textSearch, tgbtnShowPreinstalledGame, listCategory));
         sortedTicket.comparatorProperty().bind(tableTickets.comparatorProperty());
         tableTickets.setItems(sortedTicket);
 
+        //CONTEXTMENU
+        mnuAddToDownloadList = new MenuItem("Add to downloadlist");
+        mnuAddToDownloadList.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+                Ticket ticket = TableFilter.filteredTickets.get(tableTickets.getSelectionModel().getSelectedIndex());
+                if(ticket != null){
+                    boolean sys, nonunique;
+                    sys = false;
+                    nonunique = false;
+
+                    if(PropertiesHandler.getProperties("downloadsystemtitles") != null){
+                        if(PropertiesHandler.getProperties("downloadsystemtitles").equals("yes")){
+                            sys = true;
+                        }else{
+                            sys = false;
+                        }
+                    }
+                    if(PropertiesHandler.getProperties("downloadnonuniquetitles") != null){
+                        if(PropertiesHandler.getProperties("downloadnonuniquetitles").equals("yes")){
+                            nonunique = true;
+                        }else{
+                            nonunique = false;
+                        }
+                    }
+
+                    if(ticket.getType().equals("System")){
+                        if(sys){
+                            ticket.setDownload(true);
+                            downloadList.add(ticket);
+                        }
+                    }else{
+                        if(ticket.getConsoleID().equals("00000000")){
+                            if(nonunique){
+                                ticket.setDownload(true);
+                                downloadList.add(ticket);
+                            }
+                        }else{
+                            ticket.setDownload(true);
+                            downloadList.add(ticket);
+                        }
+                    }
+
+                }
+            }
+        });
+
+        mnuRemoveFromDownloadList = new MenuItem("Remove from downloadlist");
+        mnuRemoveFromDownloadList.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                Ticket ticket = TableFilter.filteredTickets.get(tableTickets.getSelectionModel().getSelectedIndex());
+                if(ticket != null){
+                    if(downloadList.contains(ticket)) {
+                        downloadList.remove(ticket);
+                        ticket.setDownload(false);
+                    }
+                }
+            }
+        });
+
+        tableTickets.setContextMenu(new ContextMenu(mnuAddToDownloadList, mnuRemoveFromDownloadList));
+
         //TABLECOLUMNS
-        columnDL.setMinWidth(35.0);
-        columnDL.setMaxWidth(35.0);
         columnConsoleID.setMinWidth(80.0);
         columnConsoleID.setMaxWidth(80.0);
         columnTitleID.setMinWidth(120.0);
@@ -285,30 +365,96 @@ public class GroovyCIAController implements Initializable {
         columnSerial.setMaxWidth(80);
         columnRegion.setMinWidth(50);
         columnRegion.setMaxWidth(50);
+        columnDL.setMaxWidth(20);
+        columnDL.setMinWidth(20);
 
-        columnName.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("Name")
-        );
-        columnRegion.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("Region")
-        );
-        columnSerial.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("Serial")
-        );
-        columnType.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("Type")
-        );
-        columnTitleID.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("TitleID")
-        );
-        columnConsoleID.setCellValueFactory(
-                new PropertyValueFactory<Ticket, String>("ConsoleID")
-        );
-        columnDL.setCellValueFactory(
-                new PropertyValueFactory<Ticket, Boolean>("DL")
+        columnName.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
+        columnRegion.setCellValueFactory(cellData -> cellData.getValue().regionProperty());
+        columnSerial.setCellValueFactory(cellData -> cellData.getValue().serialProperty());
+        columnType.setCellValueFactory(cellData -> cellData.getValue().typeProperty());
+        columnTitleID.setCellValueFactory(cellData -> cellData.getValue().titleidProperty());
+        columnConsoleID.setCellValueFactory(cellData -> cellData.getValue().consoleidProperty());
+        columnDL.setCellValueFactory(cellData -> cellData.getValue().downloadProperty().asObject());
+
+        columnName.setCellFactory(TextFieldTableCell.forTableColumn());
+        columnRegion.setCellFactory(TextFieldTableCell.forTableColumn());
+        columnSerial.setCellFactory(TextFieldTableCell.forTableColumn());
+        columnTitleID.setCellFactory(TextFieldTableCell.forTableColumn());
+        columnDL.setCellFactory(column -> {
+            return new TableCell<Ticket, Boolean>() {
+                @Override
+                protected void updateItem(Boolean item, boolean empty) {
+                    super.updateItem(item, empty);
+
+                    setText(null);
+
+                    TableRow<Ticket> currentRow = getTableRow();
+
+                    HBox box= new HBox();
+                    box.setSpacing(0);
+                    ImageView imageview = new ImageView();
+                    imageview.setFitHeight(14);
+                    imageview.setFitWidth(14);
+                    imageview.setImage(new Image(Main.class.getResource("/resources/ok.png").toString()));
+                    box.getChildren().add(imageview);
+                    setGraphic(null);
+
+                    if (!isEmpty()) {
+                        if(getItem().toString() == "true"){
+                            setGraphic(box);
+                        }
+                    }
+                }
+            };
+        });
+
+        columnName.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Ticket, String>>() {
+                    public void handle(TableColumn.CellEditEvent<Ticket, String> t) {
+                        Ticket ticket = ((Ticket) t.getTableView().getItems().get(t.getTablePosition().getRow()));
+                        ((Ticket) t.getTableView().getItems().get(t.getTablePosition().getRow())
+                        ).setName(t.getNewValue());
+                        editedEntries.add(new Ticket(t.getNewValue(), "", "", ticket.getTitleID()));
+                    }
+                }
         );
 
-        columnName.setEditable(true);
+        columnRegion.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Ticket, String>>() {
+                    public void handle(TableColumn.CellEditEvent<Ticket, String> t) {
+                        Ticket ticket = ((Ticket) t.getTableView().getItems().get(t.getTablePosition().getRow()));
+                        ((Ticket) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setRegion(t.getNewValue());
+
+                        editedEntries.add(new Ticket("", t.getNewValue(), "", ticket.getTitleID()));
+                    }
+                }
+        );
+
+        columnSerial.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Ticket, String>>() {
+                    public void handle(TableColumn.CellEditEvent<Ticket, String> t) {
+                        Ticket ticket = ((Ticket) t.getTableView().getItems().get(t.getTablePosition().getRow()));
+                        ((Ticket) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setSerial(t.getNewValue());
+
+                        editedEntries.add(new Ticket("", "", t.getNewValue(), ticket.getTitleID()));
+                    }
+                }
+        );
+
+        columnTitleID.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Ticket, String>>() {
+                    public void handle(TableColumn.CellEditEvent<Ticket, String> t) {
+                        Ticket ticket = ((Ticket) t.getTableView().getItems().get(t.getTablePosition().getRow()));
+                        ((Ticket) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setTitleID(t.getOldValue());
+                    }
+                }
+        );
 
         textSearch.setDisable(false);
         btnDownload.setDisable(false);
@@ -350,7 +496,7 @@ public class GroovyCIAController implements Initializable {
     @FXML
     protected void clickedSettings(){
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../gui/GroovyCIASettings.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/GroovyCIASettings.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.initModality(Modality.APPLICATION_MODAL);
@@ -369,7 +515,7 @@ public class GroovyCIAController implements Initializable {
     @FXML
     protected void selectRebuildRawContent(){
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../gui/RebuildCIA.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/RebuildCIA.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.getIcons().add(new Image("/resources/gciaicon.png"));
@@ -378,6 +524,15 @@ public class GroovyCIAController implements Initializable {
             stage.setTitle("Rebuild raw content");
             stage.setScene(new Scene(root1));
             stage.setResizable(false);
+            stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+                @Override
+                public void handle(WindowEvent event) {
+                    // consume event
+                    event.consume();
+                }
+            });
+            RebuildCIAController rb = fxmlLoader.getController();
+            rb.setInput(outputpath);
             stage.show();
         }catch (Exception e){
             StringWriter errors = new StringWriter();
@@ -472,6 +627,8 @@ public class GroovyCIAController implements Initializable {
     @FXML
     protected void toggled(){
         Alert warning = new Alert(Alert.AlertType.INFORMATION);
+        Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+        stage.getIcons().add(new Image("/resources/gciaicon.png"));
         warning.setTitle("Information");
         warning.setHeaderText("Show legit CIAs");
         warning.setContentText("This will show only eShop titles without ConsoleID\nThat doesn't mean that every entry is a legit CIA!");
@@ -482,7 +639,59 @@ public class GroovyCIAController implements Initializable {
 
     @FXML
     protected void clickedDownload(){
+       if(btnDownload.getText().equals("Download")){
+            if(downloadList.size() > 0){
+                if(outputpath.length() > 0){
+                    btnDownload.setText("Cancel");
+                    menuRebuildRawContent.setDisable(true);
+                    tableTickets.setEditable(false);
+                    mnuAddToDownloadList.setDisable(true);
+                    mnuRemoveFromDownloadList.setDisable(true);
+                    textSearch.setDisable(true);
 
+                    dl = new Downloader(downloadList, outputpath);
+                    dl.setBuildCIA(chbxBuildCIA.isSelected());
+                    dl.setPatchDemo(chbxPatchDemo.isSelected());
+                    dl.setPatchDLC(chbxPatchDLC.isSelected());
+                    dl.setBlankID(chbxPersonal.isSelected());
+                    dl.setComponents(lblTitleCount, lblAttemptCount, lblFailedCount, lblTitleName, lblTitleID, lblTMD, lblFilesCount, lblDownloadStats, progressbarDownload, btnDownload);
+                    dl.setXtraComponents(mnuAddToDownloadList, mnuRemoveFromDownloadList, menuRebuildRawContent, textSearch, tableTickets);
+                    dl.start();
+
+                }else{
+                    Alert warning = new Alert(Alert.AlertType.ERROR);
+                    Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+                    stage.getIcons().add(new Image("/resources/gciaicon.png"));
+                    warning.setTitle("Error");
+                    warning.setHeaderText("Outputfolder!");
+                    warning.setContentText("Please choose an outputfolder first!");
+                    warning.showAndWait();
+                }
+            }else{
+                Alert warning = new Alert(Alert.AlertType.ERROR);
+                Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+                stage.getIcons().add(new Image("/resources/gciaicon.png"));
+                warning.setTitle("Error");
+                warning.setHeaderText("No Titles selected!");
+                warning.setContentText("Please select at least one title!");
+                warning.showAndWait();
+            }
+       }else{
+           dl.setInterrupted(true);
+           btnDownload.setText("Download");
+           menuRebuildRawContent.setDisable(false);
+           tableTickets.setEditable(true);
+           mnuAddToDownloadList.setDisable(false);
+           mnuRemoveFromDownloadList.setDisable(false);
+           textSearch.setDisable(false);
+           for(int i = 0; i < TableFilter.filteredTickets.size(); i++){
+               Ticket tiktik = TableFilter.filteredTickets.get(i);
+               if(tiktik.getDownload()){
+                   tiktik.setDownload(false);
+               }
+           }
+           DebugLogger.log("Download cancled!", Level.INFO);
+       }
     }
 
     @FXML

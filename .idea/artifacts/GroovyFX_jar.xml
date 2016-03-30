@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GroovyFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GroovyFX_jar</output-path>
+    <root id="archive" name="GroovyFX.jar">
+      <element id="module-output" name="GroovyFX" />
+      <element id="extracted-dir" path="V:/javalib/PartArch.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

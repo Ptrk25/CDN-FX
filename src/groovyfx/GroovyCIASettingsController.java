@@ -172,7 +172,7 @@ public class GroovyCIASettingsController implements Initializable{
 
     @FXML
     protected void resetDatabase(){
-        //TODO: Reset custom Database
+        CustomXMLHandler.resetCustomDatabase();
     }
 
     @FXML

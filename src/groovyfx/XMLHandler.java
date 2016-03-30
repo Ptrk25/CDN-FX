@@ -122,7 +122,7 @@ public class XMLHandler {
                     }
                 }
 
-                DebugLogger.log("Database proceeded!", Level.INFO);
+                DebugLogger.log("Database processed!", Level.INFO);
                 ObservableList<Ticket> ticketlist = FXCollections.observableArrayList(tickets);
                 ticketlist.removeAll(Collections.singleton(null));
                 return ticketlist;
@@ -134,7 +134,142 @@ public class XMLHandler {
             }
             return null;
         }
+        return null;
+    }
 
+    public ObservableList<Ticket> readCommunityXMLFile(){
+        DebugLogger.log("Reading community database...", Level.INFO);
+        try{
+            if(CustomXMLHandler.getCommunityPath() == null){
+                DebugLogger.log("No community database found!", Level.WARNING);
+                return null;
+            }
+
+            File xmlFile = new File(CustomXMLHandler.getCommunityPath());
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(xmlFile);
+
+            doc.getDocumentElement().normalize();
+
+            NodeList nList = doc.getElementsByTagName("Ticket");
+
+            Ticket tickets[] = new Ticket[ticketlist.size()];
+
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+
+                Node nNode = nList.item(temp);
+
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+                    Element eElement = (Element) nNode;
+
+                    String name = eElement.getElementsByTagName("name").item(0).getTextContent();
+                    String region = eElement.getElementsByTagName("region").item(0).getTextContent();
+                    String serial = eElement.getElementsByTagName("serial").item(0).getTextContent();
+                    String titleid = eElement.getElementsByTagName("titleid").item(0).getTextContent().toLowerCase();
+
+                    //dsdbticketlist.add(new Ticket(name, region, serial, titleid));
+
+                    int i = 0;
+
+                    for(Ticket tiktik:ticketlist){
+
+                        if(tiktik.getTitleID().toLowerCase().contains(titleid) && titleid.length() > 1){
+                            if(region.equals("WLD"))
+                                region = "ALL";
+                            tiktik.setName(name);
+                            tiktik.setRegion(region);
+                            tiktik.setSerial(serial);
+                            tickets[i] = tiktik;
+                            i++;
+                        }else{
+                            tickets[i] = tiktik;
+                            i++;
+                        }
+                    }
+
+                }
+            }
+
+            DebugLogger.log("Database processed!", Level.INFO);
+            ObservableList<Ticket> ticketlist = FXCollections.observableArrayList(tickets);
+            ticketlist.removeAll(Collections.singleton(null));
+            return ticketlist;
+
+        }catch (Exception e){
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
+        }
+        return null;
+    }
+
+    public ObservableList<Ticket> readCustomXMLFile(){
+        DebugLogger.log("Reading custom database...", Level.INFO);
+        try{
+            if(CustomXMLHandler.getCustomPath() == null){
+                DebugLogger.log("No custom database found!", Level.WARNING);
+                return null;
+            }
+
+            File xmlFile = new File(CustomXMLHandler.getCustomPath());
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(xmlFile);
+
+            doc.getDocumentElement().normalize();
+
+            NodeList nList = doc.getElementsByTagName("Ticket");
+
+            Ticket tickets[] = new Ticket[ticketlist.size()];
+
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+
+                Node nNode = nList.item(temp);
+
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+                    Element eElement = (Element) nNode;
+
+                    String name = eElement.getElementsByTagName("name").item(0).getTextContent();
+                    String region = eElement.getElementsByTagName("region").item(0).getTextContent();
+                    String serial = eElement.getElementsByTagName("serial").item(0).getTextContent();
+                    String titleid = eElement.getElementsByTagName("titleid").item(0).getTextContent().toLowerCase();
+
+                    //dsdbticketlist.add(new Ticket(name, region, serial, titleid));
+
+                    int i = 0;
+
+                    for(Ticket tiktik:ticketlist){
+
+                        if(tiktik.getTitleID().toLowerCase().contains(titleid) && titleid.length() > 1){
+                            if(region.equals("WLD"))
+                                region = "ALL";
+                            tiktik.setName(name);
+                            tiktik.setRegion(region);
+                            tiktik.setSerial(serial);
+                            tickets[i] = tiktik;
+                            i++;
+                        }else{
+                            tickets[i] = tiktik;
+                            i++;
+                        }
+                    }
+
+                }
+            }
+
+            DebugLogger.log("Database processed!", Level.INFO);
+            ObservableList<Ticket> ticketlist = FXCollections.observableArrayList(tickets);
+            ticketlist.removeAll(Collections.singleton(null));
+            return ticketlist;
+
+        }catch (Exception e){
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            DebugLogger.log(errors.toString(), Level.SEVERE);
+        }
         return null;
     }
 

@@ -1,5 +1,6 @@
 package groovyfx;
 
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -118,6 +119,7 @@ public class TicketHandler {
             return false;
         }
 
+        outerloop:
         for(int offs:ticketOffsets){
             commonKeyIndex = ticketData[offs+0xb1];
             if(ticketData[offs+0x7c] != 0x1){
@@ -132,7 +134,16 @@ public class TicketHandler {
             String consoleid =  ConvertingTools.bytesToHex(Arrays.copyOfRange(ticketData, tk+0x98, tk+0x9c));
             int common_keyindex = this.ticketData[offs+0xb1];
 
+            for(int i = 0; i < ticketlist.size(); i++){
+                Ticket tiktik = ticketlist.get(i);
+                if(tiktik.getTitleID().equals(titleid) && tiktik.getConsoleID().equals(consoleid)){
+                    ticketlist.set(i, new Ticket(ticketData, titleid, consoleid, common_keyindex));
+                    continue outerloop;
+                }
+            }
+
             ticketlist.add(new Ticket(ticketData, titleid, consoleid, common_keyindex));
+
         }
         return true;
     }
@@ -250,7 +261,6 @@ public class TicketHandler {
                 tiktik.setType(Type.MYSTERY);
                 ticketlistClone[i] = tiktik;
                 apptypeCount.set(9, apptypeCount.get(9)+1);
-                continue;
             }
             i++;
 
