@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <database>
-<!--V24032016-->
+<!--V00511731032016-->
 <!--Gameapps-->
 	<Ticket>
 		<name>Shin Hikari Shinwa: Parutena no Kagami</name>
@@ -12237,6 +12237,12 @@
 		<titleid>0004000000126200</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Monster Hunter 4 Ultimate</name>
+		<region>USA</region>
+		<serial>CTR-BFGE</serial>
+		<titleid>0004000000126300</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Me &amp; My furry patients 3D</name>
 		<region>USA</region>
 		<serial>CTR-JFUE</serial>
@@ -13905,7 +13911,7 @@
 		<titleid>0004000000153500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo Badge Arcade </name>
+		<name>Nintendo Badge Arcade</name>
 		<region>EUR</region>
 		<serial>CTR-JWVP</serial>
 		<titleid>0004000000153600</titleid>
@@ -16348,7 +16354,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Prince of Persia (GBC) (Virtual Console)</name>
-		<region>USA</region>
+		<region>EUR</region>
 		<serial>CTR-QAGP</serial>
 		<titleid>0004000000069B00</titleid>
 	</Ticket>
@@ -19255,7 +19261,7 @@
 		<name>Real Heroes: Firefighter 3D</name>
 		<region>EUR</region>
 		<serial>CTR-ARHP</serial>
-		<titleid>0004000E000b9900</titleid>
+		<titleid>0004000E000B9900</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Inazuma Eleven 1-2-3: Endou Mamoru Densetsu</name>
@@ -19459,7 +19465,7 @@
 		<name>Hoppechan: Tsukutte! Asonde! Punipuni Town!!</name>
 		<region>JPN</region>
 		<serial>CTR-BHPJ</serial>
-		<titleid>0004000E000d8e00</titleid>
+		<titleid>0004000E000D8E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Mamegoma Happy! Sweets Farm</name>
@@ -19477,7 +19483,7 @@
 		<name>Bravely Default: For the Sequel</name>
 		<region>JPN</region>
 		<serial>CTR-BTRJ</serial>
-		<titleid>0004000E000db600</titleid>
+		<titleid>0004000E000DB600</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Simple Series for Nintendo 3DS Vol.1: The Mahjong</name>
@@ -19495,7 +19501,7 @@
 		<name>Danball Senki W Chou Custom</name>
 		<region>JPN</region>
 		<serial>CTR-BDWJ</serial>
-		<titleid>0004000E000dca00</titleid>
+		<titleid>0004000E000DCA00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Hakuoki: Memories of the Shinsengumi</name>
@@ -19507,7 +19513,7 @@
 		<name>Shingeki no Kyoujin - Jinrui Saigo no Tsubasa</name>
 		<region>JPN</region>
 		<serial>CTR-BGAJ</serial>
-		<titleid>0004000E000df800</titleid>
+		<titleid>0004000E000DF800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Shin Megami Tensei IV</name>
@@ -19519,7 +19525,7 @@
 		<name>Theatrhythm Final Fantasy: Curtain Call</name>
 		<region>JPN</region>
 		<serial>CTR-BTHJ</serial>
-		<titleid>0004000E000e9a00</titleid>
+		<titleid>0004000E000E9A00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Fantasy Life Link!</name>
@@ -19567,19 +19573,19 @@
 		<name>Danball Senki Wars</name>
 		<region>JPN</region>
 		<serial>CTR-BDNJ</serial>
-		<titleid>0004000E000f4000</titleid>
+		<titleid>0004000E000F4000</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Aikatsu! 2-nin no My Princess</name>
 		<region>JPN</region>
 		<serial>CTR-BAKJ</serial>
-		<titleid>0004000E000f4200</titleid>
+		<titleid>0004000E000F4200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>One Piece - Unlimited World Red</name>
 		<region>JPN</region>
 		<serial>CTR-BUWJ</serial>
-		<titleid>0004000E000f5800</titleid>
+		<titleid>0004000E000F5800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Maru Gou! Nanami to Issho ni Gakubo! English Joutatsu no Kotsu Riron-Hen</name>
@@ -19621,7 +19627,7 @@
 		<name>Toriko: Ultimate Survival</name>
 		<region>JPN</region>
 		<serial>CTR-BTCJ</serial>
-		<titleid>0004000E000fb300</titleid>
+		<titleid>0004000E000FB300</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Model * Oshare Audition: Dream Girl</name>
@@ -20191,13 +20197,13 @@
 		<name>LEGO Ninjago: Shadow of Ronin</name>
 		<region>EUR</region>
 		<serial>CTR-BLSP</serial>
-		<titleid>0004000E0014dd00</titleid>
+		<titleid>0004000E0014DD00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Sengoku Musou Chronicle 3</name>
 		<region>JPN</region>
 		<serial>CTR-BC4J</serial>
-		<titleid>0004000E0014df00</titleid>
+		<titleid>0004000E0014DF00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>LEGO Ninjago: Shadow of Ronin</name>
@@ -20236,6 +20242,12 @@
 		<titleid>0004000E0014F200</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Nintendo Badge Arcade</name>
+		<region>EUR</region>
+		<serial>CTR-JWVP</serial>
+		<titleid>0004000E00153600</titleid>
+	</Ticket>
+	<Ticket>
 		<name>The LEGO Movie Videogame</name>
 		<region>JPN</region>
 		<serial>CTR-AFJJ</serial>
@@ -20269,19 +20281,19 @@
 		<name>OlliOlli</name>
 		<region>EUR</region>
 		<serial>CTR-KLLP</serial>
-		<titleid>0004000E0015a200</titleid>
+		<titleid>0004000E0015A200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Ace Combat Assault Horizon Legacy+</name>
 		<region>EUR</region>
 		<serial>CTR-BCRP</serial>
-		<titleid>0004000E0015a300</titleid>
+		<titleid>0004000E0015A300</titleid>
 	</Ticket>
 	<Ticket>
 		<name>OlliOlli</name>
 		<region>USA</region>
 		<serial>CTR-KLLE</serial>
-		<titleid>0004000E0015a400</titleid>
+		<titleid>0004000E0015A400</titleid>
 	</Ticket>
 	<Ticket>
 		<name>IRONFALL Invasion</name>
@@ -20338,10 +20350,16 @@
 		<titleid>0004000E00162000</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Dragon Ball Z: Extreme Butoden</name>
+		<region>JPN</region>
+		<serial>CTR-BDVJ</serial>
+		<titleid>0004000E00163C00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Comic Workshop 2</name>
 		<region>EUR</region>
 		<serial>CTR-KW2P</serial>
-		<titleid>0004000E00166f00</titleid>
+		<titleid>0004000E00166F00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Yo-Kai Watch</name>
@@ -20353,7 +20371,13 @@
 		<name>Comic Workshop 2</name>
 		<region>USA</region>
 		<serial>CTR-KW2E</serial>
-		<titleid>0004000E00167f00</titleid>
+		<titleid>0004000E00167F00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>LEGO Marvels Avengers</name>
+		<region>EUR</region>
+		<serial>CTR-ALEP</serial>
+		<titleid>0004000E00168000</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rodea the Sky Soldier</name>
@@ -20365,13 +20389,13 @@
 		<name>Nintendo Presents: New Style Boutique 2 - Fashion Forward</name>
 		<region>EUR</region>
 		<serial>CTR-ECDP</serial>
-		<titleid>0004000E0016a100</titleid>
+		<titleid>0004000E0016A100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Terraria</name>
 		<region>EUR</region>
 		<serial>CTR-BTEP</serial>
-		<titleid>0004000E0016a600</titleid>
+		<titleid>0004000E0016A600</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Terraria</name>
@@ -20383,13 +20407,19 @@
 		<name>Samurai Warriors Chronicles 3</name>
 		<region>USA</region>
 		<serial>CTR-BC4E</serial>
-		<titleid>0004000E0016f200</titleid>
+		<titleid>0004000E0016F200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Samurai Warriors Chronicles 3</name>
 		<region>EUR</region>
 		<serial>CTR-BC4P</serial>
-		<titleid>0004000E00173b00</titleid>
+		<titleid>0004000E00173B00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Word Puzzles By POWGI</name>
+		<region>EUR</region>
+		<serial>CTR-KWPP</serial>
+		<titleid>0004000E00175800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda: Tri Force Heroes</name>
@@ -20407,7 +20437,7 @@
 		<name>Shovel Knight</name>
 		<region>EUR</region>
 		<serial>CTR-AKSP</serial>
-		<titleid>0004000E0017c900</titleid>
+		<titleid>0004000E0017C900</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Zelda Musou Hyrule Allstars</name>
@@ -20422,7 +20452,13 @@
 		<titleid>0004000E0017E100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Xenoblade  (N3DS Only)</name>
+		<name>Hyrule Warriors Legends</name>
+		<region>EUR</region>
+		<serial>CTR-BZHP</serial>
+		<titleid>0004000E0017EB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Xenoblade (N3DS Only)</name>
 		<region>JPN</region>
 		<serial>KTR-CAFJ</serial>
 		<titleid>0004000E0F700000</titleid>
