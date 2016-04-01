@@ -1,2 +1,0 @@
-Changelog v1.02
-  - Bugfix: .jar archive can be renamed now
