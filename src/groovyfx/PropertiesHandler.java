@@ -64,20 +64,22 @@ public class PropertiesHandler {
     public static void saveProperties(){
         try {
             p.store(new FileOutputStream(getPath()), "Config File");
-            DebugLogger.log("Properties saved!", Level.INFO);
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             StringWriter errors = new StringWriter();
             e.printStackTrace(new PrintWriter(errors));
+            e.printStackTrace();
             DebugLogger.log(errors.toString(), Level.SEVERE);
         } catch (IOException e) {
             // TODO Auto-generated catch block
             StringWriter errors = new StringWriter();
             e.printStackTrace(new PrintWriter(errors));
+            e.printStackTrace();
             DebugLogger.log(errors.toString(), Level.SEVERE);
         }catch (Exception e){
             StringWriter errors = new StringWriter();
             e.printStackTrace(new PrintWriter(errors));
+            e.printStackTrace();
             DebugLogger.log(errors.toString(), Level.SEVERE);
         }
     }
@@ -85,7 +87,7 @@ public class PropertiesHandler {
     private static String getPath(){
 
         try{
-            String path = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+            String path = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath().replace("GroovyFX.jar","");
             decodedPath = URLDecoder.decode(path, "UTF-8");
 
             decodedPath = decodedPath.substring(0, decodedPath.lastIndexOf("/")) + "/settings.properties";

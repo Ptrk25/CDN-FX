@@ -121,9 +121,12 @@ public class GroovyCIASettingsController implements Initializable{
     }
 
     @FXML
-    protected void selectTicket(){
+    protected void selectTicket() throws Exception{
+        String path2 = Main.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
+        path2 = path2.substring(1, path2.lastIndexOf("/")) + "/";
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open ticket.db");
+        fileChooser.setInitialDirectory(new File(path2));
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("ticket.db", "*.db"));
         File selectedFile = fileChooser.showOpenDialog(btnCancel.getScene().getWindow());
 
@@ -136,8 +139,11 @@ public class GroovyCIASettingsController implements Initializable{
     }
 
     @FXML
-    protected void selectOutput(){
+    protected void selectOutput()throws Exception{
+        String path2 = Main.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
+        path2 = path2.substring(1, path2.lastIndexOf("/")) + "/";
         DirectoryChooser directoryChooser = new DirectoryChooser();
+        directoryChooser.setInitialDirectory(new File(path2));
         File selectedDirectory = directoryChooser.showDialog(btnCancel.getScene().getWindow());
         if(selectedDirectory != null){
             String path = selectedDirectory.getPath();
@@ -154,7 +160,7 @@ public class GroovyCIASettingsController implements Initializable{
             Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
             stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Warning");
-            warning.setHeaderText("Download Systemtitles");
+            warning.setHeaderText("Download System Titles");
             warning.setContentText("This feature is experimental and should only be used for debugging purposes.\n\n" +
                                     "Do not use this option as a NUS replacement.\n" +
                                     "USE IT AT YOUR OWN RISK!!");
@@ -167,12 +173,37 @@ public class GroovyCIASettingsController implements Initializable{
 
     @FXML
     protected void clickedCommunityXML(){
-
+        XMLUpdater xmlu = new XMLUpdater();
+        Boolean need = xmlu.checkForUpdates();
+        if(need){
+            xmlu.update();
+            Alert warning = new Alert(Alert.AlertType.INFORMATION);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
+            warning.setTitle("Information");
+            warning.setHeaderText("Community XML Update");
+            warning.setContentText("Update successful!");
+            warning.showAndWait();
+        }else{
+            Alert warning = new Alert(Alert.AlertType.INFORMATION);
+            Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+            stage.getIcons().add(new Image("/resources/gciaicon.png"));
+            warning.setTitle("Information");
+            warning.setHeaderText("Community XML Update");
+            warning.setContentText("No update found!");
+            warning.showAndWait();
+        }
     }
 
     @FXML
     protected void resetDatabase(){
         CustomXMLHandler.resetCustomDatabase();
+        Alert warning = new Alert(Alert.AlertType.INFORMATION);
+        Stage stage = (Stage)warning.getDialogPane().getScene().getWindow();
+        stage.getIcons().add(new Image("/resources/gciaicon.png"));
+        warning.setTitle("Information");
+        warning.setHeaderText("Custom database resetted!");
+        warning.showAndWait();
     }
 
     @FXML
@@ -202,7 +233,7 @@ public class GroovyCIASettingsController implements Initializable{
             stage.getIcons().add(new Image("/resources/gciaicon.png"));
             warning.setTitle("Information");
             warning.setHeaderText("Disable 3dsdb support");
-            warning.setContentText("By disabling this option:\n - The program will boot a lot faster.\n\n- The program will get all title information from the community.xml and database.xml");
+            warning.setContentText("By disabling this option:\n\n- The program will boot a lot faster.\n- The program will get all title information from the community.xml and custom.xml");
             warning.showAndWait();
             PropertiesHandler.setProperties("yes", "disable3dsdbsupport");
         }else{

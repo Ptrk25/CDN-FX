@@ -36,8 +36,8 @@ public class TicketHandler {
         ticketData = null;
         ticketOffsets = new ArrayList<>();
         ticketlist = FXCollections.observableArrayList();
-        ticketCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0);
-        apptypeCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        ticketCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0);            // total, unique, duplicates, sys, e-ticket, unique-e-ticket, duplicate-e-ticket, t-not-own-eshop
+        apptypeCount = Arrays.asList(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);  // es-app, dlp, demo, upd-p, dlc, dsiw, dsisys, dsidat, sys, myst, any
         tk = 0x140;
     }
 
@@ -119,7 +119,6 @@ public class TicketHandler {
             return false;
         }
 
-        outerloop:
         for(int offs:ticketOffsets){
             commonKeyIndex = ticketData[offs+0xb1];
             if(ticketData[offs+0x7c] != 0x1){
@@ -133,14 +132,6 @@ public class TicketHandler {
             String titleid =  ConvertingTools.bytesToHex(Arrays.copyOfRange(ticketData, tk+0x9c, tk+0xa4));
             String consoleid =  ConvertingTools.bytesToHex(Arrays.copyOfRange(ticketData, tk+0x98, tk+0x9c));
             int common_keyindex = this.ticketData[offs+0xb1];
-
-            for(int i = 0; i < ticketlist.size(); i++){
-                Ticket tiktik = ticketlist.get(i);
-                if(tiktik.getTitleID().equals(titleid) && tiktik.getConsoleID().equals(consoleid)){
-                    ticketlist.set(i, new Ticket(ticketData, titleid, consoleid, common_keyindex));
-                    continue outerloop;
-                }
-            }
 
             ticketlist.add(new Ticket(ticketData, titleid, consoleid, common_keyindex));
 
@@ -195,6 +186,29 @@ public class TicketHandler {
         ticketCount.set(5, ConvertingTools.removeDuplicates(counter).size());
         ticketCount.set(6, eshop_tickets.size() - ConvertingTools.removeDuplicates(counter).size());
         ticketCount.set(7, not_eshop_tickets.size());
+
+        //THIS REMOVES DUPLICATES
+        ObservableList<Ticket> newTicketlist = FXCollections.observableArrayList();
+
+        outerloop:
+        for(Ticket tiktik:ticketlist){
+            String titleid = tiktik.getTitleID(), consoleid = tiktik.getConsoleID();
+            if(!ConvertingTools.bytesToHex(Arrays.copyOfRange(tiktik.getData(), 0x00, 0x04)).contains("00010004"))
+                continue;
+            if(newTicketlist.size() > 0){
+                for(Ticket tiktik2:newTicketlist){
+                    String titleid2 = tiktik2.getTitleID(), consoleid2 = tiktik2.getConsoleID();
+                    if(titleid2.equals(titleid) && consoleid2.equals(consoleid)){
+                        tiktik2.setData(tiktik.getData());
+                        continue outerloop;
+                    }
+                }
+                newTicketlist.add(tiktik);
+            }else{
+                newTicketlist.add(tiktik);
+            }
+        }
+        ticketlist = newTicketlist;
     }
 
     /**
@@ -206,9 +220,6 @@ public class TicketHandler {
     public void sortTickets() throws IOException, InterruptedException{
         String titleid;
         String typecheck;
-
-        Ticket[] ticketlistClone = new Ticket[ticketlist.size()];
-        int i = 0;
 
         for(Ticket tiktik:ticketlist){
             titleid = tiktik.getTitleID();
@@ -223,52 +234,36 @@ public class TicketHandler {
 
             if(typecheck.equals("0000")){
                 tiktik.setType(Type.ESHOP);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(0, apptypeCount.get(0)+1);
             }else if(typecheck.equals("0001")){
                 tiktik.setType(Type.DLP);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(1, apptypeCount.get(1)+1);
             }else if(typecheck.equals("0002")){
                 tiktik.setType(Type.DEMO);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(2, apptypeCount.get(2)+1);
             }else if(typecheck.equals("000e")){
                 tiktik.setType(Type.UPDATE);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(3, apptypeCount.get(3)+1);
             }else if(typecheck.equals("008c")){
                 tiktik.setType(Type.DLC);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(4, apptypeCount.get(4)+1);
             }else if(typecheck.equals("8004")){
                 tiktik.setType(Type.DSIWARE);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(5, apptypeCount.get(5)+1);
             }else if(((Long.parseLong(typecheck, 16)) & 0x10) == 0x10){
                 tiktik.setType(Type.SYSTEM);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(8, apptypeCount.get(8)+1);
             }else if(typecheck.equals("8005")){
                 tiktik.setType(Type.DSISYSAPP);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(6, apptypeCount.get(6)+1);
             }else if(typecheck.equals("800f")){
                 tiktik.setType(Type.DSISYSDAT);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(7, apptypeCount.get(7)+1);
             }else{
                 tiktik.setType(Type.MYSTERY);
-                ticketlistClone[i] = tiktik;
                 apptypeCount.set(9, apptypeCount.get(9)+1);
             }
-            i++;
-
         }
-
-        ArrayList<Ticket> tmp_list = new ArrayList<>(Arrays.asList(ticketlistClone));
-        ticketlist = FXCollections.observableArrayList(tmp_list);
-        ticketlist.removeAll(Collections.singleton(null));
     }
 
 }

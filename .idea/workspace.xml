@@ -6,28 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Added Logger">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GroovyFX_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovyfx/MakeCDN.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/groovyfx/CheckBoxCellFactory.java" afterPath="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/success-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovyfx/Updater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovyfx/XMLUpdater.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/ok.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyFX/groovyfx/TicketHandler.class" afterPath="$PROJECT_DIR$/out/production/GroovyFX/groovyfx/TicketHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/GroovyFX_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GroovyFX_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GroovyFX.iml" afterPath="$PROJECT_DIR$/GroovyFX.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyFX/gui/GroovyCIASettings.fxml" afterPath="$PROJECT_DIR$/out/production/GroovyFX/gui/GroovyCIASettings.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java" afterPath="$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/DebugLogger.java" afterPath="$PROJECT_DIR$/src/groovyfx/DebugLogger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/Downloader.java" afterPath="$PROJECT_DIR$/src/groovyfx/Downloader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java" afterPath="$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java" afterPath="$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/Main.java" afterPath="$PROJECT_DIR$/src/groovyfx/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/RebuildCIAController.java" afterPath="$PROJECT_DIR$/src/groovyfx/RebuildCIAController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/MakeCDN.java" afterPath="$PROJECT_DIR$/src/groovyfx/MakeCDN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java" afterPath="$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/TableFilter.java" afterPath="$PROJECT_DIR$/src/groovyfx/TableFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/Ticket.java" afterPath="$PROJECT_DIR$/src/groovyfx/Ticket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/TicketHandler.java" afterPath="$PROJECT_DIR$/src/groovyfx/TicketHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovyfx/XMLHandler.java" afterPath="$PROJECT_DIR$/src/groovyfx/XMLHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/GroovyCIA.fxml" afterPath="$PROJECT_DIR$/src/gui/GroovyCIA.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/StyleSheet.css" afterPath="$PROJECT_DIR$/src/gui/StyleSheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/GroovyCIASettings.fxml" afterPath="$PROJECT_DIR$/src/gui/GroovyCIASettings.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,6 +41,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GroovyFX$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459449499990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>groovyfx.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -81,26 +87,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="CustomXMLHandler.java" pinned="false" current-in-tab="true">
-              <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/CustomXMLHandler.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="294">
-                    <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="139" selection-end-column="40" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
@@ -110,18 +96,30 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovyfx/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="1173">
+              <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovyfx/TableFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroovyCIAController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroovyCIAController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2185">
-              <caret line="456" column="10" selection-start-line="456" selection-start-column="10" selection-end-line="456" selection-end-column="10" />
+            <state relative-caret-position="13192">
+              <caret line="814" column="37" selection-start-line="814" selection-start-column="37" selection-end-line="814" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,31 +130,8 @@
       <file leaf-file-name="Ticket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovyfx/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-              <folding>
-                <element signature="e#4132#4133#0" expanded="true" />
-                <element signature="e#4159#4160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovyfx/XMLHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2759">
-              <caret line="265" column="30" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomXMLHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+            <state relative-caret-position="1207">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,11 +140,42 @@
       <file leaf-file-name="Downloader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovyfx/Downloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="479" column="82" selection-start-line="479" selection-start-column="82" selection-end-line="479" selection-end-column="82" />
+            <state relative-caret-position="4165">
+              <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLUpdater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovyfx/XMLUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
               <folding>
-                <element signature="e#22348#22356#0" expanded="true" />
-                <element signature="e#22405#22414#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovyfx/DebugLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="101" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Updater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/groovyfx/Updater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,25 +225,27 @@
         <option value="$PROJECT_DIR$/src/gui/GroovyCIASettings.fxml" />
         <option value="$PROJECT_DIR$/src/gui/RebuildCIA.fxml" />
         <option value="$PROJECT_DIR$/src/groovyfx/Logger.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/DebugLogger.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/XMLToTicketList.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/CheckBoxCellFactory.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/TableFilter.java" />
         <option value="$PROJECT_DIR$/src/gui/StyleSheet.css" />
         <option value="$PROJECT_DIR$/src/gui/GroovyCIA.fxml" />
-        <option value="$PROJECT_DIR$/src/groovyfx/XMLHandler.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/BooleanCell.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/Ticket.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/DownloadThread.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/MakeCDN.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/RebuildCIAController.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java" />
-        <option value="$PROJECT_DIR$/src/groovyfx/TicketHandler.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/XMLHandler.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/MakeCDN.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/TableFilter.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/DebugLogger.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/TicketHandler.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/XMLUpdater.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/Main.java" />
         <option value="$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java" />
+        <option value="$PROJECT_DIR$/src/groovyfx/Updater.java" />
       </list>
     </option>
   </component>
@@ -307,7 +315,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -398,6 +405,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,14 +428,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\groovyfx" />
-      <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\gui" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\resources" />
       <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\gui" />
       <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\groovyfx" />
+      <recent name="C:\Users\Patrick\IdeaProjects\GroovyFX\src\gui" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -893,34 +901,38 @@
       <option name="project" value="LOCAL" />
       <updated>1459168251290</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added RebuildGUI, Downloader, TableEdit">
+      <created>1459334919875</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1459334919875</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32334048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -928,8 +940,12 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -970,11 +986,12 @@
     <MESSAGE value="OpenTicketDB updated" />
     <MESSAGE value="Code cleaned" />
     <MESSAGE value="Function added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function added" />
+    <MESSAGE value="Added RebuildGUI, Downloader, TableEdit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RebuildGUI, Downloader, TableEdit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -983,36 +1000,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/TicketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/TicketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1075,14 +1062,14 @@
     </entry>
     <entry file="file://E:/Datensicherung Windows 10/IDEA/IdeaProjects/GroovyCIA FX/src/groovycia/Downloader.java" />
     <entry file="file://$PROJECT_DIR$/src/gui/RebuildCIA.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://E:/Datensicherung Windows 10/IDEA/IdeaProjects/GroovyCIA FX/src/groovycia/GroovyCIAController.java" />
@@ -1118,13 +1105,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/CheckBoxCellFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/TableFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://V:/Datensicherung Windows 10/IDEA/IdeaProjects/GroovyCIA FX/src/groovycia/GroovyCIAController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1134,14 +1114,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/BooleanCell.java" />
     <entry file="file://$PROJECT_DIR$/src/gui/GroovyCIA.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="204" column="24" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/StyleSheet.css">
@@ -1152,14 +1132,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GroovyCIASettings.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/DownloadThread.java">
@@ -1191,62 +1171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/MakeCDN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/Downloader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="343" column="28" selection-start-line="343" selection-start-column="28" selection-end-line="343" selection-end-column="28" />
-          <folding>
-            <element signature="e#14294#14302#0" expanded="false" />
-            <element signature="e#14345#14354#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/CustomXMLHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="139" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="231" column="8" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/TicketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1270">
-          <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/DebugLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,62 +1182,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="183" column="59" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/CustomXMLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="124" column="12" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/XMLHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2759">
-          <caret line="265" column="30" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
+        <state relative-caret-position="-34">
+          <caret line="67" column="5" selection-start-line="66" selection-start-column="19" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Neuer_Ordner/Pictochat3D/src/pictochat3D/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/MakeCDN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/PropertiesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Neuer_Ordner/TeaCia/src/teacia/TicketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/TicketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="238" column="41" selection-start-line="238" selection-start-column="41" selection-end-line="238" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/GroovyCIASettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/DebugLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/Downloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="479" column="82" selection-start-line="479" selection-start-column="82" selection-end-line="479" selection-end-column="82" />
-          <folding>
-            <element signature="e#22348#22356#0" expanded="true" />
-            <element signature="e#22405#22414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/CustomXMLHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+        <state relative-caret-position="4165">
+          <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovyfx/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/TableFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        <state relative-caret-position="612">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/XMLUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
           <folding>
-            <element signature="e#4132#4133#0" expanded="true" />
-            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="1173">
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovyfx/GroovyCIAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="456" column="10" selection-start-line="456" selection-start-column="10" selection-end-line="456" selection-end-column="10" />
+        <state relative-caret-position="13192">
+          <caret line="814" column="37" selection-start-line="814" selection-start-column="37" selection-end-line="814" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovyfx/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

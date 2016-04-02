@@ -98,7 +98,7 @@ public class Ticket implements Serializable{
 	public void setSerial(String serial){
 		this.serial.set(serial);
 	}
-	
+
 	public void setType(Type type){
         if(type == Type.ESHOP)
             this.type.set("eShopApp");

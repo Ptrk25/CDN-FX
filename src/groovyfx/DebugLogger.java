@@ -15,10 +15,12 @@ public class DebugLogger {
             if(PropertiesHandler.getProperties("debugmode").equals("yes")){
                 path = URLDecoder.decode(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath(), "UTF-8");
                 logger = Logger.getLogger("DebugLogger");
-                handler = new FileHandler(path.substring(1, path.lastIndexOf("/")) + "/debug.log");
-                logger.addHandler(handler);
-                SimpleFormatter formatter = new SimpleFormatter();
-                handler.setFormatter(formatter);
+                if(!DetectOS.isMac()){
+                    handler = new FileHandler(path.substring(1, path.lastIndexOf("/")) + "/debug.log");
+                    logger.addHandler(handler);
+                    SimpleFormatter formatter = new SimpleFormatter();
+                    handler.setFormatter(formatter);
+                }
 
                 log("Logger initialized!", Level.INFO);
             }else{

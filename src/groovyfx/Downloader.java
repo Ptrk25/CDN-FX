@@ -51,7 +51,7 @@ public class Downloader extends Thread{
     private Label lblTitleCount, lblAttemptCount, lblFailedCount, lblTitleName, lblTitleID, lblTMD, lblFilesCount, lblDownloadStats;
     private ProgressBar progressDownload;
     private Button btnDownload;
-    private MenuItem add, rem, rebuild;
+    private MenuItem add, rem, rebuild, addall, removeall;
     private TextField search;
     private TableView table;
     private boolean isDownload = true;
@@ -137,12 +137,14 @@ public class Downloader extends Thread{
         this.btnDownload = btnDownload;
     }
 
-    public void setXtraComponents(MenuItem add, MenuItem rem, MenuItem rebuild, TextField search, TableView table){
+    public void setXtraComponents(MenuItem add, MenuItem rem, MenuItem rebuild, MenuItem addall, MenuItem removeall,TextField search, TableView table){
         this.add = add;
         this.rem = rem;
         this.rebuild = rebuild;
         this.search = search;
         this.table = table;
+        this.addall = addall;
+        this.removeall = removeall;
     }
 
     /**
@@ -213,6 +215,7 @@ public class Downloader extends Thread{
 
     private void download() throws Exception{
         final_title = downloadList.size();
+        failed = 0;
 
         createRawCia(path);
         Platform.runLater(() -> lblTitleCount.setText(title + "/" + final_title));
@@ -297,7 +300,7 @@ public class Downloader extends Thread{
                 stage.getIcons().add(new Image("/resources/gciaicon.png"));
                 warning.setTitle("Information");
                 warning.setHeaderText("Download complete!");
-                warning.setContentText("Failed: " + failed + "\n\n(Look in debug.log for more information)");
+                warning.setContentText("Failed: " + failed);
                 warning.showAndWait();
                     });
             //CLEAR SELECTED DOWNLOAD
@@ -317,8 +320,9 @@ public class Downloader extends Thread{
             Platform.runLater(() -> table.setEditable(true));
             Platform.runLater(() -> add.setDisable(false));
             Platform.runLater(() -> rem.setDisable(false));
+            Platform.runLater(() -> addall.setDisable(false));
+            Platform.runLater(() -> removeall.setDisable(false));
             Platform.runLater(() -> search.setDisable(false));
-            failed = 0;
         }
 
     }
@@ -331,7 +335,8 @@ public class Downloader extends Thread{
         for(int attempt = 0; attempt < ATTEMPS; attempt++){
             try{
                 if(attempt >= 0){
-                    Platform.runLater(() -> lblAttemptCount.setText((0+1) + "/" + ATTEMPS));
+                    int att = attempt+1;
+                    Platform.runLater(() -> lblAttemptCount.setText((att) + "/" + ATTEMPS));
                 }
                 ReadableByteChannel rbc = Channels.newChannel(new URL(baseurl + "/tmd").openStream());
                 FileOutputStream fos = new FileOutputStream(path + "/raw/" + titleType + "/" + titleID + "/" + "tmd");
@@ -379,7 +384,8 @@ public class Downloader extends Thread{
                     for(int attempt = 0; attempt < ATTEMPS; attempt++){
                         try{
                             if(attempt >= 0){
-                                Platform.runLater(() -> lblAttemptCount.setText((0+1) + "/" + ATTEMPS));
+                                int att = attempt+1;
+                                Platform.runLater(() -> lblAttemptCount.setText((att) + "/" + ATTEMPS));
                             }
 
                             if(!downloadFile(baseurl + "/" + cID, path + "/raw/" + titleType + "/" + titleID + "/" + cID)){
@@ -519,6 +525,8 @@ public class Downloader extends Thread{
                 warning.setHeaderText("Rebuild raw content");
                 warning.setContentText("No raw content found. Did you select the right folder?");
                 warning.showAndWait();
+                Stage stage2 = (Stage) lblTitleCount.getScene().getWindow();
+                stage2.close();
                     });
             return;
         }

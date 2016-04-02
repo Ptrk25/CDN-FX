@@ -16,9 +16,9 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <CheckBox fx:id="chbxDefaultTicket" layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onAction="#ticketSelected" text="Set default ticket.db" />
+      <CheckBox fx:id="chbxDefaultTicket" layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onAction="#ticketSelected" text="Set default ticket.db" AnchorPane.leftAnchor="15.0" />
       <TextField fx:id="textTicket" disable="true" editable="false" layoutX="14.0" layoutY="121.0" prefHeight="25.0" prefWidth="304.0" />
-      <CheckBox fx:id="chbxDefaultOutput" layoutX="13.0" layoutY="169.0" mnemonicParsing="false" onAction="#outputSelected" text="Set default output folder" />
+      <CheckBox fx:id="chbxDefaultOutput" layoutX="13.0" layoutY="169.0" mnemonicParsing="false" onAction="#outputSelected" text="Set default output folder" AnchorPane.leftAnchor="15.0" />
       <TextField fx:id="textOutput" disable="true" editable="false" layoutX="15.0" layoutY="197.0" prefHeight="25.0" prefWidth="304.0" />
       <Button fx:id="btnTicketSelect" disable="true" layoutX="328.0" layoutY="121.0" mnemonicParsing="false" onAction="#selectTicket" prefHeight="25.0" prefWidth="91.0" text="Select" />
       <Button fx:id="btnOutputSelect" disable="true" layoutX="328.0" layoutY="197.0" mnemonicParsing="false" onAction="#selectOutput" prefHeight="25.0" prefWidth="91.0" text="Select" />
@@ -34,8 +34,8 @@
       <Button fx:id="btnOK" layoutX="277.0" layoutY="437.0" mnemonicParsing="false" onAction="#pressOK" prefHeight="25.0" prefWidth="60.0" text="OK" AnchorPane.bottomAnchor="12.0" />
       <Button fx:id="btnCancel" layoutX="340.0" layoutY="437.0" mnemonicParsing="false" onAction="#pressCancel" prefHeight="25.0" prefWidth="79.0" text="Cancel" AnchorPane.bottomAnchor="12.0" />
       <Separator layoutY="497.0" prefHeight="3.0" prefWidth="430.0" />
-      <CheckBox fx:id="chbxDisableDBSupport" layoutX="15.0" layoutY="435.0" mnemonicParsing="false" onAction="#selectDisableDBSupport" text="Disable 3dsdb support" AnchorPane.leftAnchor="15.0" />
-      <CheckBox fx:id="chbxEnableDebugmode" layoutX="15.0" layoutY="461.0" mnemonicParsing="false" onAction="#selectEnableDebugmode" text="Enable Debugmode" AnchorPane.leftAnchor="15.0" />
+      <CheckBox fx:id="chbxDisableDBSupport" layoutX="21.0" layoutY="430.0" mnemonicParsing="false" onAction="#selectDisableDBSupport" text="Disable 3DSdb Support" AnchorPane.leftAnchor="15.0" />
+      <CheckBox fx:id="chbxEnableDebugmode" layoutX="15.0" layoutY="461.0" mnemonicParsing="false" onAction="#selectEnableDebugmode" text="Enable Debug Mode" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="458.0" />
       <Button fx:id="btnCommunityXML" layoutX="14.0" layoutY="237.0" mnemonicParsing="false" onAction="#clickedCommunityXML" prefHeight="25.0" prefWidth="403.0" text="Download newest community.xml" />
    </children>
 </AnchorPane>

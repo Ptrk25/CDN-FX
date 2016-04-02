@@ -1,7 +1,10 @@
 package groovyfx;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -126,6 +129,72 @@ public class CustomXMLHandler {
         StreamResult result = new StreamResult(new File(decodedPathCustom));
 
         transformer.transform(source, result);
+    }
+
+    public static void writeIntoXML(ObservableList<Ticket> entrylist) throws Exception{
+        ObservableList<Ticket> newEntryList = FXCollections.observableArrayList();
+
+        outerloop:
+        for(Ticket ticket:entrylist){
+            String titleid = ticket.getTitleID();
+            if(newEntryList.size() > 0){
+                for(int i = 0; i < newEntryList.size(); i++){
+                    Ticket tiktik = newEntryList.get(i);
+                    if(ticket.getTitleID().equals(tiktik.getTitleID())){
+
+                        if(ticket.getName().length() > 0)
+                            tiktik.setName(ticket.getName());
+                        if(ticket.getRegion().length() > 0)
+                            tiktik.setRegion(ticket.getRegion());
+                        if(ticket.getSerial().length() > 0)
+                            tiktik.setSerial(ticket.getSerial());
+
+                        continue outerloop;
+                    }
+                }
+                newEntryList.add(ticket);
+            }else{
+                newEntryList.add(ticket);
+            }
+        }
+
+        DebugLogger.log("Writing into custom database...", Level.INFO);
+        DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+        Document doc = docBuilder.parse(decodedPathCustom);
+
+        Node database = doc.getFirstChild();
+
+        for(Ticket tiktik:newEntryList){
+            Element ticket = doc.createElement("Ticket");
+            database.appendChild(ticket);
+
+            Element name = doc.createElement("name");
+            name.appendChild(doc.createTextNode(tiktik.getName()));
+            ticket.appendChild(name);
+
+            Element region = doc.createElement("region");
+            region.appendChild(doc.createTextNode(tiktik.getRegion()));
+            ticket.appendChild(region);
+
+            Element serial = doc.createElement("serial");
+            serial.appendChild(doc.createTextNode(tiktik.getSerial()));
+            ticket.appendChild(serial);
+
+            Element titleid = doc.createElement("titleid");
+            titleid.appendChild(doc.createTextNode(tiktik.getTitleID()));
+            ticket.appendChild(titleid);
+        }
+
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        DOMSource source = new DOMSource(doc);
+        StreamResult result = new StreamResult(new File(decodedPathCustom));
+
+        transformer.transform(source, result);
+        DebugLogger.log("Writing complete!", Level.INFO);
+
     }
 
 }

@@ -9,6 +9,8 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 
+import javax.swing.text.TableView;
+
 public class TableFilter {
 
     private static String text = "";

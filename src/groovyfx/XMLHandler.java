@@ -64,7 +64,7 @@ public class XMLHandler {
     }
 
     private void getXMLFileFromJar(){
-        pathToDB = Main.class.getResource("../resources/3dsreleases.xml").getPath();
+        pathToDB = Main.class.getResource("/resources/3dsreleases.xml").getPath();
     }
 
     public void setTicketList(ObservableList<Ticket> ticketlist){

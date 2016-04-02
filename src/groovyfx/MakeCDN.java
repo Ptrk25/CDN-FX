@@ -141,7 +141,7 @@ private static String make_cdn;
 	        	if(DetectOS.isWindows()){
 	        		exe = getFile(uri, "make_cdn_cia.exe");
 	        	}else if(DetectOS.isMac()){
-	        		exe = getFile(uri, "make_cdn_cia");
+	        		exe = getFile(uri, "make_cdn_cia_mac");
 	        	}else{
 	        		exe = getFile(uri, "make_cdn_cia_linux");
 	        	}

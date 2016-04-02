@@ -33,6 +33,7 @@
                <MenuItem fx:id="menuSettings" mnemonicParsing="false" onAction="#clickedSettings" text="Settings" />
            </Menu>
            <Menu mnemonicParsing="false" text="Help">
+            <MenuItem fx:id="menuGitHub" mnemonicParsing="false" onAction="#clickedGitHub" text="GitHub page" />
                <MenuItem fx:id="menuThread" mnemonicParsing="false" onAction="#clickedThread" text="Thread" />
                <SeparatorMenuItem mnemonicParsing="false" />
                <MenuItem fx:id="menuAbout" mnemonicParsing="false" onAction="#clickedAbout" text="About" />
@@ -116,14 +117,14 @@
                </Label>
                <CheckBox fx:id="chbxBuildCIA" layoutX="17.0" layoutY="64.0" mnemonicParsing="false" onAction="#selectedBuildCIA" selected="true" text="Build CIA" AnchorPane.leftAnchor="10.0" />
                <CheckBox fx:id="chbxPatchDLC" layoutX="17.0" layoutY="114.0" mnemonicParsing="false" onAction="#selectedDLC" selected="true" text="Patch DLC" AnchorPane.leftAnchor="10.0" />
-               <CheckBox fx:id="chbxPatchDemo" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#selectedDemo" selected="true" text="Patch Demo" />
-               <CheckBox fx:id="chbxPersonal" layoutX="15.0" layoutY="205.0" mnemonicParsing="false" onAction="#selectedPersonal" text="Personal" />
+               <CheckBox fx:id="chbxPatchDemo" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#selectedDemo" selected="true" text="Patch Demo" AnchorPane.leftAnchor="10.0" />
+               <CheckBox fx:id="chbxPersonal" layoutX="15.0" layoutY="205.0" mnemonicParsing="false" onAction="#selectedPersonal" text="Personal" AnchorPane.leftAnchor="10.0" />
                <Label layoutX="14.0" layoutY="89.0" text="Unlock DLC content:" AnchorPane.leftAnchor="10.0">
                    <font>
                        <Font name="System Bold" size="12.0" />
                    </font>
                </Label>
-               <Label layoutX="10.0" layoutY="136.0" text="Patch Demoplaycount:">
+               <Label layoutX="10.0" layoutY="136.0" text="Patch Demo Play Count:">
                    <font>
                        <Font name="System Bold" size="12.0" />
                    </font>
@@ -188,9 +189,9 @@
                <Label fx:id="lblFailedCount" layoutX="180.0" layoutY="82.0" text="0" />
                <Label fx:id="lblTitleID" layoutX="102.0" layoutY="151.0" />
                <Label fx:id="lblTMD" layoutX="178.0" layoutY="168.0" text="-" />
-               <Label fx:id="lblFilesCount" layoutX="176.0" layoutY="185.0" text="0/0" />
+               <Label fx:id="lblFilesCount" layoutX="176.0" layoutY="185.0" text="0/0" AnchorPane.rightAnchor="31.0" />
                <Label fx:id="lblDownloadStats" layoutX="137.0" layoutY="202.0" text="0 MB / 0 MB" AnchorPane.rightAnchor="21.0" />
-            <Label layoutX="12.0" layoutY="134.0" text="Name:">
+            <Label layoutX="12.0" layoutY="134.0" text="Name:" AnchorPane.leftAnchor="10.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
