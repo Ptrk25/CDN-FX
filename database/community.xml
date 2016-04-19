@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <database>
-<!--V00511731032016-->
+<!--V00261119042016-->
 <!--Gameapps-->
 	<Ticket>
 		<name>Shin Hikari Shinwa: Parutena no Kagami</name>
@@ -11019,6 +11019,12 @@
 		<titleid>0004000000107600</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Blast 'Em Bunnies</name>
+		<region>USA</region>
+		<serial>CTR-JATE</serial>
+		<titleid>0004000000107700</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Race To The Line</name>
 		<region>USA</region>
 		<serial>CTR-JAVE</serial>
@@ -13281,6 +13287,12 @@
 		<titleid>0004000000143500</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Fossil Fighters: Frontier</name>
+		<region>KOR</region>
+		<serial>CTR-AHRK</serial>
+		<titleid>0004000000143700</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Vacation Adventures: Park Ranger 2</name>
 		<region>EUR</region>
 		<serial>CTR-KVAP</serial>
@@ -14337,7 +14349,7 @@
 		<titleid>000400000015DF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Picross e6 </name>
+		<name>Picross e6</name>
 		<region>JPN</region>
 		<serial>CTR-KP6J</serial>
 		<titleid>000400000015E200</titleid>
@@ -14401,6 +14413,12 @@
 		<region>EUR</region>
 		<serial>CTR-KFGP</serial>
 		<titleid>000400000015FB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Story of Seasons</name>
+		<region>KOR</region>
+		<serial>CTR-BTSK</serial>
+		<titleid>000400000015FD00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Adventure Bar Story</name>
@@ -14673,6 +14691,12 @@
 		<titleid>0004000000165700</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Mutant Mudds: Super Challenge</name>
+		<region>USA</region>
+		<serial>CTR-KMME</serial>
+		<titleid>0004000000165A00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>The Legend of Zelda: Majora's Mask 3D: Trailer</name>
 		<region>EUR</region>
 		<serial>CTR-SZMP</serial>
@@ -14721,6 +14745,12 @@
 		<titleid>0004000000166700</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Gu-nyan</name>
+		<region>KOR</region>
+		<serial>CTR-KGNZ</serial>
+		<titleid>0004000000166800</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Shin Megami Tensei IV - Final</name>
 		<region>JPN</region>
 		<serial>CTR-BG4J</serial>
@@ -14752,6 +14782,12 @@
 	</Ticket>
 	<Ticket>
 		<name>Yo-Kai Watch</name>
+		<region>KOR</region>
+		<serial>CTR-AYWK</serial>
+		<titleid>0004000000167600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Yo-Kai Watch</name>
 		<region>USA</region>
 		<serial>CTR-AYWE</serial>
 		<titleid>0004000000167700</titleid>
@@ -14773,6 +14809,12 @@
 		<region>JPN</region>
 		<serial>CTR-KPBJ</serial>
 		<titleid>0004000000167B00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Smash Bros. for Nintendo 3DS</name>
+		<region>KOR</region>
+		<serial>CTR-AXCK</serial>
+		<titleid>0004000000167C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Shizuku Memory</name>
@@ -15009,10 +15051,22 @@
 		<titleid>000400000016B600</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Hello Kitty no Kirakira Wakuwaku Race</name>
+		<region>JPN</region>
+		<serial>CTR-BKYJ</serial>
+		<titleid>000400000016BC00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Puzzle &amp; Dragons Z + Super Mario Bros. Edition Special Demo</name>
 		<region>EUR</region>
 		<serial>CTR-KPMP</serial>
 		<titleid>000400000016C000</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Mini-Mario &amp; Friends: amiibo Challenge</name>
+		<region>USA</region>
+		<serial>CTR-KPCE</serial>
+		<titleid>000400000016C200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Puzzle &amp; Dragons Z + Super Mario Bros. Edition Special Demo</name>
@@ -15024,7 +15078,7 @@
 		<name>Tappingo 2</name>
 		<region>EUR</region>
 		<serial>CTR-KTPP</serial>
-		<titleid>000400000016c800</titleid>
+		<titleid>000400000016C800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Puzzle &amp; Dragons Z + Puzzle &amp; Dragons: Super Mario Bros. Edition</name>
@@ -15043,6 +15097,24 @@
 		<region>EUR</region>
 		<serial>CTR-KX3P</serial>
 		<titleid>000400000016D400</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Witch &amp; Hero II</name>
+		<region>USA</region>
+		<serial>CTR-KWHE</serial>
+		<titleid>000400000016D600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Shin Sekaiju no Meikyuu 2: Fafnir-ui Gisa</name>
+		<region>KOR</region>
+		<serial>CTR-BM9K</serial>
+		<titleid>000400000016D700</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken</name>
+		<region>KOR</region>
+		<serial>CTR-BT7K</serial>
+		<titleid>000400000016D900</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Toki Tori 3D </name>
@@ -15219,6 +15291,12 @@
 		<titleid>0004000000176300</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Project Cross Zone 2</name>
+		<region>KOR</region>
+		<serial>CTR-BX2K</serial>
+		<titleid>0004000000176700</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Oh! Gattiman Kyuukyoku no Omega Chinpou to Momige 26</name>
 		<region>JPN</region>
 		<serial>CTR-KG6J</serial>
@@ -15249,6 +15327,18 @@
 		<titleid>0004000000178300</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Gotcha Racing</name>
+		<region>KOR</region>
+		<serial>CTR-JTQZ</serial>
+		<titleid>0004000000178900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Slice It!</name>
+		<region>KOR</region>
+		<serial>CTR-JL2K</serial>
+		<titleid>0004000000178A00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>I Love My Pony</name>
 		<region>EUR</region>
 		<serial>CTR-ALNP</serial>
@@ -15274,9 +15364,21 @@
 	</Ticket>
 	<Ticket>
 		<name>Bravely Second: End Layer</name>
+		<region>USA</region>
+		<serial>CTR-BSEE</serial>
+		<titleid>000400000017BA00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Bravely Second: End Layer</name>
 		<region>EUR</region>
 		<serial>CTR-BSED</serial>
 		<titleid>000400000017BB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Bravely Second: End Layer</name>
+		<region>KOR</region>
+		<serial>CTR-BSEK</serial>
+		<titleid>000400000017BC00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>DBZ: Super Butoden 2</name>
@@ -15327,6 +15429,18 @@
 		<titleid>000400000017D300</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Ansatsu Kyoushitsu: Assassin Ikusei Keikaku!!</name>
+		<region>JPN</region>
+		<serial>CTR-BA2J</serial>
+		<titleid>000400000017D700</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Family Fishing 3D</name>
+		<region>KOR</region>
+		<serial>CTR-JFGK</serial>
+		<titleid>000400000017DA00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>The Delusions of Von Sottendorff and His Squared Mind</name>
 		<region>EUR</region>
 		<serial>CTR-JDHP</serial>
@@ -15343,6 +15457,24 @@
 		<region>USA</region>
 		<serial>CTR-BGXE</serial>
 		<titleid>000400000017E200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Atelier Deco la Doll Collection</name>
+		<region>KOR</region>
+		<serial>CTR-AULK</serial>
+		<titleid>000400000017E700</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Dragon Ball Z: Extreme Butoden</name>
+		<region>KOR</region>
+		<serial>CTR-BDVK</serial>
+		<titleid>000400000017E800</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hyrule Warriors Legends</name>
+		<region>USA</region>
+		<serial>CTR-BZHE</serial>
+		<titleid>000400000017EA00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Hyrule Warriors Legends</name>
@@ -15369,6 +15501,12 @@
 		<titleid>000400000017F600</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Steel Empire</name>
+		<region>KOR</region>
+		<serial>CTR-JPUK</serial>
+		<titleid>000400000017F700</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Hako Boy! Mouhito Hako</name>
 		<region>JPN</region>
 		<serial>CTR-KCAJ</serial>
@@ -15391,6 +15529,12 @@
 		<region>USA</region>
 		<serial>CTR-KGVE</serial>
 		<titleid>0004000000180200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Mega Man Legacy Collection</name>
+		<region>KOR</region>
+		<serial>CTR-BMMY</serial>
+		<titleid>0004000000180300</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Dasshutsu Fantasy: Alice in Escape Land</name>
@@ -15447,6 +15591,24 @@
 		<titleid>0004000000182A00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>The Legend of Zelda: Tri Force Heroes</name>
+		<region>KOR</region>
+		<serial>CTR-EA3K</serial>
+		<titleid>0004000000182B00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rodea the Sky Soldier</name>
+		<region>KOR</region>
+		<serial>CTR-AR6K</serial>
+		<titleid>0004000000183100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Radiohammer</name>
+		<region>KOR</region>
+		<serial>CTR-KRHZ</serial>
+		<titleid>0004000000183200</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Escape From Zombie City</name>
 		<region>EUR</region>
 		<serial>CTR-JZBP</serial>
@@ -15471,10 +15633,22 @@
 		<titleid>0004000000183800</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Bravely Second: End Layer Special Demo</name>
+		<region>KOR</region>
+		<serial>CTR-KHSK</serial>
+		<titleid>0004000000183900</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dasshutsu Adventure: Kamioroshi no Uranai-ban </name>
 		<region>JPN</region>
 		<serial>CTR-KDHJ</serial>
 		<titleid>0004000000184500</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Johnny's Payday Panic</name>
+		<region>KOR</region>
+		<serial>CTR-KAKY</serial>
+		<titleid>0004000000184600</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Yo-kai Watch Special Demo</name>
@@ -15519,6 +15693,12 @@
 		<titleid>0004000000186600</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Family Beach Volley 3D</name>
+		<region>KOR</region>
+		<serial>CTR-JBEK</serial>
+		<titleid>0004000000186B00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Sadame</name>
 		<region>USA</region>
 		<serial>CTR-JFTE</serial>
@@ -15543,10 +15723,22 @@
 		<titleid>0004000000188100</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Justice Chronicles</name>
+		<region>USA</region>
+		<serial>CTR-KLNE</serial>
+		<titleid>0004000000188200</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Chronus Arc </name>
 		<region>EUR</region>
 		<serial>CTR-JCNP</serial>
 		<titleid>0004000000188600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Nekketsu Kouha Kunio-Kun SP: Rantou Kyousoukyoku</name>
+		<region>KOR</region>
+		<serial>CTR-AK2K</serial>
+		<titleid>0004000000188A00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Return to PopoloCrois: STORY OF SEASONS Fairytale</name>
@@ -15555,16 +15747,34 @@
 		<titleid>0004000000188F00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Simple DL Series Vol. 40: The Misshitsukara no Dasshutsu: Daifushizen Camp-Jou Hen</name>
+		<region>JPN</region>
+		<serial>CTR-KT4J</serial>
+		<titleid>0004000000189200</titleid>
+	</Ticket>
+	<Ticket>
 		<name>RV-7 My Drone</name>
 		<region>EUR</region>
 		<serial>CTR-KVRP</serial>
 		<titleid>000400000018A900</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Doll Fashion Atelier</name>
+		<region>USA</region>
+		<serial>CTR-AULE</serial>
+		<titleid>000400000018AA00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dementium Remastered</name>
 		<region>EUR</region>
 		<serial>CTR-KDDP</serial>
 		<titleid>000400000018AB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Yo-Kai Sangokushi</name>
+		<region>JPN</region>
+		<serial>CTR-AYKJ</serial>
+		<titleid>000400000018B000</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Alphadia</name>
@@ -15591,16 +15801,82 @@
 		<titleid>000400000018CC00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>The Misshitsukara no Dasshutsu Archives 1 (Simple Series for Nintendo 3DS Vol. 2)</name>
+		<region>JPN</region>
+		<serial>CTR-BYEJ</serial>
+		<titleid>000400000018E200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Moco Moco Friends</name>
+		<region>KOR</region>
+		<serial>CTR-BM5Y</serial>
+		<titleid>000400000018E400</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Misshitsukara no Dasshutsu Archives 2 (Simple Series for Nintendo 3DS Vol. 3)</name>
+		<region>JPN</region>
+		<serial>CTR-BP3J</serial>
+		<titleid>000400000018FE00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Bingo de NouTore: BinTore</name>
 		<region>JPN</region>
 		<serial>CTR-KBHJ</serial>
 		<titleid>0004000000190600</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Pom Pom Purin: Korokoro Daibouken</name>
+		<region>JPN</region>
+		<serial>CTR-BP6J</serial>
+		<titleid>0004000000190900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Toki Tori 3D</name>
+		<region>JPN</region>
+		<serial>CTR-KT2J</serial>
+		<titleid>0004000000190C00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Terraria</name>
+		<region>JPN</region>
+		<serial>CTR-BTEJ</serial>
+		<titleid>0004000000193500</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Justice Chronicles</name>
 		<region>EUR</region>
 		<serial>CTR-KLNP</serial>
 		<titleid>0004000000193600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 2</name>
+		<region>USA</region>
+		<serial>CTR-KJPE</serial>
+		<titleid>0004000000193D00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 3</name>
+		<region>USA</region>
+		<serial>CTR-KJ3E</serial>
+		<titleid>0004000000193E00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Japanese Rail Sim 3D: Journey in Suburbs #1 Vol. 4</name>
+		<region>USA</region>
+		<serial>CTR-KJ4E</serial>
+		<titleid>0004000000193F00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Magic Hammer</name>
+		<region>JPN</region>
+		<serial>CTR-KHMJ</serial>
+		<titleid>0004000000194C00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>RV-7 My Drone</name>
+		<region>JPN</region>
+		<serial>CTR-KVRJ</serial>
+		<titleid>0004000000195000</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Shovel Knight</name>
@@ -15615,7 +15891,13 @@
 		<titleid>0004000000197400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Xenoblade  (N3DS Only)</name>
+		<name>Maru Goukaku! Takken Samurai Shiken - Heisei 28 Nendohan</name>
+		<region>JPN</region>
+		<serial>CTR-KTDJ</serial>
+		<titleid>0004000000198100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Xenoblade (N3DS Only)</name>
 		<region>JPN</region>
 		<serial>KTR-CAFJ</serial>
 		<titleid>000400000F700000</titleid>
