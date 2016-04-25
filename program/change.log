@@ -1,2 +1,16 @@
-Version v1.04
-  -Major bugfix: CIAs can be installed now
+Name changed to CDN-FX
+
+Version pre-2.00
+    Added: Ticketmanager
+    Added: Icon support
+    Added: Titledownloader (auto/manual)
+    Added: Database Viewer
+    Added: Ticket Generator
+    Removed: Custom XML support
+    Removed: 3dsdb support
+    Removed: "Show preinstalled game" button
+    Updated: Settings
+    Updated: CIA creation
+    
+Please download DecryptTitle.key on that Chaos site (3ds misc section) to use the Iconpreview.
+Also take a look at the new Github Site.
