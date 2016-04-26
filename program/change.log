@@ -1,16 +1,10 @@
 Name changed to CDN-FX
 
-Version pre-2.00
-    Added: Ticketmanager
-    Added: Icon support
-    Added: Titledownloader (auto/manual)
-    Added: Database Viewer
-    Added: Ticket Generator
-    Removed: Custom XML support
-    Removed: 3dsdb support
-    Removed: "Show preinstalled game" button
-    Updated: Settings
-    Updated: CIA creation
+TO ALL x32/x86 USERS -> PLEASE REDOWNLOAD CDN-FX FROM MY GITHUB SITE!!!
+
+Version pre-2.01
+    Bugfix: CIA creation fixed
+    Bugfix: Generated tickets are 3kb big now
     
 Please download DecryptTitle.key on that Chaos site (3ds misc section) to use the Iconpreview.
 Also take a look at the new Github Site.
