@@ -2,9 +2,10 @@ Name changed to CDN-FX
 
 TO ALL x32/x86 USERS -> PLEASE REDOWNLOAD CDN-FX FROM MY GITHUB SITE!!!
 
-Version pre-2.01
+Version pre-2.02
     Bugfix: CIA creation fixed
     Bugfix: Generated tickets are 3kb big now
+    Bugfix: Titles larger than 2100 can be downloaded
     
 Please download DecryptTitle.key on that Chaos site (3ds misc section) to use the Iconpreview.
 Also take a look at the new Github Site.
