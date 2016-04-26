@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <database>
-<!--V00261119042016-->
+<!--V00571526042016-->
 <!--Gameapps-->
 	<Ticket>
 		<name>Shin Hikari Shinwa: Parutena no Kagami</name>
@@ -933,12 +933,6 @@
 		<titleid>0004000000044800</titleid>
 	</Ticket>
 	<Ticket>
-		<name>FIFA 12 (Rev01)</name>
-		<region>GER</region>
-		<serial>CTR-AF2D</serial>
-		<titleid>0004000000044800</titleid>
-	</Ticket>
-	<Ticket>
 		<name>Generator Rex: Agent of Providence</name>
 		<region>EUR</region>
 		<serial>CTR-AGXP</serial>
@@ -993,7 +987,7 @@
 		<titleid>0004000000045B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D Classics: Excitebike </name>
+		<name>3D Classics: Excitebike</name>
 		<region>JPN</region>
 		<serial>CTR-SAEJ</serial>
 		<titleid>0004000000045C00</titleid>
@@ -1677,7 +1671,7 @@
 		<titleid>0004000000052600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 1: The Misshitsu Kara no Dasshutsu - Fushigina Kuma Donaru Burger Hen </name>
+		<name>Simple DL Series Vol. 1: The Misshitsu Kara no Dasshutsu - Fushigina Kuma Donaru Burger Hen</name>
 		<region>JPN</region>
 		<serial>CTR-JM4J</serial>
 		<titleid>0004000000052700</titleid>
@@ -1719,7 +1713,7 @@
 		<titleid>0004000000052D00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>True Remembrance: Kioku no Kakera </name>
+		<name>True Remembrance: Kioku no Kakera</name>
 		<region>JPN</region>
 		<serial>CTR-JKKJ</serial>
 		<titleid>0004000000052E00</titleid>
@@ -1867,12 +1861,6 @@
 		<region>JPN</region>
 		<serial>CTR-AEZJ</serial>
 		<titleid>0004000000054D00</titleid>
-	</Ticket>
-	<Ticket>
-		<name>3D Classics: Excitebike</name>
-		<region>EUR</region>
-		<serial>CTR-JC9P</serial>
-		<titleid>0004000000054E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>3D Classics: Excitebike</name>
@@ -2055,7 +2043,7 @@
 		<titleid>0004000000057700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Rabi Labi Gaiden: Witch's Cat </name>
+		<name>Rabi Labi Gaiden: Witch's Cat</name>
 		<region>JPN</region>
 		<serial>CTR-JBGJ</serial>
 		<titleid>0004000000059200</titleid>
@@ -2110,12 +2098,6 @@
 	</Ticket>
 	<Ticket>
 		<name>LEGO Batman 2: DC Super Heroes</name>
-		<region>EUR</region>
-		<serial>CTR-ALBP</serial>
-		<titleid>000400000005A400</titleid>
-	</Ticket>
-	<Ticket>
-		<name>LEGO Batman 2: DC Super Heroes (Rev01)</name>
 		<region>EUR</region>
 		<serial>CTR-ALBP</serial>
 		<titleid>000400000005A400</titleid>
@@ -2325,19 +2307,13 @@
 		<titleid>000400000005D100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Wagamama Fashion: GirlsMode - Yokubari Sengen!</name>
-		<region>JPN</region>
-		<serial>CTR-ACLJ</serial>
-		<titleid>000400000005D100</titleid>
-	</Ticket>
-	<Ticket>
 		<name>Tales of the Abyss</name>
 		<region>EUR</region>
 		<serial>CTR-AABP</serial>
 		<titleid>000400000005D700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Final Fantasy </name>
+		<name>Final Fantasy</name>
 		<region>JPN</region>
 		<serial>CTR-JFFJ</serial>
 		<titleid>000400000005DA00</titleid>
@@ -2602,13 +2578,13 @@
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Kid Icarus: Uprising</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE3Y</serial>
 		<titleid>0004000000062500</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Kid Icarus: Uprising E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE3X</serial>
 		<titleid>0004000000062600</titleid>
 	</Ticket>
@@ -2620,13 +2596,13 @@
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Paper Mario</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE2Y</serial>
 		<titleid>0004000000062800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Paper Mario E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE2X</serial>
 		<titleid>0004000000062900</titleid>
 	</Ticket>
@@ -2638,31 +2614,31 @@
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Mario Kart</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JECY</serial>
 		<titleid>0004000000062B00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Mario Kart E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JECX</serial>
 		<titleid>0004000000062C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Animal Crossing E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE4Z</serial>
 		<titleid>0004000000062D00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Animal Crossing</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE4Y</serial>
 		<titleid>0004000000062E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Animal Crossing E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE4X</serial>
 		<titleid>0004000000062F00</titleid>
 	</Ticket>
@@ -2674,31 +2650,31 @@
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Luigi's Mansion 2</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE5Y</serial>
 		<titleid>0004000000063100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Luigi's Mansion 2 E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE5X</serial>
 		<titleid>0004000000063200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda: Ocarina of Time 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE6Z</serial>
 		<titleid>0004000000063300</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Zelda: Ocarina of Time 3D</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE6Y</serial>
 		<titleid>0004000000063400</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda: Ocarina of Time 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE6X</serial>
 		<titleid>0004000000063500</titleid>
 	</Ticket>
@@ -2710,67 +2686,67 @@
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Super Mario</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE7Y</serial>
 		<titleid>0004000000063700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Super Mario E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE7X</serial>
 		<titleid>0004000000063800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Metal Gear Solid: Snake Eater 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE8Z</serial>
 		<titleid>0004000000063900</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Metal Gear Solid: Snake Eater 3D</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE8Y</serial>
 		<titleid>0004000000063A00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Metal Gear Solid: Snake Eater 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE8X</serial>
 		<titleid>0004000000063B00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Resident Evil: Revelations E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE9Z</serial>
 		<titleid>0004000000063C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Trailer de E3 para Resident Evil: Revelations</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE9Y</serial>
 		<titleid>0004000000063D00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Resident Evil: Revelations E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JE9X</serial>
 		<titleid>0004000000063E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Star fox 64 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JEZZ</serial>
 		<titleid>0004000000063F00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Video E3 para Star fox 64 3D</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JEZY</serial>
 		<titleid>0004000000064000</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Star fox 64 3D E3 Video</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-JEZX</serial>
 		<titleid>0004000000064100</titleid>
 	</Ticket>
@@ -3039,7 +3015,7 @@
 		<titleid>0004000000067B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Bijin-Tokei </name>
+		<name>Bijin-Tokei</name>
 		<region>JPN</region>
 		<serial>CTR-JBDJ</serial>
 		<titleid>0004000000067C00</titleid>
@@ -3471,7 +3447,7 @@
 		<titleid>000400000006DF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>TakeyariMan </name>
+		<name>TakeyariMan</name>
 		<region>JPN</region>
 		<serial>CTR-JTKJ</serial>
 		<titleid>000400000006E000</titleid>
@@ -4491,7 +4467,7 @@
 		<titleid>0004000000088B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 3: The Misshitsu Kara no Dasshutsu - Celeb na Goutei Hen </name>
+		<name>Simple DL Series Vol. 3: The Misshitsu Kara no Dasshutsu - Celeb na Goutei Hen</name>
 		<region>JPN</region>
 		<serial>CTR-JM3J</serial>
 		<titleid>0004000000088E00</titleid>
@@ -4617,7 +4593,7 @@
 		<titleid>000400000008B600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>VectorRacing </name>
+		<name>VectorRacing</name>
 		<region>USA</region>
 		<serial>CTR-JBVE</serial>
 		<titleid>000400000008B800</titleid>
@@ -4707,7 +4683,7 @@
 		<titleid>000400000008CC00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Sparkle Snapshots 3D </name>
+		<name>Sparkle Snapshots 3D</name>
 		<region>USA</region>
 		<serial>CTR-JCVE</serial>
 		<titleid>000400000008CD00</titleid>
@@ -5343,7 +5319,7 @@
 		<titleid>000400000009CA00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Football Up 3D </name>
+		<name>Football Up 3D</name>
 		<region>EUR</region>
 		<serial>CTR-JSUP</serial>
 		<titleid>000400000009CB00</titleid>
@@ -6015,7 +5991,7 @@
 		<titleid>00040000000A9D00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hitsuji no Shaun 3D: Dai-1-Maki (Video) </name>
+		<name>Hitsuji no Shaun 3D: Dai-1-Maki (Video)</name>
 		<region>JPN</region>
 		<serial>CTR-MAJJ</serial>
 		<titleid>00040000000AA000</titleid>
@@ -6033,13 +6009,13 @@
 		<titleid>00040000000AA200</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hitsuji no Shaun 3D: Dai-2-Maki (Video) </name>
+		<name>Hitsuji no Shaun 3D: Dai-2-Maki (Video)</name>
 		<region>JPN</region>
 		<serial>CTR-MAKJ</serial>
 		<titleid>00040000000AA300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hitsuji no Shaun 3D: Dai-3-Maki (Video) </name>
+		<name>Hitsuji no Shaun 3D: Dai-3-Maki (Video)</name>
 		<region>JPN</region>
 		<serial>CTR-MALJ</serial>
 		<titleid>00040000000AA400</titleid>
@@ -6111,7 +6087,7 @@
 		<titleid>00040000000AB700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 5: The Noroi no Haibyouin: Tojikomerareta Kao no Nai Shoujo </name>
+		<name>Simple DL Series Vol. 5: The Noroi no Haibyouin: Tojikomerareta Kao no Nai Shoujo</name>
 		<region>JPN</region>
 		<serial>CTR-JKNJ</serial>
 		<titleid>00040000000AB800</titleid>
@@ -6249,7 +6225,7 @@
 		<titleid>00040000000ADD00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Kyuukousha no Shoujo </name>
+		<name>Dasshutsu Adventure: Kyuukousha no Shoujo</name>
 		<region>JPN</region>
 		<serial>CTR-JGDJ</serial>
 		<titleid>00040000000ADE00</titleid>
@@ -6375,7 +6351,7 @@
 		<titleid>00040000000AFA00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Chari-Sou DX </name>
+		<name>Chari-Sou DX</name>
 		<region>JPN</region>
 		<serial>CTR-JCXJ</serial>
 		<titleid>00040000000AFB00</titleid>
@@ -6651,7 +6627,7 @@
 		<titleid>00040000000B4500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Isshoni Photo Super Mario </name>
+		<name>Isshoni Photo Super Mario</name>
 		<region>JPN</region>
 		<serial>CTR-NACJ</serial>
 		<titleid>00040000000B4600</titleid>
@@ -6759,7 +6735,7 @@
 		<titleid>00040000000B6A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 6: The Misshitsu Kara no Dasshutsu - Asobi no Tengoku Kuma Donaru Bowl Hen </name>
+		<name>Simple DL Series Vol. 6: The Misshitsu Kara no Dasshutsu - Asobi no Tengoku Kuma Donaru Bowl Hen</name>
 		<region>JPN</region>
 		<serial>CTR-JM6J</serial>
 		<titleid>00040000000B6B00</titleid>
@@ -6771,7 +6747,7 @@
 		<titleid>00040000000B6C00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Rinkou no Lantse </name>
+		<name>Rinkou no Lantse</name>
 		<region>JPN</region>
 		<serial>CTR-JRZJ</serial>
 		<titleid>00040000000B6D00</titleid>
@@ -6891,7 +6867,7 @@
 		<titleid>00040000000B9100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>[Tokyo Game Show 2012] </name>
+		<name>[Tokyo Game Show 2012]</name>
 		<region>JPN</region>
 		<serial>CTR-SNVJ</serial>
 		<titleid>00040000000B9200</titleid>
@@ -6915,7 +6891,7 @@
 		<titleid>00040000000B9500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo 3DS Direct 2013.2.14 </name>
+		<name>Nintendo 3DS Direct 2013.2.14</name>
 		<region>JPN</region>
 		<serial>CTR-SNZJ</serial>
 		<titleid>00040000000B9600</titleid>
@@ -7179,7 +7155,7 @@
 		<titleid>00040000000BEC00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Carps &amp; Dragons </name>
+		<name>Carps &amp; Dragons</name>
 		<region>EUR</region>
 		<serial>CTR-JFAP</serial>
 		<titleid>00040000000BED00</titleid>
@@ -7227,19 +7203,18 @@
 		<titleid>00040000000BF900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Mansion Percussion </name>
+		<name>Mansion Percussion</name>
 		<region>JPN</region>
 		<serial>CTR-JPCJ</serial>
 		<titleid>00040000000BFA00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Zomgeri Bowling</name>
-		<region></region>
 		<serial>CTR-JZGJ</serial>
 		<titleid>00040000000BFB00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Riki Densetsu </name>
+		<name>Riki Densetsu</name>
 		<region>JPN</region>
 		<serial>CTR-JRKJ</serial>
 		<titleid>00040000000BFC00</titleid>
@@ -7408,7 +7383,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Naruto SD Powerful Shippuden</name>
-		<region>CHN</region>
+		<region>TWN</region>
 		<serial>CTR-AN4Z</serial>
 		<titleid>00040000000C1F00</titleid>
 	</Ticket>
@@ -7456,7 +7431,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Mahjong 3D:  Warriors of the Emperor</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AMZY</serial>
 		<titleid>00040000000C2700</titleid>
 	</Ticket>
@@ -7486,7 +7461,7 @@
 	</Ticket>
 	<Ticket>
 		<name>50 Classic Games 3D</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AF6Y</serial>
 		<titleid>00040000000C2C00</titleid>
 	</Ticket>
@@ -7516,13 +7491,13 @@
 	</Ticket>
 	<Ticket>
 		<name>Mahjong Mysteries: Ancient Athena</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AM5Y</serial>
 		<titleid>00040000000C3100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>35 Junior Games</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AJCZ</serial>
 		<titleid>00040000000C3200</titleid>
 	</Ticket>
@@ -7533,7 +7508,7 @@
 		<titleid>00040000000C3300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Majo no Sumu Yakata </name>
+		<name>Dasshutsu Adventure: Majo no Sumu Yakata</name>
 		<region>JPN</region>
 		<serial>CTR-JUMJ</serial>
 		<titleid>00040000000C3500</titleid>
@@ -7545,7 +7520,7 @@
 		<titleid>00040000000C3600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Osawari Tantei Ozawa Rina Rising 3: Nameko wa Banana no Yume wo Miruka </name>
+		<name>Osawari Tantei Ozawa Rina Rising 3: Nameko wa Banana no Yume wo Miruka</name>
 		<region>JPN</region>
 		<serial>CTR-AN7J</serial>
 		<titleid>00040000000C3700</titleid>
@@ -7654,7 +7629,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Real Heroes: Firefighter 3D</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-ARHZ</serial>
 		<titleid>00040000000C5700</titleid>
 	</Ticket>
@@ -7798,7 +7773,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Real Heroes: Firefighter 3D Download Version</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-ARHY</serial>
 		<titleid>00040000000C7700</titleid>
 	</Ticket>
@@ -7929,7 +7904,7 @@
 		<titleid>00040000000C9400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>peakvox: Mew Mew Train </name>
+		<name>peakvox: Mew Mew Train</name>
 		<region>JPN</region>
 		<serial>CTR-JMYJ</serial>
 		<titleid>00040000000C9500</titleid>
@@ -8391,13 +8366,13 @@
 		<titleid>00040000000D1800</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hitsuji no Shaun 3D: Dai-4-Maki (Video) </name>
+		<name>Hitsuji no Shaun 3D: Dai-4-Maki (Video)</name>
 		<region>JPN</region>
 		<serial>CTR-MBDJ</serial>
 		<titleid>00040000000D1B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hitsuji no Shaun 3D: Dai-5-Maki (Video) </name>
+		<name>Hitsuji no Shaun 3D: Dai-5-Maki (Video)</name>
 		<region>JPN</region>
 		<serial>CTR-MBEJ</serial>
 		<titleid>00040000000D1C00</titleid>
@@ -8481,7 +8456,7 @@
 		<titleid>00040000000D2F00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>YouTube </name>
+		<name>YouTube</name>
 		<region>JPN</region>
 		<serial>CTR-JYTJ</serial>
 		<titleid>00040000000D3000</titleid>
@@ -8620,43 +8595,43 @@
 	</Ticket>
 	<Ticket>
 		<name>3D Game Collection: 55-in-1</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AD3Z</serial>
 		<titleid>00040000000D5C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>3D MahJongg</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AG2Z</serial>
 		<titleid>00040000000D5D00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Gardenscapes</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AG8Z</serial>
 		<titleid>00040000000D5E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Murder on the Titanic</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AM8Z</serial>
 		<titleid>00040000000D6100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Secret Agent Files: Miami</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-ASAZ</serial>
 		<titleid>00040000000D6200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Jewel Match 3</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AJUZ</serial>
 		<titleid>00040000000D6400</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Funfair Party Games</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AFNZ</serial>
 		<titleid>00040000000D6500</titleid>
 	</Ticket>
@@ -8722,7 +8697,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Jewel Master: Atlantis 3D</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AJ5Z</serial>
 		<titleid>00040000000D7700</titleid>
 	</Ticket>
@@ -8751,7 +8726,7 @@
 		<titleid>00040000000D7B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Steel Diver: Sub Wars </name>
+		<name>Steel Diver: Sub Wars</name>
 		<region>JPN</region>
 		<serial>CTR-JNUJ</serial>
 		<titleid>00040000000D7C00</titleid>
@@ -8787,7 +8762,7 @@
 		<titleid>00040000000D8200</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 9: The Misshitsu Kara no Dasshutsu - Tv Kyoku Micchaku 24-Ji Hen </name>
+		<name>Simple DL Series Vol. 9: The Misshitsu Kara no Dasshutsu - Tv Kyoku Micchaku 24-Ji Hen</name>
 		<region>JPN</region>
 		<serial>CTR-JM7J</serial>
 		<titleid>00040000000D8300</titleid>
@@ -8823,7 +8798,7 @@
 		<titleid>00040000000D8900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Mononoke Tantei: Shida no Ayakashi Jiken Chou </name>
+		<name>Mononoke Tantei: Shida no Ayakashi Jiken Chou</name>
 		<region>JPN</region>
 		<serial>CTR-JMHJ</serial>
 		<titleid>00040000000D8A00</titleid>
@@ -8835,7 +8810,7 @@
 		<titleid>00040000000D8B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol 10: The Uwaki Kareshi: Christmas Chuushi no Oshirase </name>
+		<name>Simple DL Series Vol 10: The Uwaki Kareshi: Christmas Chuushi no Oshirase</name>
 		<region>JPN</region>
 		<serial>CTR-JUKJ</serial>
 		<titleid>00040000000D8C00</titleid>
@@ -9328,7 +9303,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Disney Planes</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-APNY</serial>
 		<titleid>00040000000E6C00</titleid>
 	</Ticket>
@@ -9453,7 +9428,7 @@
 		<titleid>00040000000E8F00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Kiwamero! Shunkan Jump Kentei </name>
+		<name>Kiwamero! Shunkan Jump Kentei</name>
 		<region>JPN</region>
 		<serial>CTR-JU2J</serial>
 		<titleid>00040000000E9000</titleid>
@@ -9555,7 +9530,7 @@
 		<titleid>00040000000EAF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>SolitiBa </name>
+		<name>SolitiBa</name>
 		<region>JPN</region>
 		<serial>CTR-JVAJ</serial>
 		<titleid>00040000000EB000</titleid>
@@ -9627,13 +9602,13 @@
 		<titleid>00040000000EBE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo Direct 2013.4.17 </name>
+		<name>Nintendo Direct 2013.4.17</name>
 		<region>JPN</region>
 		<serial>CTR-SN9J</serial>
 		<titleid>00040000000EBF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo Direct 2013.4.17 </name>
+		<name>Nintendo Direct 2013.4.17</name>
 		<region>JPN</region>
 		<serial>CTR-SPAJ</serial>
 		<titleid>00040000000EC000</titleid>
@@ -9915,7 +9890,7 @@
 		<titleid>00040000000F1500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>KORG M01D </name>
+		<name>KORG M01D</name>
 		<region>USA</region>
 		<serial>CTR-JKRE</serial>
 		<titleid>00040000000F1600</titleid>
@@ -10167,7 +10142,7 @@
 		<titleid>00040000000F4A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Akumu no Shinigami Ressha </name>
+		<name>Dasshutsu Adventure: Akumu no Shinigami Ressha</name>
 		<region>JPN</region>
 		<serial>CTR-JKQJ</serial>
 		<titleid>00040000000F4B00</titleid>
@@ -10251,7 +10226,7 @@
 		<titleid>00040000000F6000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Shin Megami Tensei IV </name>
+		<name>Shin Megami Tensei IV</name>
 		<region>KOR</region>
 		<serial>CTR-AMXK</serial>
 		<titleid>00040000000F6100</titleid>
@@ -10270,13 +10245,13 @@
 	</Ticket>
 	<Ticket>
 		<name>My Baby Pet Hotel 3D</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AYAZ</serial>
 		<titleid>00040000000F6E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>My Vet Practice 3D: In the Country</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AYBZ</serial>
 		<titleid>00040000000F7000</titleid>
 	</Ticket>
@@ -10291,6 +10266,12 @@
 		<region>JPN</region>
 		<serial>CTR-AYVJ</serial>
 		<titleid>00040000000F7200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Etrian Odyssey Untold: The Millennium Girl</name>
+		<region>TWN</region>
+		<serial>CTR-BSKZ</serial>
+		<titleid>00040000000F7300</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Coaster Creator 3D</name>
@@ -10312,7 +10293,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Sekaiju no Meikyuu IV: Denshou no Kyojin</name>
-		<region></region>
+		<region>KOR</region>
 		<serial>CTR-ASJZ</serial>
 		<titleid>00040000000F7700</titleid>
 	</Ticket>
@@ -10425,7 +10406,7 @@
 		<titleid>00040000000FA100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Initial D Perfect Shift Online </name>
+		<name>Initial D Perfect Shift Online</name>
 		<region>JPN</region>
 		<serial>CTR-JYDJ</serial>
 		<titleid>00040000000FA200</titleid>
@@ -10497,7 +10478,7 @@
 		<titleid>00040000000FB700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Swords &amp; Darkness </name>
+		<name>Swords &amp; Darkness</name>
 		<region>JPN</region>
 		<serial>CTR-JSZJ</serial>
 		<titleid>00040000000FB800</titleid>
@@ -10612,7 +10593,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Boulder Dash-XL 3D</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-ABZZ</serial>
 		<titleid>00040000000FD400</titleid>
 	</Ticket>
@@ -10888,7 +10869,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Mario &amp; Luigi: Dream Team Bros. Special Demo</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AYMZ</serial>
 		<titleid>0004000000103D00</titleid>
 	</Ticket>
@@ -10941,8 +10922,8 @@
 		<titleid>0004000000105500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Sekaiju no Meikyuu IV: Denshou no Kyojin</name>
-		<region></region>
+		<name>Etrian Odyssey IV: Legends of the Titan</name>
+		<region>TWN</region>
 		<serial>CTR-ASJX</serial>
 		<titleid>0004000000105800</titleid>
 	</Ticket>
@@ -11014,7 +10995,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Arcade Classics 3D</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-ARDZ</serial>
 		<titleid>0004000000107600</titleid>
 	</Ticket>
@@ -11032,7 +11013,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Word Wizard 3D</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AWWZ</serial>
 		<titleid>0004000000107900</titleid>
 	</Ticket>
@@ -11043,7 +11024,7 @@
 		<titleid>0004000000107A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Escape From Zombie City </name>
+		<name>Escape From Zombie City</name>
 		<region>USA</region>
 		<serial>CTR-JZBE</serial>
 		<titleid>0004000000107B00</titleid>
@@ -11247,7 +11228,7 @@
 		<titleid>000400000010CC00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Isshoni Photo Doubutsu no Mori </name>
+		<name>Isshoni Photo Doubutsu no Mori</name>
 		<region>JPN</region>
 		<serial>CTR-JFKJ</serial>
 		<titleid>000400000010CD00</titleid>
@@ -11259,7 +11240,7 @@
 		<titleid>000400000010CF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Isshoni Photo Pikmin </name>
+		<name>Isshoni Photo Pikmin</name>
 		<region>JPN</region>
 		<serial>CTR-JAWJ</serial>
 		<titleid>000400000010D000</titleid>
@@ -11457,7 +11438,7 @@
 		<titleid>0004000000111E00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Urban Trial Freestyle </name>
+		<name>Urban Trial Freestyle</name>
 		<region>JPN</region>
 		<serial>CTR-JUTJ</serial>
 		<titleid>0004000000111F00</titleid>
@@ -11553,13 +11534,13 @@
 		<titleid>0004000000114300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Shiawase no Akai Ishi </name>
+		<name>Dasshutsu Adventure: Shiawase no Akai Ishi</name>
 		<region>JPN</region>
 		<serial>CTR-JVSJ</serial>
 		<titleid>0004000000114400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 24: The Misshitsu Kara no Dasshutsu - Iyasarenai Onsen Hen </name>
+		<name>Simple DL Series Vol. 24: The Misshitsu Kara no Dasshutsu - Iyasarenai Onsen Hen</name>
 		<region>JPN</region>
 		<serial>CTR-JEHJ</serial>
 		<titleid>0004000000114500</titleid>
@@ -11577,7 +11558,7 @@
 		<titleid>0004000000114800</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Ishi Sengokuden Sadame </name>
+		<name>Ishi Sengokuden Sadame</name>
 		<region>JPN</region>
 		<serial>CTR-JFTJ</serial>
 		<titleid>0004000000114900</titleid>
@@ -11589,7 +11570,7 @@
 		<titleid>0004000000114A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Time Avenger </name>
+		<name>Time Avenger</name>
 		<region>JPN</region>
 		<serial>CTR-ACUJ</serial>
 		<titleid>0004000000114B00</titleid>
@@ -11629,6 +11610,12 @@
 		<region>JPN</region>
 		<serial>CTR-AJXJ</serial>
 		<titleid>0004000000115300</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda: A Link Between Worlds</name>
+		<region>TWN</region>
+		<serial>CTR-BZLZ</serial>
+		<titleid>0004000000115700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Conveni Dream</name>
@@ -11734,7 +11721,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Winter Sports 2012: Feel the Spirit</name>
-		<region></region>
+		<region>EUR</region>
 		<serial>CTR-AWSZ</serial>
 		<titleid>0004000000117F00</titleid>
 	</Ticket>
@@ -11943,7 +11930,7 @@
 		<titleid>000400000011EE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Puchi Noberu: Kyouiki no Ichigatsu </name>
+		<name>Puchi Noberu: Kyouiki no Ichigatsu</name>
 		<region>JPN</region>
 		<serial>CTR-JPNJ</serial>
 		<titleid>000400000011F000</titleid>
@@ -11973,7 +11960,7 @@
 		<titleid>0004000000120000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D Fantasy Zone: Opa-Opa Bros. </name>
+		<name>3D Fantasy Zone: Opa-Opa Bros.</name>
 		<region>JPN</region>
 		<serial>CTR-JF8J</serial>
 		<titleid>0004000000120100</titleid>
@@ -11985,7 +11972,7 @@
 		<titleid>0004000000120300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gotcha Racing </name>
+		<name>Gotcha Racing</name>
 		<region>JPN</region>
 		<serial>CTR-JTQJ</serial>
 		<titleid>0004000000120400</titleid>
@@ -12081,7 +12068,7 @@
 		<titleid>0004000000121C00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D Fantasy Zone II W </name>
+		<name>3D Fantasy Zone II W</name>
 		<region>JPN</region>
 		<serial>CTR-JFCJ</serial>
 		<titleid>0004000000121D00</titleid>
@@ -12105,10 +12092,22 @@
 		<titleid>0004000000122000</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Bravely Default</name>
+		<region>KOR</region>
+		<serial>CTR-BTRZ</serial>
+		<titleid>0004000000122200</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Maru Goukaku! Ouyoujouhou Gijutsusha Shiken Heisei 26 Nendo-ban</name>
 		<region>JPN</region>
 		<serial>CTR-JV9J</serial>
 		<titleid>0004000000122600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Kirby: Triple Deluxe</name>
+		<region>TWN</region>
+		<serial>CTR-BALZ</serial>
+		<titleid>0004000000123200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>9-in-1: Arcade Collection</name>
@@ -12219,7 +12218,7 @@
 		<titleid>0004000000125600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Denpa Ningen no RPG FREE! </name>
+		<name>Denpa Ningen no RPG FREE!</name>
 		<region>JPN</region>
 		<serial>CTR-JF7J</serial>
 		<titleid>0004000000125D00</titleid>
@@ -12267,7 +12266,7 @@
 		<titleid>0004000000126700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hako Boy! </name>
+		<name>Hako Boy!</name>
 		<region>JPN</region>
 		<serial>CTR-JCPJ</serial>
 		<titleid>0004000000126800</titleid>
@@ -12393,7 +12392,7 @@
 		<titleid>0004000000128700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D OutRun </name>
+		<name>3D OutRun</name>
 		<region>JPN</region>
 		<serial>CTR-JYRJ</serial>
 		<titleid>0004000000128900</titleid>
@@ -12477,7 +12476,7 @@
 		<titleid>000400000012A000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Chou Kagaku Dasshutsu Story: Zekkai no Gouka Kyakusen </name>
+		<name>Chou Kagaku Dasshutsu Story: Zekkai no Gouka Kyakusen</name>
 		<region>JPN</region>
 		<serial>CTR-JT6J</serial>
 		<titleid>000400000012A100</titleid>
@@ -12513,7 +12512,7 @@
 		<titleid>000400000012A600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Armed Blue: Gunvolt </name>
+		<name>Armed Blue: Gunvolt</name>
 		<region>JPN</region>
 		<serial>CTR-JV7J</serial>
 		<titleid>000400000012A700</titleid>
@@ -12759,7 +12758,7 @@
 		<titleid>0004000000130000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Kaku-San-Sei Million Arthur </name>
+		<name>Kaku-San-Sei Million Arthur</name>
 		<region>JPN</region>
 		<serial>CTR-JVWJ</serial>
 		<titleid>0004000000130300</titleid>
@@ -12819,7 +12818,7 @@
 		<titleid>0004000000132200</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Van Helsing sniper Zx100</name>	
+		<name>Van Helsing sniper Zx100</name>
 		<region>EUR</region>
 		<serial>CTR-JVHP</serial>
 		<titleid>0004000000132300</titleid>
@@ -12847,6 +12846,12 @@
 		<region>EUR</region>
 		<serial>CTR-AYNP</serial>
 		<titleid>0004000000132800</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Phoenix Wright:Ace Attorney Trilogy</name>
+		<region>TWN</region>
+		<serial>CTR-BHDZ</serial>
+		<titleid>0004000000132900</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Yu-Gi-Oh! Zexal: World Duel Carnival</name>
@@ -12877,12 +12882,6 @@
 		<region>FRA</region>
 		<serial>CTR-KNFF</serial>
 		<titleid>0004000000134E00</titleid>
-	</Ticket>
-	<Ticket>
-		<name>Touzoku to 1000-Biki no Pokemon </name>
-		<region>JPN</region>
-		<serial>CTR-KZAJ</serial>
-		<titleid>0004000000135C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Touzoku to 1000-Biki no Pokemon</name>
@@ -13035,7 +13034,7 @@
 		<titleid>0004000000139B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Picross e5 </name>
+		<name>Picross e5</name>
 		<region>JPN</region>
 		<serial>CTR-KPQJ</serial>
 		<titleid>0004000000139E00</titleid>
@@ -13047,7 +13046,7 @@
 		<titleid>0004000000139F00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 31: The Misshitsu Kara no Dasshutsu - Enchou Hisshi no Karaoke Hen </name>
+		<name>Simple DL Series Vol. 31: The Misshitsu Kara no Dasshutsu - Enchou Hisshi no Karaoke Hen</name>
 		<region>JPN</region>
 		<serial>CTR-KRDJ</serial>
 		<titleid>000400000013BA00</titleid>
@@ -13090,7 +13089,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Mario Golf World Tour Special Demo</name>
-		<region></region>
+		<region>USA</region>
 		<serial>CTR-AJ3Z</serial>
 		<titleid>000400000013C600</titleid>
 	</Ticket>
@@ -13119,7 +13118,7 @@
 		<titleid>000400000013CE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dragon Quest X: Mezameshi Itsutsu no Shuzoku Online </name>
+		<name>Dragon Quest X: Mezameshi Itsutsu no Shuzoku Online</name>
 		<region>JPN</region>
 		<serial>CTR-KXNJ</serial>
 		<titleid>000400000013D100</titleid>
@@ -13185,7 +13184,7 @@
 		<titleid>000400000013F000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Bukigami </name>
+		<name>Bukigami</name>
 		<region>JPN</region>
 		<serial>CTR-KBGJ</serial>
 		<titleid>000400000013F200</titleid>
@@ -13221,13 +13220,13 @@
 		<titleid>000400000013FD00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Shuuen no Kuroi Kiri </name>
+		<name>Dasshutsu Adventure: Shuuen no Kuroi Kiri</name>
 		<region>JPN</region>
 		<serial>CTR-KDSJ</serial>
 		<titleid>0004000000140500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Sangoku Stories Ten </name>
+		<name>Sangoku Stories Ten</name>
 		<region>JPN</region>
 		<serial>CTR-KSTJ</serial>
 		<titleid>0004000000140600</titleid>
@@ -13239,13 +13238,19 @@
 		<titleid>0004000000141000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo Anime Channel </name>
+		<name>Nintendo Anime Channel</name>
 		<region>EUR</region>
 		<serial>CTR-KLTP</serial>
 		<titleid>0004000000141200</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Shin Megami Tensei IV </name>
+		<name>Monster Hunter 4G</name>
+		<region>TWN</region>
+		<serial>CTR-BFGZ</serial>
+		<titleid>0004000000141A00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Shin Megami Tensei IV</name>
 		<region>EUR</region>
 		<serial>CTR-AMXP</serial>
 		<titleid>0004000000141C00</titleid>
@@ -13407,13 +13412,13 @@
 		<titleid>0004000000145900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Shinjuku Dungeon </name>
+		<name>Shinjuku Dungeon</name>
 		<region>JPN</region>
 		<serial>CTR-KSDJ</serial>
 		<titleid>0004000000145A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gekitou Senshi Nagerunder </name>
+		<name>Gekitou Senshi Nagerunder</name>
 		<region>JPN</region>
 		<serial>CTR-KNGJ</serial>
 		<titleid>0004000000145B00</titleid>
@@ -13425,7 +13430,7 @@
 		<titleid>0004000000145C00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Swords &amp; Darkness </name>
+		<name>Swords &amp; Darkness</name>
 		<region>USA</region>
 		<serial>CTR-JSZE</serial>
 		<titleid>0004000000146200</titleid>
@@ -13461,7 +13466,7 @@
 		<titleid>0004000000146E00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Mighty Gunvolt </name>
+		<name>Mighty Gunvolt</name>
 		<region>JPN</region>
 		<serial>CTR-KMGJ</serial>
 		<titleid>0004000000146F00</titleid>
@@ -13533,8 +13538,8 @@
 		<titleid>0004000000148000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Kirby Fighters Z</name>
-		<region>KOR</region>
+		<name>Kirby Fighters Deluxe</name>
+		<region>TWN</region>
 		<serial>CTR-JVXZ</serial>
 		<titleid>0004000000148100</titleid>
 	</Ticket>
@@ -13599,13 +13604,7 @@
 		<titleid>0004000000149700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Painting Workshop (Rev01)</name>
-		<region>EUR</region>
-		<serial>CTR-JEQP</serial>
-		<titleid>0004000000149700</titleid>
-	</Ticket>
-	<Ticket>
-		<name>Picross e5 </name>
+		<name>Picross e5</name>
 		<region>USA</region>
 		<serial>CTR-KPQE</serial>
 		<titleid>0004000000149800</titleid>
@@ -13641,7 +13640,7 @@
 		<titleid>000400000014A400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Rune Factory 4 </name>
+		<name>Rune Factory 4</name>
 		<region>EUR</region>
 		<serial>CTR-AR4Z</serial>
 		<titleid>000400000014A700</titleid>
@@ -13743,7 +13742,7 @@
 		<titleid>000400000014CF00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Picross e5 </name>
+		<name>Picross e5</name>
 		<region>EUR</region>
 		<serial>CTR-KPQP</serial>
 		<titleid>000400000014D200</titleid>
@@ -13767,7 +13766,7 @@
 		<titleid>000400000014DA00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Rytmik Ultimate </name>
+		<name>Rytmik Ultimate</name>
 		<region>USA</region>
 		<serial>CTR-KRUE</serial>
 		<titleid>000400000014DB00</titleid>
@@ -13827,13 +13826,13 @@
 		<titleid>000400000014F700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 34: The Misshitsu Kara no Dasshutsu - Fushigi Hakken! Hakubutsukan-Hen </name>
+		<name>Simple DL Series Vol. 34: The Misshitsu Kara no Dasshutsu - Fushigi Hakken! Hakubutsukan-Hen</name>
 		<region>JPN</region>
 		<serial>CTR-KDTJ</serial>
 		<titleid>000400000014FE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Chari-Sou DX3: Time Rider </name>
+		<name>Chari-Sou DX3: Time Rider</name>
 		<region>JPN</region>
 		<serial>CTR-KTRJ</serial>
 		<titleid>0004000000150100</titleid>
@@ -13869,7 +13868,7 @@
 		<titleid>0004000000150D00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Cube Creator 3D </name>
+		<name>Cube Creator 3D</name>
 		<region>USA</region>
 		<serial>CTR-KCCE</serial>
 		<titleid>0004000000151100</titleid>
@@ -13879,6 +13878,12 @@
 		<region>USA</region>
 		<serial>CTR-KT8E</serial>
 		<titleid>0004000000151300</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Pokémon Art Academy</name>
+		<region>TWN</region>
+		<serial>CTR-BPCZ</serial>
+		<titleid>0004000000151F00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>3D Fantasy Zone</name>
@@ -13911,13 +13916,19 @@
 		<titleid>0004000000152F00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Hatsune Miku: Project Mirai DX</name>
+		<region>KOR</region>
+		<serial>CTR-BRXK</serial>
+		<titleid>0004000000153100</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Club Nintendo Picross Plus</name>
 		<region>JPN</region>
 		<serial>CTR-KXXJ</serial>
 		<titleid>0004000000153400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Nintendo Badge Arcade </name>
+		<name>Nintendo Badge Arcade</name>
 		<region>USA</region>
 		<serial>CTR-JWVE</serial>
 		<titleid>0004000000153500</titleid>
@@ -14067,7 +14078,7 @@
 		<titleid>0004000000157A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Hikudasu: Hippa Land </name>
+		<name>Hikudasu: Hippa Land</name>
 		<region>JPN</region>
 		<serial>CTR-KAAJ</serial>
 		<titleid>0004000000157B00</titleid>
@@ -14151,7 +14162,7 @@
 		<titleid>0004000000158C00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D Sonic The Hedgehog 2 </name>
+		<name>3D Sonic The Hedgehog 2</name>
 		<region>USA</region>
 		<serial>CTR-KSNE</serial>
 		<titleid>0004000000158D00</titleid>
@@ -14161,6 +14172,12 @@
 		<region>EUR</region>
 		<serial>CTR-KTTP</serial>
 		<titleid>0004000000159000</titleid>
+	</Ticket>
+	<Ticket>
+		<name>LEGO City Undercover: The Chase Begins</name>
+		<region>KOR</region>
+		<serial>CTR-AA8K</serial>
+		<titleid>0004000000159100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>PUZZLEBOX setup</name>
@@ -14259,7 +14276,7 @@
 		<titleid>000400000015B900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>3D Sonic The Hedgehog 2 </name>
+		<name>3D Sonic The Hedgehog 2</name>
 		<region>EUR</region>
 		<serial>CTR-KSNP</serial>
 		<titleid>000400000015BA00</titleid>
@@ -14493,7 +14510,7 @@
 		<titleid>0004000000161900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dementium Remastered </name>
+		<name>Dementium Remastered</name>
 		<region>USA</region>
 		<serial>CTR-KDDE</serial>
 		<titleid>0004000000161B00</titleid>
@@ -14667,13 +14684,19 @@
 		<titleid>0004000000164F00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>BlazBlue: Clonephantasma</name>
+		<region>KOR</region>
+		<serial>CTR-JB2Z</serial>
+		<titleid>0004000000165100</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Music on: Electric Guitar</name>
 		<region>EUR</region>
 		<serial>CTR-KMEP</serial>
 		<titleid>0004000000165300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Karaoke JOYSOUND </name>
+		<name>Karaoke JOYSOUND</name>
 		<region>JPN</region>
 		<serial>CTR-KRKJ</serial>
 		<titleid>0004000000165400</titleid>
@@ -14739,7 +14762,7 @@
 		<titleid>0004000000166600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>PAZURU</name>
+		<name>Pazuru</name>
 		<region>KOR</region>
 		<serial>CTR-KPZZ</serial>
 		<titleid>0004000000166700</titleid>
@@ -14865,6 +14888,12 @@
 		<titleid>0004000000168500</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Super Smash Bros. for Nintendo 3DS</name>
+		<region>TWN</region>
+		<serial>CTR-AXCZ</serial>
+		<titleid>0004000000168600</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Rodea the Sky Soldier</name>
 		<region>USA</region>
 		<serial>CTR-AR6E</serial>
@@ -14981,7 +15010,6 @@
 	<Ticket>
 		<name>Epic Word Search Collection</name>
 		<region>EUR</region>
-		<serial></serial>
 		<titleid>000400000016A400</titleid>
 	</Ticket>
 	<Ticket>
@@ -15039,7 +15067,7 @@
 		<titleid>000400000016B100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Bloo Kid 2 </name>
+		<name>Bloo Kid 2</name>
 		<region>JPN</region>
 		<serial>CTR-KBKJ</serial>
 		<titleid>000400000016B500</titleid>
@@ -15117,13 +15145,13 @@
 		<titleid>000400000016D900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Toki Tori 3D </name>
+		<name>Toki Tori 3D</name>
 		<region>EUR</region>
 		<serial>CTR-KT2P</serial>
 		<titleid>000400000016DC00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>SmileBASIC </name>
+		<name>SmileBASIC</name>
 		<region>USA</region>
 		<serial>CTR-JPKE</serial>
 		<titleid>000400000016DE00</titleid>
@@ -15159,7 +15187,7 @@
 		<titleid>000400000016EC00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gotcha Racing </name>
+		<name>Gotcha Racing</name>
 		<region>USA</region>
 		<serial>CTR-JTQE</serial>
 		<titleid>000400000016F000</titleid>
@@ -15195,7 +15223,7 @@
 		<titleid>0004000000170100</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gotcha Racing </name>
+		<name>Gotcha Racing</name>
 		<region>EUR</region>
 		<serial>CTR-JTQP</serial>
 		<titleid>0004000000171F00</titleid>
@@ -15279,6 +15307,12 @@
 		<titleid>0004000000175B00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Project X Zone 2: Brave New World</name>
+		<region>TWN</region>
+		<serial>CTR-BX2Z</serial>
+		<titleid>0004000000175D00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Goosebumps: The Game</name>
 		<region>EUR</region>
 		<serial>CTR-BYJP</serial>
@@ -15345,6 +15379,12 @@
 		<titleid>0004000000178B00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Goonyan</name>
+		<region>TWN</region>
+		<serial>CTR-KGNY</serial>
+		<titleid>0004000000179100</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Fire Emblem Fates - Birthright</name>
 		<region>USA</region>
 		<serial>CTR-BFXE</serial>
@@ -15357,10 +15397,22 @@
 		<titleid>0004000000179600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Simple DL Series Vol. 39: The Misshitsu Kara no Dasshutsu - Nou o Kitaeru Sports Gym Hen </name>
+		<name>Johnny's Payday Panic</name>
+		<region>TWN</region>
+		<serial>CTR-KAKZ</serial>
+		<titleid>000400000017A900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Simple DL Series Vol. 39: The Misshitsu Kara no Dasshutsu - Nou o Kitaeru Sports Gym Hen</name>
 		<region>JPN</region>
 		<serial>CTR-KS9J</serial>
 		<titleid>000400000017AA00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Fire Emblem if</name>
+		<region>TWN</region>
+		<serial>CTR-BFWZ</serial>
+		<titleid>000400000017B800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Bravely Second: End Layer</name>
@@ -15387,6 +15439,18 @@
 		<titleid>000400000017BE00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>IRONFALL Invasion</name>
+		<region>TWN</region>
+		<serial>CTR-KFLZ</serial>
+		<titleid>000400000017BF00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Mega Man Legacy Collection</name>
+		<region>TWN</region>
+		<serial>CTR-BMMZ</serial>
+		<titleid>000400000017C000</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Pokemon Picross</name>
 		<region>ALL</region>
 		<serial>CTR-JFJA</serial>
@@ -15397,6 +15461,12 @@
 		<region>EUR</region>
 		<serial>CTR-AYWZ</serial>
 		<titleid>000400000017C200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Byeorui Kirby: Robobo Planet</name>
+		<region>KOR</region>
+		<serial>CTR-AT3K</serial>
+		<titleid>000400000017C600</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Stella Glow</name>
@@ -15423,7 +15493,7 @@
 		<titleid>000400000017CE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Q </name>
+		<name>Q</name>
 		<region>JPN</region>
 		<serial>CTR-KQRJ</serial>
 		<titleid>000400000017D300</titleid>
@@ -15483,6 +15553,12 @@
 		<titleid>000400000017EB00</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Monster Hunter X</name>
+		<region>TWN</region>
+		<serial>CTR-BXXZ</serial>
+		<titleid>000400000017EC00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Moco Moco Friends</name>
 		<region>EUR</region>
 		<serial>CTR-BM5P</serial>
@@ -15519,13 +15595,13 @@
 		<titleid>000400000017FE00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gunslugs 2 </name>
+		<name>Gunslugs 2</name>
 		<region>EUR</region>
 		<serial>CTR-KGVP</serial>
 		<titleid>0004000000180000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Gunslugs 2 </name>
+		<name>Gunslugs 2</name>
 		<region>USA</region>
 		<serial>CTR-KGVE</serial>
 		<titleid>0004000000180200</titleid>
@@ -15551,13 +15627,11 @@
 	<Ticket>
 		<name>The Legend of Zelda : Tri Force Heroes Special Demo</name>
 		<region>USA</region>
-		<serial></serial>
 		<titleid>0004000000182200</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda : Tri Force Heroes Special Demo</name>
 		<region>EUR</region>
-		<serial></serial>
 		<titleid>0004000000182300</titleid>
 	</Ticket>
 	<Ticket>
@@ -15595,6 +15669,12 @@
 		<region>KOR</region>
 		<serial>CTR-EA3K</serial>
 		<titleid>0004000000182B00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda: Tri Force Heroes</name>
+		<region>TWN</region>
+		<serial>CTR-EA3Z</serial>
+		<titleid>0004000000182C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rodea the Sky Soldier</name>
@@ -15639,7 +15719,7 @@
 		<titleid>0004000000183900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Dasshutsu Adventure: Kamioroshi no Uranai-ban </name>
+		<name>Dasshutsu Adventure: Kamioroshi no Uranai-ban</name>
 		<region>JPN</region>
 		<serial>CTR-KDHJ</serial>
 		<titleid>0004000000184500</titleid>
@@ -15661,6 +15741,12 @@
 		<region>ALL</region>
 		<serial>CTR-ECFA</serial>
 		<titleid>0004000000185A00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda: Majora's Mask 3D</name>
+		<region>TWN</region>
+		<serial>CTR-AJRZ</serial>
+		<titleid>0004000000185C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Parascientific Escape Cruise in the Distant Seas</name>
@@ -15729,7 +15815,7 @@
 		<titleid>0004000000188200</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Chronus Arc </name>
+		<name>Chronus Arc</name>
 		<region>EUR</region>
 		<serial>CTR-JCNP</serial>
 		<titleid>0004000000188600</titleid>
@@ -15751,6 +15837,12 @@
 		<region>JPN</region>
 		<serial>CTR-KT4J</serial>
 		<titleid>0004000000189200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hyrule Warriors Legends</name>
+		<region>KOR</region>
+		<serial>CTR-BZHK</serial>
+		<titleid>0004000000189E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>RV-7 My Drone</name>
@@ -15789,6 +15881,18 @@
 		<titleid>000400000018B900</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Moco Moco Friends</name>
+		<region>TWN</region>
+		<serial>CTR-BM5Z</serial>
+		<titleid>000400000018BB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Langrisser Re: Incarnation -TENSEI-</name>
+		<region>TWN</region>
+		<serial>CTR-BRGZ</serial>
+		<titleid>000400000018BF00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Meitantei Pikachu: Shin Combi Tanjyou</name>
 		<region>JPN</region>
 		<serial>CTR-KBNJ</serial>
@@ -15813,6 +15917,12 @@
 		<titleid>000400000018E400</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Langrisser Re: Incarnation -TENSEI-</name>
+		<region>KOR</region>
+		<serial>CTR-BRGY</serial>
+		<titleid>000400000018E500</titleid>
+	</Ticket>
+	<Ticket>
 		<name>The Misshitsukara no Dasshutsu Archives 2 (Simple Series for Nintendo 3DS Vol. 3)</name>
 		<region>JPN</region>
 		<serial>CTR-BP3J</serial>
@@ -15835,6 +15945,30 @@
 		<region>JPN</region>
 		<serial>CTR-KT2J</serial>
 		<titleid>0004000000190C00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda: Oracle of Ages</name>
+		<region>KOR</region>
+		<serial>CTR-QADZ</serial>
+		<titleid>0004000000191800</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda: Oracle of Seasons</name>
+		<region>KOR</region>
+		<serial>CTR-QACZ</serial>
+		<titleid>0004000000191900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Kirby's Dream Land </name>
+		<region>KOR</region>
+		<serial>CTR-RBNZ</serial>
+		<titleid>0004000000191A00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Mario &amp; Sonic at the Rio 2016: Olympic Games</name>
+		<region>TWN</region>
+		<serial>CTR-BGXZ</serial>
+		<titleid>0004000000191C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Terraria</name>
@@ -15895,6 +16029,18 @@
 		<region>JPN</region>
 		<serial>CTR-KTDJ</serial>
 		<titleid>0004000000198100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Xenoblade</name>
+		<region>KOR</region>
+		<serial>KTR-CAFZ</serial>
+		<titleid>000400000F700400</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Xenoblade</name>
+		<region>KOR</region>
+		<serial>KTR-CAFY</serial>
+		<titleid>000400000F700700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Xenoblade (N3DS Only)</name>
@@ -17667,12 +17813,6 @@
 		<titleid>0004000000099900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Mega Man II (NES) (Virtual Console)</name>
-		<region>USA</region>
-		<serial>CTR-TA5E</serial>
-		<titleid>0004000000099900</titleid>
-	</Ticket>
-	<Ticket>
 		<name>Mega Man 2 (NES) (Virtual Console)</name>
 		<region>EUR</region>
 		<serial>CTR-TA5P</serial>
@@ -19006,25 +19146,24 @@
 	</Ticket>
 	<Ticket>
 		<name>Pocket Monsters Aka (GB) (Virtual Console)</name>
-		<region>JPN</region>
+		<region>ASIA</region>
 		<serial>CTR-RCLA</serial>
 		<titleid>0004000000170C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pocket Monsters Midori (GB) (Virtual Console)</name>
-		<region>JPN</region>
+		<region>ASIA</region>
 		<serial>CTR-RCMA</serial>
 		<titleid>0004000000170D00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pocket Monsters Ao (GB) (Virtual Console)</name>
-		<region>JPN</region>
-		<serial></serial>
+		<region>ASIA</region>
 		<titleid>0004000000170E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pocket Monsters Pikachu (GBC) (Virtual Console)</name>
-		<region>JPN</region>
+		<region>ASIA</region>
 		<serial>CTR-RCPA</serial>
 		<titleid>0004000000170F00</titleid>
 	</Ticket>
@@ -19067,7 +19206,6 @@
 	<Ticket>
 		<name>Pokemon Version Rouge (GB) (Virtual Console)</name>
 		<region>USA-EUR</region>
-		<serial></serial>
 		<titleid>0004000000171600</titleid>
 	</Ticket>
 	<Ticket>
@@ -19103,13 +19241,11 @@
 	<Ticket>
 		<name>Pokemon Version Rossa (GB) (Virtual Console)</name>
 		<region>EUR</region>
-		<serial></serial>
 		<titleid>0004000000171C00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pokemon Versione Blu (GB) (Virtual Console)</name>
 		<region>EUR</region>
-		<serial></serial>
 		<titleid>0004000000171D00</titleid>
 	</Ticket>
 	<Ticket>
@@ -19117,6 +19253,96 @@
 		<region>EUR</region>
 		<serial>CTR-QBKA</serial>
 		<titleid>0004000000171E00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Mario Bros. (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TAAZ</serial>
+		<titleid>000400000017E600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Mario Bros. 2 (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TBMZ</serial>
+		<titleid>0004000000181200</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Donkey Kong (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TBJZ</serial>
+		<titleid>0004000000181300</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Mario Land (GB) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-RAAZ</serial>
+		<titleid>0004000000181600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Tennis (GB) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-RADZ</serial>
+		<titleid>0004000000181700</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Wario Land 2 (GBC) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-QAJZ</serial>
+		<titleid>0004000000181900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TAEZ</serial>
+		<titleid>0004000000184800</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Kirby's Dream Land (GB) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-RAFZ</serial>
+		<titleid>0004000000184900</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Legend of Zelda Link's Awakening DX (GBC) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-QAAZ</serial>
+		<titleid>0004000000184A00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Mario Bros. 3 (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TABZ</serial>
+		<titleid>0004000000184B00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Ice Climber (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TAMZ</serial>
+		<titleid>0004000000184C00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Donkey Kong Jr. (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TAKZ</serial>
+		<titleid>0004000000184D00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Metroid (NES) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-TADZ</serial>
+		<titleid>0004000000191500</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Donkey Kong (GB) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-RAHZ</serial>
+		<titleid>0004000000191600</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Baseball (GB) (Virtual Console)</name>
+		<region>KOR</region>
+		<serial>CTR-RABZ</serial>
+		<titleid>0004000000191700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Super Mario World (SNES)</name>
@@ -19480,7 +19706,7 @@
 		<titleid>0004000E000AF700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Chari-Sou DX </name>
+		<name>Chari-Sou DX</name>
 		<region>JPN</region>
 		<serial>CTR-JCXJ</serial>
 		<titleid>0004000E000AFB00</titleid>
@@ -19522,7 +19748,7 @@
 		<titleid>0004000E000B4A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Rinkou no Lantse </name>
+		<name>Rinkou no Lantse</name>
 		<region>JPN</region>
 		<serial>CTR-JRZJ</serial>
 		<titleid>0004000E000B6D00</titleid>
@@ -19537,12 +19763,6 @@
 		<name>Real Heroes: Firefighter 3D</name>
 		<region>GER</region>
 		<serial>CTR-ARHD</serial>
-		<titleid>0004000E000B9900</titleid>
-	</Ticket>
-	<Ticket>
-		<name>Real Heroes: Firefighter 3D</name>
-		<region>EUR</region>
-		<serial>CTR-ARHP</serial>
 		<titleid>0004000E000B9900</titleid>
 	</Ticket>
 	<Ticket>
@@ -19888,7 +20108,7 @@
 		<titleid>0004000E000F9B00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Initial D Perfect Shift Online </name>
+		<name>Initial D Perfect Shift Online</name>
 		<region>JPN</region>
 		<serial>CTR-JYDJ</serial>
 		<titleid>0004000E000FA200</titleid>
@@ -19931,7 +20151,7 @@
 	</Ticket>
 	<Ticket>
 		<name>Monster Hunter 4</name>
-		<region></region>
+		<region>TWN</region>
 		<serial>CTR-AH4Z</serial>
 		<titleid>0004000E00100900</titleid>
 	</Ticket>
@@ -20110,13 +20330,13 @@
 		<titleid>0004000E00114700</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Ishi Sengokuden Sadame </name>
+		<name>Ishi Sengokuden Sadame</name>
 		<region>JPN</region>
 		<serial>CTR-JFTJ</serial>
 		<titleid>0004000E00114900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Time Avenger </name>
+		<name>Time Avenger</name>
 		<region>JPN</region>
 		<serial>CTR-ACUJ</serial>
 		<titleid>0004000E00114B00</titleid>
@@ -20248,7 +20468,7 @@
 		<titleid>0004000E00125600</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Denpa Ningen no RPG FREE! </name>
+		<name>Denpa Ningen no RPG FREE!</name>
 		<region>JPN</region>
 		<serial>CTR-JF7J</serial>
 		<titleid>0004000E00125D00</titleid>
@@ -20278,7 +20498,7 @@
 		<titleid>0004000E00129D00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Armed Blue: Gunvolt </name>
+		<name>Armed Blue: Gunvolt</name>
 		<region>JPN</region>
 		<serial>CTR-JV7J</serial>
 		<titleid>0004000E0012A700</titleid>
@@ -20386,7 +20606,7 @@
 		<titleid>0004000E0012fa00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Kaku-San-Sei Million Arthur </name>
+		<name>Kaku-San-Sei Million Arthur</name>
 		<region>JPN</region>
 		<serial>CTR-JVWJ</serial>
 		<titleid>0004000E00130300</titleid>
@@ -20404,7 +20624,7 @@
 		<titleid>0004000E00132500</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Siesta Fiesta </name>
+		<name>Siesta Fiesta</name>
 		<region>EUR</region>
 		<serial>CTR-KSFP</serial>
 		<titleid>0004000E00132C00</titleid>
@@ -20434,7 +20654,7 @@
 		<titleid>0004000E00139300</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Bukigami </name>
+		<name>Bukigami</name>
 		<region>JPN</region>
 		<serial>CTR-KBGJ</serial>
 		<titleid>0004000E0013F200</titleid>
@@ -20444,6 +20664,12 @@
 		<region>ITA</region>
 		<serial>CTR-BTMV</serial>
 		<titleid>0004000E00140100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Monster Hunter 4G</name>
+		<region>TWN</region>
+		<serial>CTR-BFGZ</serial>
+		<titleid>0004000E00141A00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Daigasso! Band Brothers P Debut</name>
@@ -20578,16 +20804,16 @@
 		<titleid>0004000E0015A400</titleid>
 	</Ticket>
 	<Ticket>
-		<name>IRONFALL Invasion</name>
-		<region>EUR</region>
-		<serial>CTR-KFLP</serial>
-		<titleid>0004000E0015B100</titleid>
+		<name>Puzzle &amp; Dragons Z + Puzzle &amp; Dragons: Super Mario Bros. Edition</name>
+		<region>KOR</region>
+		<serial>CTR-AZGK</serial>
+		<titleid>0004000E0015A700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>IRONFALL Invasion</name>
 		<region>EUR</region>
 		<serial>CTR-KFLP</serial>
-		<titleid>0004000E0015b100</titleid>
+		<titleid>0004000E0015B100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Azure Striker Gunvolt</name>
@@ -20606,12 +20832,6 @@
 		<region>USA</region>
 		<serial>CTR-KFLE</serial>
 		<titleid>0004000E0015D800</titleid>
-	</Ticket>
-	<Ticket>
-		<name>IRONFALL Invasion</name>
-		<region>USA</region>
-		<serial>CTR-KFLE</serial>
-		<titleid>0004000E0015d800</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Shin Megami Tensei: Devil Survivor 2 Record Breaker</name>
@@ -20650,6 +20870,12 @@
 		<titleid>0004000E00167700</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Super Smash Bros. for Nintendo 3DS</name>
+		<region>KOR</region>
+		<serial>CTR-AXCK</serial>
+		<titleid>0004000E00167C00</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Comic Workshop 2</name>
 		<region>USA</region>
 		<serial>CTR-KW2E</serial>
@@ -20660,6 +20886,12 @@
 		<region>EUR</region>
 		<serial>CTR-ALEP</serial>
 		<titleid>0004000E00168000</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Smash Bros. for Nintendo 3DS</name>
+		<region>TWN</region>
+		<serial>CTR-AXCZ</serial>
+		<titleid>0004000E00168600</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rodea the Sky Soldier</name>
@@ -20686,6 +20918,18 @@
 		<titleid>0004000E0016A900</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Puzzle &amp; Dragons Z + Puzzle &amp; Dragons Super Mario Bros. Edition</name>
+		<region>TWN</region>
+		<serial>CTR-AZGZ</serial>
+		<titleid>0004000E0016D100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Shin Sekaiju no Meikyuu 2: Fafnir-ui Gisa</name>
+		<region>KOR</region>
+		<serial>CTR-BM9K</serial>
+		<titleid>0004000E0016D700</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Samurai Warriors Chronicles 3</name>
 		<region>USA</region>
 		<serial>CTR-BC4E</serial>
@@ -20702,6 +20946,18 @@
 		<region>EUR</region>
 		<serial>CTR-KWPP</serial>
 		<titleid>0004000E00175800</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Project X Zone 2: Brave New World</name>
+		<region>TWN</region>
+		<serial>CTR-BX2Z</serial>
+		<titleid>0004000E00175D00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Project Cross Zone 2</name>
+		<region>KOR</region>
+		<serial>CTR-BX2K</serial>
+		<titleid>0004000E00176700</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda: Tri Force Heroes</name>
@@ -20734,10 +20990,40 @@
 		<titleid>0004000E0017E100</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Dragon Ball Z: Extreme Butoden</name>
+		<region>KOR</region>
+		<serial>CTR-BDVK</serial>
+		<titleid>0004000E0017E800</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Hyrule Warriors Legends</name>
 		<region>EUR</region>
 		<serial>CTR-BZHP</serial>
 		<titleid>0004000E0017EB00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Monster Hunter X</name>
+		<region>TWN</region>
+		<serial>CTR-BXXZ</serial>
+		<titleid>0004000E0017EC00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rodea the Sky Soldier</name>
+		<region>KOR</region>
+		<serial>CTR-AR6K</serial>
+		<titleid>0004000E00183100</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Nekketsu Kouha Kunio-Kun SP: Rantou Kyousoukyoku</name>
+		<region>KOR</region>
+		<serial>CTR-AK2K</serial>
+		<titleid>0004000E00188A00</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hyrule Warriors Legends</name>
+		<region>KOR</region>
+		<serial>CTR-BZHK</serial>
+		<titleid>0004000E00189E00</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Xenoblade (N3DS Only)</name>
@@ -20756,12 +21042,6 @@
 		<region>EUR</region>
 		<serial>KTR-CAFP</serial>
 		<titleid>0004000E0F700200</titleid>
-	</Ticket>
-	<Ticket>
-		<name>THEMES</name>
-		<region>USA</region>
-		<serial>CTR-HMME</serial>
-		<titleid>0004008C00008F00</titleid>
 	</Ticket>
 <!--DLC-->
 	<Ticket>
@@ -22117,10 +22397,22 @@
 		<titleid>00048004484E4B45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>California Super Sports</name>
+		<region>EUR</region>
+		<serial>K22P</serial>
+		<titleid>000480044B323250</titleid>
+	</Ticket>
+	<Ticket>
 		<name>G.G Series: Air Pinball Hockey</name>
 		<region>USA</region>
 		<serial>K25E</serial>
 		<titleid>000480044B323545</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Fishdom</name>
+		<region>EUR</region>
+		<serial>K29P</serial>
+		<titleid>000480044B323950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>G.G Series: Drift Circuit</name>
@@ -22165,16 +22457,34 @@
 		<titleid>000480044B324756</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Cake Ninja</name>
+		<region>EUR</region>
+		<serial>K2JP</serial>
+		<titleid>000480044B324A50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Zaojiao Leyuan wo de Tonghua Huiben - Xiaohai tu de Gushi (iQue)</name>
 		<region>CHI</region>
 		<serial>K2LC</serial>
 		<titleid>000480044B324C43</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Cake Ninja 2</name>
+		<region>EUR</region>
+		<serial>K2NP</serial>
+		<titleid>000480044B324E50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>505 Tangram</name>
 		<region>USA</region>
 		<serial>K2OE</serial>
 		<titleid>000480044B324F45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>505 Tangram</name>
+		<region>EUR</region>
+		<serial>K2OP</serial>
+		<titleid>000480044B324F50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>2Puzzle It: Fantasy</name>
@@ -22189,10 +22499,28 @@
 		<titleid>000480044B325245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Primrose</name>
+		<region>EUR</region>
+		<serial>K2RP</serial>
+		<titleid>000480044B325250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Christmas Wonderland 2</name>
+		<region>EUR</region>
+		<serial>K2WP</serial>
+		<titleid>000480044B325750</titleid>
+	</Ticket>
+	<Ticket>
 		<name>AlphaBounce</name>
 		<region>EUR-AUS</region>
 		<serial>K2XV</serial>
 		<titleid>000480044B325856</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Disney Fireworks</name>
+		<region>EUR</region>
+		<serial>K2YP</serial>
+		<titleid>000480044B325950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>G.G Series: Altered Weapon</name>
@@ -22201,16 +22529,70 @@
 		<titleid>000480044B325A45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Cute Witch! runner</name>
+		<region>EUR</region>
+		<serial>K32P</serial>
+		<titleid>000480044B333250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jewel Quest V: The Sleepless Star</name>
+		<region>EUR-AUS</region>
+		<serial>K36V</serial>
+		<titleid>000480044B333656</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Go! Go! Kokopolo</name>
 		<region>USA</region>
 		<serial>K3GE</serial>
 		<titleid>000480044B334745</titleid>
 	</Ticket>
 	<Ticket>
+		<name>iSpot Japan</name>
+		<region>EUR</region>
+		<serial>K3JP</serial>
+		<titleid>000480044B334A50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>A Topsy Turvy Life: Turvy Drops</name>
 		<region>EUR</region>
 		<serial>K3MP</serial>
 		<titleid>000480044B334D50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>3D Twist &amp; Match</name>
+		<region>EUR</region>
+		<serial>K3UP</serial>
+		<titleid>000480044B335550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Surviving High School</name>
+		<region>EUR-AUS</region>
+		<serial>K3VV</serial>
+		<titleid>000480044B335656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>3 Heroes: Crystal Soul</name>
+		<region>EUR-AUS</region>
+		<serial>K3YV</serial>
+		<titleid>000480044B335956</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Elite Forces: Unit 77</name>
+		<region>EUR</region>
+		<serial>K42P</serial>
+		<titleid>000480044B343250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jewel Quest IV: Heritage</name>
+		<region>EUR</region>
+		<serial>K43P</serial>
+		<titleid>000480044B343350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>40-in-1 Explosive Megamix</name>
+		<region>EUR</region>
+		<serial>K45P</serial>
+		<titleid>000480044B343550</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Arcade Bowling</name>
@@ -22231,6 +22613,12 @@
 		<titleid>000480044B344456</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Treasure Hunter X</name>
+		<region>EUR</region>
+		<serial>K4EP</serial>
+		<titleid>000480044B344550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Sudoku 4Pockets</name>
 		<region>EUR</region>
 		<serial>K4FP</serial>
@@ -22249,10 +22637,52 @@
 		<titleid>000480044B344856</titleid>
 	</Ticket>
 	<Ticket>
+		<name>24/7 Solitaire</name>
+		<region>EUR</region>
+		<serial>K4IP</serial>
+		<titleid>000480044B344950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Simply Mahjong</name>
+		<region>EUR</region>
+		<serial>K4JP</serial>
+		<titleid>000480044B344A50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Trailblaze: Puzzle Incinerator</name>
 		<region>EUR-AUS</region>
 		<serial>K4KV</serial>
 		<titleid>000480044B344B56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Simply Solitaire</name>
+		<region>EUR</region>
+		<serial>K4LP</serial>
+		<titleid>000480044B344C50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Snakenoid</name>
+		<region>EUR</region>
+		<serial>K4NP</serial>
+		<titleid>000480044B344E50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Yum Yum: Puzzle Adventures</name>
+		<region>EUR-AUS</region>
+		<serial>K4PV</serial>
+		<titleid>000480044B345056</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Academy: Checkers</name>
+		<region>EUR</region>
+		<serial>K4QP</serial>
+		<titleid>000480044B345150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Furry Legends</name>
+		<region>EUR</region>
+		<serial>K4RP</serial>
+		<titleid>000480044B345250</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Foto Face - The Face Stealer Strikes</name>
@@ -22265,6 +22695,24 @@
 		<region>EUR-AUS</region>
 		<serial>K4TV</serial>
 		<titleid>000480044B345456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Super Swap!</name>
+		<region>EUR</region>
+		<serial>K4WP</serial>
+		<titleid>000480044B345750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>101 Shark Pets</name>
+		<region>EUR</region>
+		<serial>K4YP</serial>
+		<titleid>000480044B345950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>101 Dolphin Pets</name>
+		<region>EUR</region>
+		<serial>K4ZP</serial>
+		<titleid>000480044B345A50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Metal Torrent</name>
@@ -22285,10 +22733,28 @@
 		<titleid>000480044B354156</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Lost Treasures of Alexandria</name>
+		<region>EUR</region>
+		<serial>K5BP</serial>
+		<titleid>000480044B354250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Ah! Heaven</name>
+		<region>EUR</region>
+		<serial>K5HP</serial>
+		<titleid>000480044B354850</titleid>
+	</Ticket>
+	<Ticket>
 		<name>5 in 1 Solitaire</name>
 		<region>EUR</region>
 		<serial>K5IP</serial>
 		<titleid>000480044B354950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Forgotten Legions</name>
+		<region>EUR</region>
+		<serial>K5LP</serial>
+		<titleid>000480044B354C50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>G.G Series: The Spiky Blowfish</name>
@@ -22309,16 +22775,76 @@
 		<titleid>000480044B355545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Puzzle Fever</name>
+		<region>EUR</region>
+		<serial>K5VP</serial>
+		<titleid>000480044B355650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Combat of Giants: Mutant Insects - Revenge</name>
+		<region>EUR-AUS</region>
+		<serial>K64V</serial>
+		<titleid>000480044B363456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of… Nintendo Touch Golf</name>
+		<region>EUR-AUS</region>
+		<serial>K72V</serial>
+		<titleid>000480044B373256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>4 Elements</name>
+		<region>EUR-AUS</region>
+		<serial>K7AV</serial>
+		<titleid>000480044B374156</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Around the World in 80 Days</name>
 		<region>EUR-AUS</region>
 		<serial>K7BV</serial>
 		<titleid>000480044B374256</titleid>
 	</Ticket>
 	<Ticket>
+		<name>The Mysterious Case of Dr. Jekyll &amp; Mr. Hyde</name>
+		<region>EUR-AUS</region>
+		<serial>K7GV</serial>
+		<titleid>000480044B374756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Titanic Mystery</name>
+		<region>EUR</region>
+		<serial>K7HP</serial>
+		<titleid>000480044B374850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Save the Turtles</name>
+		<region>EUR-AUS</region>
+		<serial>K7TV</serial>
+		<titleid>000480044B375456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Music on: Learning Piano</name>
 		<region>USA</region>
 		<serial>K88E</serial>
 		<titleid>000480044B383845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Music on: Learning Piano</name>
+		<region>EUR</region>
+		<serial>K88P</serial>
+		<titleid>000480044B383850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Beauty Academy</name>
+		<region>EUR</region>
+		<serial>K8BP</serial>
+		<titleid>000480044B384250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Model Academy</name>
+		<region>EUR</region>
+		<serial>K8MP</serial>
+		<titleid>000480044B384D50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Nintendo Fan Network</name>
@@ -22333,10 +22859,34 @@
 		<titleid>000480044B38584A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>1950s Lawn Mower Kids</name>
+		<region>EUR-AUS</region>
+		<serial>K95V</serial>
+		<titleid>000480044B393556</titleid>
+	</Ticket>
+	<Ticket>
 		<name>99Bullets</name>
 		<region>USA</region>
 		<serial>K99E</serial>
 		<titleid>000480044B393945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>99Bullets</name>
+		<region>EUR</region>
+		<serial>K99P</serial>
+		<titleid>000480044B393950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Goooooal Europa 2012</name>
+		<region>EUR</region>
+		<serial>K9AP</serial>
+		<titleid>000480044B394150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jazzy Billiards</name>
+		<region>EUR-AUS</region>
+		<serial>K9BV</serial>
+		<titleid>000480044B394256</titleid>
 	</Ticket>
 	<Ticket>
 		<name>PicDun</name>
@@ -22345,16 +22895,46 @@
 		<titleid>000480044B39444A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Bridge</name>
+		<region>EUR</region>
+		<serial>K9FP</serial>
+		<titleid>000480044B394650</titleid>
+	</Ticket>
+	<Ticket>
 		<name>QuickPick Farmer</name>
 		<region>EUR</region>
 		<serial>K9PP</serial>
 		<titleid>000480044B395050</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Hidden Expedition: Titanic</name>
+		<region>EUR-AUS</region>
+		<serial>K9QV</serial>
+		<titleid>000480044B395156</titleid>
+	</Ticket>
+	<Ticket>
+		<name>My Aquarium: Seven Oceans</name>
+		<region>EUR</region>
+		<serial>K9RP</serial>
+		<titleid>000480044B395250</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Chronos Twins: One Hero in Two Times</name>
 		<region>EUR</region>
 		<serial>K9TP</serial>
 		<titleid>000480044B395450</titleid>
+	</Ticket>
+	<Ticket>
+		<name>99Moves</name>
+		<region>EUR</region>
+		<serial>K9WP</serial>
+		<titleid>000480044B395750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Candle Route</name>
+		<region>EUR</region>
+		<serial>K9YP</serial>
+		<titleid>000480044B395950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Artillery: Knights vs. Orcs</name>
@@ -22369,10 +22949,22 @@
 		<titleid>000480044B413245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Art Academy: Second Semester</name>
+		<region>EUR-AUS</region>
+		<serial>KA2V</serial>
+		<titleid>000480044B413256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Asphalt 4: Elite Racing</name>
 		<region>USA</region>
 		<serial>KA4E</serial>
 		<titleid>000480044B413445</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Space Ace</name>
+		<region>EUR-AUS</region>
+		<serial>KA6V</serial>
+		<titleid>000480044B413656</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Art Style: AQUIA</name>
@@ -22423,6 +23015,12 @@
 		<titleid>000480044B414545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Ancient Tribe</name>
+		<region>EUR</region>
+		<serial>KAEP</serial>
+		<titleid>000480044B414550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Airport Mania: Non-Stop Flights</name>
 		<region>USA</region>
 		<serial>KAFE</serial>
@@ -22459,10 +23057,22 @@
 		<titleid>000480044B414945</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Art Academy: First Semester</name>
+		<region>EUR-AUS</region>
+		<serial>KAIV</serial>
+		<titleid>000480044B414956</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Art Style: precipice</name>
 		<region>USA</region>
 		<serial>KAKE</serial>
 		<titleid>000480044B414B45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Art Style: KUBOS</name>
+		<region>EUR-AUS</region>
+		<serial>KAKV</serial>
+		<titleid>000480044B414B56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Paper Airplane Chase</name>
@@ -22507,10 +23117,22 @@
 		<titleid>000480044B415245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>AiRace</name>
+		<region>EUR-AUS</region>
+		<serial>KARV</serial>
+		<titleid>000480044B415256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Art Style: ZENGAGE</name>
 		<region>USA</region>
 		<serial>KASE</serial>
 		<titleid>000480044B415345</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Art Style: NEMREM</name>
+		<region>EUR-AUS</region>
+		<serial>KASV</serial>
+		<titleid>000480044B415356</titleid>
 	</Ticket>
 	<Ticket>
 		<name>AiRace: Tunnel</name>
@@ -22549,10 +23171,40 @@
 		<titleid>000480044B415656</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Art of Ink</name>
+		<region>EUR</region>
+		<serial>KAWP</serial>
+		<titleid>000480044B415750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Animal Boxing</name>
+		<region>EUR</region>
+		<serial>KAXP</serial>
+		<titleid>000480044B415850</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Army Defender</name>
 		<region>USA</region>
 		<serial>KAYE</serial>
 		<titleid>000480044B415945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>ARC STYLE: Everyday Football</name>
+		<region>EUR-AUS</region>
+		<serial>KAZV</serial>
+		<titleid>000480044B415A56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puzzle to Go: Sightseeing</name>
+		<region>EUR</region>
+		<serial>KB3P</serial>
+		<titleid>000480044B423350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Trollboarder</name>
+		<region>EUR</region>
+		<serial>KB7P</serial>
+		<titleid>000480044B423750</titleid>
 	</Ticket>
 	<Ticket>
 		<name>GO Series: Earth Saver</name>
@@ -22591,6 +23243,18 @@
 		<titleid>000480044B424345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Brain Challenge</name>
+		<region>EUR-AUS</region>
+		<serial>KBCV</serial>
+		<titleid>000480044B424356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Brain Drain</name>
+		<region>EUR</region>
+		<serial>KBDP</serial>
+		<titleid>000480044B424450</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Bejeweled Twist</name>
 		<region>USA</region>
 		<serial>KBEE</serial>
@@ -22609,10 +23273,22 @@
 		<titleid>000480044B424850</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Biorhythm</name>
+		<region>EUR</region>
+		<serial>KBIP</serial>
+		<titleid>000480044B424950</titleid>
+	</Ticket>
+	<Ticket>
 		<name>21: Blackjack</name>
 		<region>USA</region>
 		<serial>KBJE</serial>
 		<titleid>000480044B424A45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>21: Blackjack</name>
+		<region>EUR</region>
+		<serial>KBJP</serial>
+		<titleid>000480044B424A50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Bookworm</name>
@@ -22633,10 +23309,22 @@
 		<titleid>000480044B424C45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Bloons</name>
+		<region>EUR</region>
+		<serial>KBLP</serial>
+		<titleid>000480044B424C50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Boom Boom Squaries</name>
 		<region>USA</region>
 		<serial>KBME</serial>
 		<titleid>000480044B424D45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Boom Boom Squaries</name>
+		<region>EUR-AUS</region>
+		<serial>KBMV</serial>
+		<titleid>000480044B424D56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Galaxy Saver</name>
@@ -22645,10 +23333,34 @@
 		<titleid>000480044B424E45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Ball Fighter</name>
+		<region>EUR</region>
+		<serial>KBOP</serial>
+		<titleid>000480044B424F50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Break Tactics</name>
 		<region>USA</region>
 		<serial>KBQE</serial>
 		<titleid>000480044B425145</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Break Tactics</name>
+		<region>EUR</region>
+		<serial>KBQP</serial>
+		<titleid>000480044B425150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puzzle to Go: Planets and Universe</name>
+		<region>EUR</region>
+		<serial>KBXP</serial>
+		<titleid>000480044B425850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puzzle to Go: Baby Animals</name>
+		<region>EUR</region>
+		<serial>KBYP</serial>
+		<titleid>000480044B425950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>BlayzBloo: Super Melee Brawlers Battle Royale</name>
@@ -22663,16 +23375,46 @@
 		<titleid>000480044B425A4A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Panda Craze</name>
+		<region>EUR-AUS</region>
+		<serial>KC3V</serial>
+		<titleid>000480044B433356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Shapo</name>
+		<region>EUR-AUS</region>
+		<serial>KC4V</serial>
+		<titleid>000480044B433456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Castle Conqueror: Heroes</name>
 		<region>EUR-AUS</region>
 		<serial>KC5V</serial>
 		<titleid>000480044B433556</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Commando: Steel Disaster</name>
+		<region>EUR</region>
+		<serial>KC7P</serial>
+		<titleid>000480044B433750</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dictionary 6 in 1 with Camera Function</name>
 		<region>EUR-AUS</region>
 		<serial>KCDV</serial>
 		<titleid>000480044B434456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Combat of Giants: Dinosaurs</name>
+		<region>EUR-AUS</region>
+		<serial>KCGV</serial>
+		<titleid>000480044B434756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crazy Pinball</name>
+		<region>EUR-AUS</region>
+		<serial>KCIV</serial>
+		<titleid>000480044B434956</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Car Jack Streets</name>
@@ -22699,6 +23441,12 @@
 		<titleid>000480044B434E50</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Crystal Monsters</name>
+		<region>EUR-AUS</region>
+		<serial>KCOV</serial>
+		<titleid>000480044B434F56</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dekisugi Tincle Pack</name>
 		<region>JPN</region>
 		<serial>KCPJ</serial>
@@ -22711,6 +23459,18 @@
 		<titleid>000480044B435150</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Crazy Sudoku</name>
+		<region>EUR-AUS</region>
+		<serial>KCRV</serial>
+		<titleid>000480044B435256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Chess Challenge!</name>
+		<region>EUR-AUS</region>
+		<serial>KCTV</serial>
+		<titleid>000480044B435456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Cave Story</name>
 		<region>USA</region>
 		<serial>KCVE</serial>
@@ -22721,6 +23481,12 @@
 		<region>USA</region>
 		<serial>KCXE</serial>
 		<titleid>000480044B435845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Cosmo Fighters</name>
+		<region>EUR</region>
+		<serial>KCXP</serial>
+		<titleid>000480044B435850</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Calculator</name>
@@ -22753,6 +23519,12 @@
 		<titleid>000480044B443645</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Datamine</name>
+		<region>EUR</region>
+		<serial>KD8P</serial>
+		<titleid>000480044B443850</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dr. Mario Express</name>
 		<region>USA</region>
 		<serial>KD9E</serial>
@@ -22771,6 +23543,12 @@
 		<titleid>000480044B443956</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Delbo</name>
+		<region>EUR-AUS</region>
+		<serial>KDBV</serial>
+		<titleid>000480044B444256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Crash-Course Domo</name>
 		<region>USA</region>
 		<serial>KDCE</serial>
@@ -22787,6 +23565,18 @@
 		<region>USA</region>
 		<serial>KDHE</serial>
 		<titleid>000480044B444845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>DodoGo! Challenge</name>
+		<region>EUR-AUS</region>
+		<serial>KDJV</serial>
+		<titleid>000480044B444A56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Discolight</name>
+		<region>EUR</region>
+		<serial>KDKP</serial>
+		<titleid>000480044B444B50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Dragon's Lair</name>
@@ -22837,10 +23627,22 @@
 		<titleid>000480044B445256</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Downtown Texas Hold'em</name>
+		<region>EUR-AUS</region>
+		<serial>KDTV</serial>
+		<titleid>000480044B445456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Dark Void Zero</name>
 		<region>USA</region>
 		<serial>KDVE</serial>
 		<titleid>000480044B445645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Dark Void Zero</name>
+		<region>EUR-AUS</region>
+		<serial>KDVV</serial>
+		<titleid>000480044B445656</titleid>
 	</Ticket>
 	<Ticket>
 		<name>White-Water Domo</name>
@@ -22891,10 +23693,34 @@
 		<titleid>000480044B453345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>PictureBook Games: The Royal Bluff</name>
+		<region>EUR-AUS</region>
+		<serial>KE3V</serial>
+		<titleid>000480044B453356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning English: Year 4</name>
+		<region>EUR</region>
+		<serial>KE6P</serial>
+		<titleid>000480044B453650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning English: Year 5</name>
+		<region>EUR</region>
+		<serial>KE7P</serial>
+		<titleid>000480044B453750</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Electroplankton: Trapy</name>
 		<region>USA</region>
 		<serial>KEAE</serial>
 		<titleid>000480044B454145</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Electroplankton: Trapy</name>
+		<region>EUR-AUS</region>
+		<serial>KEAV</serial>
+		<titleid>000480044B454156</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Electroplankton: Hanenbow</name>
@@ -22915,10 +23741,22 @@
 		<titleid>000480044B454345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Electroplankton: Luminarrow</name>
+		<region>EUR-AUS</region>
+		<serial>KECV</serial>
+		<titleid>000480044B454356</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Electroplankton: Sun-Animalcule</name>
 		<region>USA</region>
 		<serial>KEDE</serial>
 		<titleid>000480044B454445</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Electroplankton: Sun-Animalcule</name>
+		<region>EUR-AUS</region>
+		<serial>KEDV</serial>
+		<titleid>000480044B454456</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Electroplankton: Rec-Rec</name>
@@ -22927,10 +23765,22 @@
 		<titleid>000480044B454545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Electroplankton: Rec-Rec</name>
+		<region>EUR-AUS</region>
+		<serial>KEEV</serial>
+		<titleid>000480044B454556</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Electroplankton: Nanocarp</name>
 		<region>USA</region>
 		<serial>KEFE</serial>
 		<titleid>000480044B454645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Electroplankton: Nanocarp</name>
+		<region>EUR-AUS</region>
+		<serial>KEFV</serial>
+		<titleid>000480044B454656</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Electroplankton: Lumiloop</name>
@@ -22939,10 +23789,22 @@
 		<titleid>000480044B454745</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Electroplankton: Lumiloop</name>
+		<region>EUR-AUS</region>
+		<serial>KEGV</serial>
+		<titleid>000480044B454756</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Electroplankton: Marine-Crystals</name>
 		<region>USA</region>
 		<serial>KEHE</serial>
 		<titleid>000480044B454845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Electroplankton: Marine-Crystals</name>
+		<region>EUR-AUS</region>
+		<serial>KEHV</serial>
+		<titleid>000480044B454856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Electroplankton: Beatnes</name>
@@ -22963,6 +23825,12 @@
 		<titleid>000480044B454A45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Electroplankton: Varvoice</name>
+		<region>EUR-AUS</region>
+		<serial>KEJV</serial>
+		<titleid>000480044B454A56</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Elemental Masters</name>
 		<region>EUR</region>
 		<serial>KEMP</serial>
@@ -22981,6 +23849,12 @@
 		<titleid>000480044B455345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Successfully Learning English: Year 2</name>
+		<region>EUR</region>
+		<serial>KEUP</serial>
+		<titleid>000480044B455550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Earthworm Jim</name>
 		<region>EUR-AUS</region>
 		<serial>KEWV</serial>
@@ -22991,6 +23865,12 @@
 		<region>USA</region>
 		<serial>KEXE</serial>
 		<titleid>000480044B455845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Extreme Hangman</name>
+		<region>EUR-AUS</region>
+		<serial>KEXV</serial>
+		<titleid>000480044B455856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Successfully Learning English: Year 3</name>
@@ -23011,6 +23891,12 @@
 		<titleid>000480044B464145</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Airport Mania: First Flight</name>
+		<region>EUR-AUS</region>
+		<serial>KFAV</serial>
+		<titleid>000480044B464156</titleid>
+	</Ticket>
+	<Ticket>
 		<name>GO Series: Fishing Resort</name>
 		<region>USA</region>
 		<serial>KFBE</serial>
@@ -23027,6 +23913,12 @@
 		<region>EUR-AUS</region>
 		<serial>KFDV</serial>
 		<titleid>000480044B464456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Ferryman Puzzle</name>
+		<region>EUR</region>
+		<serial>KFEP</serial>
+		<titleid>000480044B464550</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Flight Control</name>
@@ -23047,6 +23939,12 @@
 		<titleid>000480044B464A4A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Faceez: Monsters!</name>
+		<region>EUR</region>
+		<serial>KFMP</serial>
+		<titleid>000480044B464D50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Frenzic</name>
 		<region>EUR</region>
 		<serial>KFOP</serial>
@@ -23065,10 +23963,28 @@
 		<titleid>000480044B465050</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Ferrari GT: Evolution</name>
+		<region>EUR-AUS</region>
+		<serial>KFRV</serial>
+		<titleid>000480044B465256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Flashlight</name>
 		<region>USA</region>
 		<serial>KFSE</serial>
 		<titleid>000480044B465345</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Flashlight</name>
+		<region>EUR</region>
+		<serial>KFSP</serial>
+		<titleid>000480044B465350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Fairy Tale</name>
+		<region>EUR-AUS</region>
+		<serial>KFYV</serial>
+		<titleid>000480044B465956</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Faceez</name>
@@ -23077,16 +23993,40 @@
 		<titleid>000480044B465A45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Faceez</name>
+		<region>EUR-AUS</region>
+		<serial>KFZV</serial>
+		<titleid>000480044B465A56</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Jibun de Tsukuru Nintendo DS Guide</name>
 		<region>JPN</region>
 		<serial>KG3J</serial>
 		<titleid>000480044B47334A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>DodoGo! Robo</name>
+		<region>EUR-AUS</region>
+		<serial>KG5V</serial>
+		<titleid>000480044B473556</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Music on: Acoustic Guitar</name>
+		<region>EUR-AUS</region>
+		<serial>KG6V</serial>
+		<titleid>000480044B473656</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Gold Fever</name>
 		<region>EUR-AUS</region>
 		<serial>KG7V</serial>
 		<titleid>000480044B473756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Spirit Hunters Inc: Shadow</name>
+		<region>EUR-AUS</region>
+		<serial>KG8V</serial>
+		<titleid>000480044B473856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Noroi no Game: Goku</name>
@@ -23197,6 +24137,18 @@
 		<titleid>000480044B475256</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Globulos Party</name>
+		<region>EUR</region>
+		<serial>KGSP</serial>
+		<titleid>000480044B475350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Spirit Hunters Inc: Light</name>
+		<region>EUR-AUS</region>
+		<serial>KGTV</serial>
+		<titleid>000480044B475456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Flipnote Studio</name>
 		<region>USA</region>
 		<serial>KGUE</serial>
@@ -23239,6 +24191,60 @@
 		<titleid>000480044B484545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>DotMan</name>
+		<region>EUR</region>
+		<serial>KHEP</serial>
+		<titleid>000480044B484550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hospital Havoc</name>
+		<region>EUR</region>
+		<serial>KHHP</serial>
+		<titleid>000480044B484850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hints Hunter</name>
+		<region>EUR</region>
+		<serial>KHIP</serial>
+		<titleid>000480044B484950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hearts Spades Euchre</name>
+		<region>EUR</region>
+		<serial>KHQP</serial>
+		<titleid>000480044B485150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hair Salon: Pocket Stylist</name>
+		<region>EUR-AUS</region>
+		<serial>KHRV</serial>
+		<titleid>000480044B485256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning German: Year 2</name>
+		<region>EUR</region>
+		<serial>KHUP</serial>
+		<titleid>000480044B485550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning German: Year 3</name>
+		<region>EUR</region>
+		<serial>KHVP</serial>
+		<titleid>000480044B485650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning German: Year 4</name>
+		<region>EUR</region>
+		<serial>KHYP</serial>
+		<titleid>000480044B485950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning German: Year 5</name>
+		<region>EUR</region>
+		<serial>KHZP</serial>
+		<titleid>000480044B485A50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>16 Shot! Shooting Watch</name>
 		<region>USA</region>
 		<serial>KI6E</serial>
@@ -23251,16 +24257,70 @@
 		<titleid>000480044B493656</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Music on: Learning Piano Vol. 2</name>
+		<region>EUR</region>
+		<serial>KI7P</serial>
+		<titleid>000480044B493750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Aquarium of Luck</name>
+		<region>EUR</region>
+		<serial>KI8P</serial>
+		<titleid>000480044B493850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Ikibago</name>
+		<region>EUR-AUS</region>
+		<serial>KIBV</serial>
+		<titleid>000480044B494256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Music on: Playing Piano</name>
 		<region>USA</region>
 		<serial>KICE</serial>
 		<titleid>000480044B494345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Music on: Playing Piano</name>
+		<region>EUR</region>
+		<serial>KICP</serial>
+		<titleid>000480044B494350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Dracula: Undead Awakening</name>
+		<region>EUR-AUS</region>
+		<serial>KIDV</serial>
+		<titleid>000480044B494456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Music on: Electric Guitar</name>
 		<region>USA</region>
 		<serial>KIEE</serial>
 		<titleid>000480044B494545</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Music on: Electric Guitar</name>
+		<region>EUR-AUS</region>
+		<serial>KIEV</serial>
+		<titleid>000480044B494556</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Drift Street International</name>
+		<region>EUR-AUS</region>
+		<serial>KIFV</serial>
+		<titleid>000480044B494656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>101 Pinball World</name>
+		<region>EUR</region>
+		<serial>KIIP</serial>
+		<titleid>000480044B494950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Dancing Academy</name>
+		<region>EUR</region>
+		<serial>KINP</serial>
+		<titleid>000480044B494E50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>1001 BlockBusters</name>
@@ -23275,6 +24335,12 @@
 		<titleid>000480044B494F50</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Ice Hockey Slovakia 2011</name>
+		<region>EUR</region>
+		<serial>KISP</serial>
+		<titleid>000480044B495350</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Inchworm Animation</name>
 		<region>USA</region>
 		<serial>KIWE</serial>
@@ -23285,6 +24351,24 @@
 		<region>EUR</region>
 		<serial>KIWP</serial>
 		<titleid>000480044B495750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jewel Keepers: Easter Island</name>
+		<region>EUR</region>
+		<serial>KJBP</serial>
+		<titleid>000480044B4A4250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jagged Alliance</name>
+		<region>EUR</region>
+		<serial>KJGP</serial>
+		<titleid>000480044B4A4750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Antipole</name>
+		<region>EUR</region>
+		<serial>KJHP</serial>
+		<titleid>000480044B4A4850</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Noroi no Game: Chi</name>
@@ -23311,6 +24395,12 @@
 		<titleid>000480044B4A5245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Alt-Play: Jason Rohrer Anthology</name>
+		<region>EUR</region>
+		<serial>KJRP</serial>
+		<titleid>000480044B4A5250</titleid>
+	</Ticket>
+	<Ticket>
 		<name>GO Series: 10 Second Run</name>
 		<region>USA</region>
 		<serial>KJUE</serial>
@@ -23321,6 +24411,12 @@
 		<region>USA</region>
 		<serial>KJYE</serial>
 		<titleid>000480044B4A5945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crazy Hamster</name>
+		<region>EUR</region>
+		<serial>KK2P</serial>
+		<titleid>000480044B4B3250</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Wakugumi: Monochrome Puzzle</name>
@@ -23341,10 +24437,40 @@
 		<titleid>000480044B4B3745</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Music on: Electronic Keyboard</name>
+		<region>EUR-AUS</region>
+		<serial>KK7V</serial>
+		<titleid>000480044B4B3756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Doodle Fit</name>
+		<region>EUR</region>
+		<serial>KKBP</serial>
+		<titleid>000480044B4B4250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Gaia´s Moon</name>
+		<region>EUR</region>
+		<serial>KKGP</serial>
+		<titleid>000480044B4B4750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hellokids - Vol. 1: Coloring and Painting</name>
+		<region>EUR</region>
+		<serial>KKIP</serial>
+		<titleid>000480044B4B4950</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Flipper 2: Flush the Goldfish</name>
 		<region>USA</region>
 		<serial>KKNE</serial>
 		<titleid>000480044B4B4E45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Flipper 2 - Flush the Goldfish</name>
+		<region>EUR</region>
+		<serial>KKNP</serial>
+		<titleid>000480044B4B4E50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Bugs'N'Balls</name>
@@ -23371,10 +24497,52 @@
 		<titleid>000480044B4B5456</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Successfully Learning Mathematics: Year 2</name>
+		<region>EUR</region>
+		<serial>KKUP</serial>
+		<titleid>000480044B4B5550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Successfully Learning Mathematics: Year 3</name>
 		<region>EUR</region>
 		<serial>KKVP</serial>
 		<titleid>000480044B4B5650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning Mathematics: Year 4</name>
+		<region>EUR</region>
+		<serial>KKWP</serial>
+		<titleid>000480044B4B5750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Successfully Learning Mathematics: Year 5</name>
+		<region>EUR</region>
+		<serial>KKXP</serial>
+		<titleid>000480044B4B5850</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Academy: Chess Puzzles</name>
+		<region>EUR</region>
+		<serial>KKZP</serial>
+		<titleid>000480044B4B5A50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puffins: Let's Roll!</name>
+		<region>EUR</region>
+		<serial>KL2P</serial>
+		<titleid>000480044B4C3250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>My Asian Farm</name>
+		<region>EUR</region>
+		<serial>KL3P</serial>
+		<titleid>000480044B4C3350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>My Australian Farm</name>
+		<region>EUR</region>
+		<serial>KL4P</serial>
+		<titleid>000480044B4C3450</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rabi Laby</name>
@@ -23383,10 +24551,28 @@
 		<titleid>000480044B4C4245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Rabi Laby</name>
+		<region>EUR</region>
+		<serial>KLBP</serial>
+		<titleid>000480044B4C4250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Legendary Wars: T-Rex Rumble</name>
+		<region>EUR-AUS</region>
+		<serial>KLDV</serial>
+		<titleid>000480044B4C4456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Legends of Exidia</name>
 		<region>USA</region>
 		<serial>KLEE</serial>
 		<titleid>000480044B4C4545</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Legends of Exidia</name>
+		<region>EUR-AUS</region>
+		<serial>KLEV</serial>
+		<titleid>000480044B4C4556</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Puffins: Let's Fish!</name>
@@ -23401,10 +24587,40 @@
 		<titleid>000480044B4C4A56</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Lola's Alphabet Train</name>
+		<region>EUR</region>
+		<serial>KLKP</serial>
+		<titleid>000480044B4C4B50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Seller</name>
+		<region>EUR</region>
+		<serial>KLLP</serial>
+		<titleid>000480044B4C4C50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Battle of the Elements</name>
+		<region>EUR</region>
+		<serial>KLMP</serial>
+		<titleid>000480044B4C4D50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Bloons TD</name>
 		<region>USA</region>
 		<serial>KLNE</serial>
 		<titleid>000480044B4C4E45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Bloons TD</name>
+		<region>EUR</region>
+		<serial>KLNP</serial>
+		<titleid>000480044B4C4E50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Lost Town: The Dust</name>
+		<region>EUR-AUS</region>
+		<serial>KLOV</serial>
+		<titleid>000480044B4C4F56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Littlest Pet Shop</name>
@@ -23413,10 +24629,28 @@
 		<titleid>000480044B4C5056</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Puffins: Let's Race!</name>
+		<region>EUR</region>
+		<serial>KLRP</serial>
+		<titleid>000480044B4C5250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>My Little Restaurant</name>
+		<region>EUR-AUS</region>
+		<serial>KLTV</serial>
+		<titleid>000480044B4C5456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Rabi Laby 2</name>
 		<region>USA</region>
 		<serial>KLVE</serial>
 		<titleid>000480044B4C5645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rabi Laby 2</name>
+		<region>EUR</region>
+		<serial>KLVP</serial>
+		<titleid>000480044B4C5650</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Libera Wing</name>
@@ -23431,6 +24665,12 @@
 		<titleid>000480044B4C5956</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Simply Minesweeper</name>
+		<region>EUR</region>
+		<serial>KM3P</serial>
+		<titleid>000480044B4D3350</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Maestro! Green Groove</name>
 		<region>EUR-AUS</region>
 		<serial>KM6V</serial>
@@ -23443,10 +24683,22 @@
 		<titleid>000480044B4D3750</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Me And My Dogs: Friends Forever</name>
+		<region>EUR-AUS</region>
+		<serial>KM8V</serial>
+		<titleid>000480044B4D3856</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Chotto Magic Taizen: Osoroshii Suuji</name>
 		<region>JPN</region>
 		<serial>KM9J</serial>
 		<titleid>000480044B4D394A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of... Magic Made Fun: Deep Psyche</name>
+		<region>EUR</region>
+		<serial>KM9P</serial>
+		<titleid>000480044B4D3950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Master of Illusion Express: Deep Psyche</name>
@@ -23473,10 +24725,22 @@
 		<titleid>000480044B4D4454</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Miami Nights: Life in the Spotlight</name>
+		<region>EUR-AUS</region>
+		<serial>KMEV</serial>
+		<titleid>000480044B4D4556</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Chotto Magic Taizen: Funny Face</name>
 		<region>JPN</region>
 		<serial>KMFJ</serial>
 		<titleid>000480044B4D464A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of… Magic Made Fun: Funny Face</name>
+		<region>EUR</region>
+		<serial>KMFP</serial>
+		<titleid>000480044B4D4650</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Master of Illusion Express: Funny Face</name>
@@ -23495,6 +24759,12 @@
 		<region>EUR-AUS</region>
 		<serial>KMGV</serial>
 		<titleid>000480044B4D4756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>myPostcards</name>
+		<region>EUR-AUS</region>
+		<serial>KMHV</serial>
+		<titleid>000480044B4D4856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>A Little Bit of... Magic Made Fun: Mind Probe</name>
@@ -23521,10 +24791,40 @@
 		<titleid>000480044B4D4D45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Mixed Messages</name>
+		<region>EUR-AUS</region>
+		<serial>KMMV</serial>
+		<titleid>000480044B4D4D56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of... Magic Made Fun: Psychic Camera</name>
+		<region>EUR</region>
+		<serial>KMNP</serial>
+		<titleid>000480044B4D4E50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Move your Brain: Rollway Puzzle</name>
+		<region>EUR</region>
+		<serial>KMOP</serial>
+		<titleid>000480044B4D4F50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>My Farm</name>
+		<region>EUR-AUS</region>
+		<serial>KMRV</serial>
+		<titleid>000480044B4D5256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Chotto Magic Taizen: 3-tsu no Shuffle Game</name>
 		<region>JPN</region>
 		<serial>KMSJ</serial>
 		<titleid>000480044B4D534A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of... Magic Made Fun: Shuffle Games</name>
+		<region>EUR</region>
+		<serial>KMSP</serial>
+		<titleid>000480044B4D5350</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Master of Illusion Express: Shuffle Games</name>
@@ -23545,6 +24845,12 @@
 		<titleid>000480044B4D5545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>My Exotic Farm</name>
+		<region>EUR-AUS</region>
+		<serial>KMVV</serial>
+		<titleid>000480044B4D5656</titleid>
+	</Ticket>
+	<Ticket>
 		<name>MySims Camera</name>
 		<region>USA</region>
 		<serial>KMYE</serial>
@@ -23561,6 +24867,18 @@
 		<region>EUR-AUS</region>
 		<serial>KMZV</serial>
 		<titleid>000480044B4D5A56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Devil Band: Rock the Underworld</name>
+		<region>EUR-AUS</region>
+		<serial>KN2V</serial>
+		<titleid>000480044B4E3256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>myNotebook: Pearl</name>
+		<region>EUR-AUS</region>
+		<serial>KN6V</serial>
+		<titleid>000480044B4E3656</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Brain Age Express: Sudoku</name>
@@ -23623,10 +24941,22 @@
 		<titleid>000480044B4E4456</titleid>
 	</Ticket>
 	<Ticket>
+		<name>myNotebook: Green</name>
+		<region>EUR-AUS</region>
+		<serial>KNGV</serial>
+		<titleid>000480044B4E4756</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Come On! Heroes</name>
 		<region>USA</region>
 		<serial>KNHE</serial>
 		<titleid>000480044B4E4845</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Come On! Heroes</name>
+		<region>EUR-AUS</region>
+		<serial>KNHV</serial>
+		<titleid>000480044B4E4856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>myNotebook: Red</name>
@@ -23671,6 +25001,18 @@
 		<titleid>000480044B4E5256</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Pucca Noodle Rush</name>
+		<region>EUR</region>
+		<serial>KNUP</serial>
+		<titleid>000480044B4E5550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>3, 2, 1... WordsUp!</name>
+		<region>EUR</region>
+		<serial>KNWP</serial>
+		<titleid>000480044B4E5750</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Moke Moke</name>
 		<region>USA</region>
 		<serial>KNYE</serial>
@@ -23683,10 +25025,34 @@
 		<titleid>000480044B4E5A45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Oscar in Movieland</name>
+		<region>EUR-AUS</region>
+		<serial>KO4V</serial>
+		<titleid>000480044B4F3456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Oscar's World Tour</name>
+		<region>EUR</region>
+		<serial>KO9P</serial>
+		<titleid>000480044B4F3950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Lola's Fruit Shop Sudoku</name>
+		<region>EUR</region>
+		<serial>KOFP</serial>
+		<titleid>000480044B4F4650</titleid>
+	</Ticket>
+	<Ticket>
 		<name>G.G Series - Super Hero Ogre</name>
 		<region>USA</region>
 		<serial>KOGE</serial>
 		<titleid>000480044B4F4745</titleid>
+	</Ticket>
+	<Ticket>
+		<name>1001 Crystal Mazes Collection</name>
+		<region>EUR</region>
+		<serial>KOKP</serial>
+		<titleid>000480044B4F4B50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>GO Series: Portable Shrine Wars</name>
@@ -23707,10 +25073,52 @@
 		<titleid>000480044B4F5445</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Oscar in Toyland</name>
+		<region>EUR</region>
+		<serial>KOTP</serial>
+		<titleid>000480044B4F5450</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Double Bloob</name>
+		<region>EUR</region>
+		<serial>KOUP</serial>
+		<titleid>000480044B4F5550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Surfacer+</name>
 		<region>EUR</region>
 		<serial>KOWP</serial>
 		<titleid>000480044B4F5750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Moto eXtreme</name>
+		<region>EUR-AUS</region>
+		<serial>KOXV</serial>
+		<titleid>000480044B4F5856</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Oscar in Toyland 2</name>
+		<region>EUR</region>
+		<serial>KOYP</serial>
+		<titleid>000480044B4F5950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Petz: Dog Superstar</name>
+		<region>EUR-AUS</region>
+		<serial>KP2V</serial>
+		<titleid>000480044B503256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Petz: Hamster Superstar</name>
+		<region>EUR-AUS</region>
+		<serial>KP3V</serial>
+		<titleid>000480044B503356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Petz: Cat Superstar</name>
+		<region>EUR-AUS</region>
+		<serial>KP5V</serial>
+		<titleid>000480044B503556</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Bird &amp; Beans</name>
@@ -23723,6 +25131,24 @@
 		<region>JPN</region>
 		<serial>KP6J</serial>
 		<titleid>000480044B50364A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Pyoro</name>
+		<region>EUR-AUS</region>
+		<serial>KP6V</serial>
+		<titleid>000480044B503656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Alien Puzzle Adventure</name>
+		<region>EUR-AUS</region>
+		<serial>KP7V</serial>
+		<titleid>000480044B503756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Peg Solitaire</name>
+		<region>EUR</region>
+		<serial>KP8P</serial>
+		<titleid>000480044B503850</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Al to Harapeko Monster</name>
@@ -23755,6 +25181,18 @@
 		<titleid>000480044B504256</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Animal Puzzle Adventure</name>
+		<region>EUR-AUS</region>
+		<serial>KPCV</serial>
+		<titleid>000480044B504356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puzzle to Go: Wildlife</name>
+		<region>EUR</region>
+		<serial>KPDP</serial>
+		<titleid>000480044B504450</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Pop Island: Paperfield</name>
 		<region>USA</region>
 		<serial>KPFE</serial>
@@ -23765,6 +25203,12 @@
 		<region>EUR</region>
 		<serial>KPFP</serial>
 		<titleid>000480044B504650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Prehistorik Man</name>
+		<region>EUR-AUS</region>
+		<serial>KPHV</serial>
+		<titleid>000480044B504856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pop+ Solo</name>
@@ -23783,6 +25227,18 @@
 		<region>USA</region>
 		<serial>KPJE</serial>
 		<titleid>000480044B504A45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Petz: Nursery</name>
+		<region>EUR-AUS</region>
+		<serial>KPKV</serial>
+		<titleid>000480044B504B56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Puzzle Rocks</name>
+		<region>EUR</region>
+		<serial>KPLP</serial>
+		<titleid>000480044B504C50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Puzzle League Express</name>
@@ -23833,16 +25289,34 @@
 		<titleid>000480044B505445</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Link 'n' Launch</name>
+		<region>EUR-AUS</region>
+		<serial>KPTV</serial>
+		<titleid>000480044B505456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Panewa!</name>
 		<region>JPN</region>
 		<serial>KPWJ</serial>
 		<titleid>000480044B50574A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Puzzle Quest: Challenge of the Warlords</name>
+		<region>EUR-AUS</region>
+		<serial>KPZV</serial>
+		<titleid>000480044B505A56</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Spin Six</name>
 		<region>USA</region>
 		<serial>KQ6E</serial>
 		<titleid>000480044B513645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Spin Six</name>
+		<region>EUR-AUS</region>
+		<serial>KQ6V</serial>
+		<titleid>000480044B513656</titleid>
 	</Ticket>
 	<Ticket>
 		<name>The Legend of Zelda: Four Swords Anniversary Edition</name>
@@ -23869,10 +25343,34 @@
 		<titleid>000480044B514145</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Arctic Escape</name>
+		<region>EUR</region>
+		<serial>KQAP</serial>
+		<titleid>000480044B514150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Box Pusher</name>
+		<region>EUR</region>
+		<serial>KQBP</serial>
+		<titleid>000480044B514250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Music on: Drums</name>
+		<region>EUR-AUS</region>
+		<serial>KQDV</serial>
+		<titleid>000480044B514456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Ace Mathician</name>
 		<region>USA</region>
 		<serial>KQKE</serial>
 		<titleid>000480044B514B45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Ace Mathician</name>
+		<region>EUR-AUS</region>
+		<serial>KQKV</serial>
+		<titleid>000480044B514B56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Castle Conqueror: Revolution</name>
@@ -23881,10 +25379,40 @@
 		<titleid>000480044B514E56</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Castle Conqueror: Against</name>
+		<region>EUR-AUS</region>
+		<serial>KQOV</serial>
+		<titleid>000480044B514F56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crystal Caverns of Amon-Ra</name>
+		<region>EUR</region>
+		<serial>KQQP</serial>
+		<titleid>000480044B515150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Remote Racers</name>
+		<region>EUR-AUS</region>
+		<serial>KQRV</serial>
+		<titleid>000480044B515256</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Bookstore Dream</name>
 		<region>USA</region>
 		<serial>KQVE</serial>
 		<titleid>000480044B515645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Bookstore Dream</name>
+		<region>EUR-AUS</region>
+		<serial>KQVV</serial>
+		<titleid>000480044B515656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Real Crimes: Jack the Ripper</name>
+		<region>EUR-AUS</region>
+		<serial>KRCV</serial>
+		<titleid>000480044B524356</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Liti Yincanghua - Tonghua Xun Zong Ji (iQue)</name>
@@ -23917,10 +25445,28 @@
 		<titleid>000480044B524845</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Music on: Retro Keyboard</name>
+		<region>EUR-AUS</region>
+		<serial>KRHV</serial>
+		<titleid>000480044B524856</titleid>
+	</Ticket>
+	<Ticket>
+		<name>5 in 1 Mahjong</name>
+		<region>EUR</region>
+		<serial>KRJP</serial>
+		<titleid>000480044B524A50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Rytmik</name>
 		<region>USA</region>
 		<serial>KRKE</serial>
 		<titleid>000480044B524B45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rytmik</name>
+		<region>EUR-AUS</region>
+		<serial>KRKV</serial>
+		<titleid>000480044B524B56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rayman</name>
@@ -23935,10 +25481,58 @@
 		<titleid>000480044B524D56</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Rocks N' Rockets</name>
+		<region>EUR-AUS</region>
+		<serial>KRNV</serial>
+		<titleid>000480044B524E56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rytmik: Rock Edition</name>
+		<region>EUR-AUS</region>
+		<serial>KRQV</serial>
+		<titleid>000480044B525156</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Robot Rescue 2</name>
+		<region>EUR</region>
+		<serial>KRRP</serial>
+		<titleid>000480044B525250</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Robot Rescue</name>
 		<region>USA</region>
 		<serial>KRTE</serial>
 		<titleid>000480044B525445</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Robot Rescue</name>
+		<region>EUR-AUS</region>
+		<serial>KRTV</serial>
+		<titleid>000480044B525456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rummikub</name>
+		<region>EUR</region>
+		<serial>KRUP</serial>
+		<titleid>000480044B525550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hip Hop King: Rytmik Edition</name>
+		<region>EUR-AUS</region>
+		<serial>KRVV</serial>
+		<titleid>000480044B525656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Sea Battle</name>
+		<region>EUR</region>
+		<serial>KRWP</serial>
+		<titleid>000480044B525750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Supermarket Mania</name>
+		<region>EUR-AUS</region>
+		<serial>KRZV</serial>
+		<titleid>000480044B525A56</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Shantae: Risky's Revenge</name>
@@ -23953,10 +25547,28 @@
 		<titleid>000480044B533350</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Simply Sudoku</name>
+		<region>EUR</region>
+		<serial>KS4P</serial>
+		<titleid>000480044B533450</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Real Soccer 2009</name>
 		<region>USA</region>
 		<serial>KS9E</serial>
 		<titleid>000480044B533945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Spaceball: Revolution</name>
+		<region>EUR-AUS</region>
+		<serial>KSBV</serial>
+		<titleid>000480044B534256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Sudoku Challenge!</name>
+		<region>EUR</region>
+		<serial>KSCP</serial>
+		<titleid>000480044B534350</titleid>
 	</Ticket>
 	<Ticket>
 		<name>G.G Series: Dark Spirits</name>
@@ -23969,6 +25581,12 @@
 		<region>EUR</region>
 		<serial>KSDP</serial>
 		<titleid>000480044B534450</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Pocket Pack: Strategy Games</name>
+		<region>EUR</region>
+		<serial>KSGP</serial>
+		<titleid>000480044B534750</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Sudoku Student</name>
@@ -24007,6 +25625,12 @@
 		<titleid>000480044B534D45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Sokomania</name>
+		<region>EUR</region>
+		<serial>KSOP</serial>
+		<titleid>000480044B534F50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Spotto!</name>
 		<region>USA</region>
 		<serial>KSPE</serial>
@@ -24043,6 +25667,12 @@
 		<titleid>000480044B535556</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Sokomania 2: Cool Job</name>
+		<region>EUR</region>
+		<serial>KSVP</serial>
+		<titleid>000480044B535650</titleid>
+	</Ticket>
+	<Ticket>
 		<name>SteamWorld Tower Defense</name>
 		<region>EUR-AUS</region>
 		<serial>KSWV</serial>
@@ -24053,6 +25683,12 @@
 		<region>USA</region>
 		<serial>KSYE</serial>
 		<titleid>000480044B535945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>System Flaw: Recruit</name>
+		<region>EUR</region>
+		<serial>KSYP</serial>
+		<titleid>000480044B535950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>G.G Series: Horizontal Bar</name>
@@ -24067,6 +25703,12 @@
 		<titleid>000480044B543356</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Topoloco - crazy about topography</name>
+		<region>EUR</region>
+		<serial>KT5P</serial>
+		<titleid>000480044B543550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>GO Series: Tower of Deus</name>
 		<region>USA</region>
 		<serial>KT8E</serial>
@@ -24079,10 +25721,22 @@
 		<titleid>000480044B543945</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Kung Fu Dragon</name>
+		<region>EUR</region>
+		<serial>KT9P</serial>
+		<titleid>000480044B543950</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Yixia Xia Ming You Daquan - Jingdian Chong Wen (iQue)</name>
 		<region>CHI</region>
 		<serial>KTBC</serial>
 		<titleid>000480044B544243</titleid>
+	</Ticket>
+	<Ticket>
+		<name>A Little Bit of… All Time Classics: Strategy Games</name>
+		<region>EUR</region>
+		<serial>KTBP</serial>
+		<titleid>000480044B544250</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Clubhouse Games Express: Family Favorites</name>
@@ -24139,16 +25793,34 @@
 		<titleid>000480044B54504A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>A Little Bit of… All Time Classics: Family Games</name>
+		<region>EUR</region>
+		<serial>KTPP</serial>
+		<titleid>000480044B545050</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Yixia Xia Ming You Daquan - Zhiyong Shuangquan (iQue)</name>
 		<region>CHI</region>
 		<serial>KTRC</serial>
 		<titleid>000480044B545243</titleid>
 	</Ticket>
 	<Ticket>
+		<name>A Little Bit of... All Time Classics: Card Classics</name>
+		<region>EUR</region>
+		<serial>KTRP</serial>
+		<titleid>000480044B545250</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Clubhouse Games Express: Card Classics</name>
 		<region>USA-AUS</region>
 		<serial>KTRT</serial>
 		<titleid>000480044B545254</titleid>
+	</Ticket>
+	<Ticket>
+		<name>4 Travellers: Play Spanish</name>
+		<region>EUR</region>
+		<serial>KTSP</serial>
+		<titleid>000480044B545350</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Nintendo DSi Instrument Tuner</name>
@@ -24163,6 +25835,12 @@
 		<titleid>000480044B545745</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Thorium Wars</name>
+		<region>EUR</region>
+		<serial>KTWP</serial>
+		<titleid>000480044B545750</titleid>
+	</Ticket>
+	<Ticket>
 		<name>High Stakes: Texas Hold'em</name>
 		<region>EUR-AUS</region>
 		<serial>KTXV</serial>
@@ -24175,6 +25853,36 @@
 		<titleid>000480044B545954</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Armageddon Operation Dragon</name>
+		<region>EUR</region>
+		<serial>KU5P</serial>
+		<titleid>000480044B553550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Fashion Tycoon</name>
+		<region>EUR</region>
+		<serial>KU7P</serial>
+		<titleid>000480044B553750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Decathlon 2012</name>
+		<region>EUR</region>
+		<serial>KUIP</serial>
+		<titleid>000480044B554950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>The Lost Town: The Jungle</name>
+		<region>EUR-AUS</region>
+		<serial>KUJV</serial>
+		<titleid>000480044B554A56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Quick Fill Q</name>
+		<region>EUR</region>
+		<serial>KUMP</serial>
+		<titleid>000480044B554D50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Uno</name>
 		<region>USA</region>
 		<serial>KUNE</serial>
@@ -24185,6 +25893,12 @@
 		<region>EUR-AUS</region>
 		<serial>KUNV</serial>
 		<titleid>000480044B554E56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Match Up!</name>
+		<region>EUR</region>
+		<serial>KUPP</serial>
+		<titleid>000480044B555050</titleid>
 	</Ticket>
 	<Ticket>
 		<name>I Must Run!</name>
@@ -24265,6 +25979,24 @@
 		<titleid>000480044B56344A</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Curling Super Championship</name>
+		<region>EUR</region>
+		<serial>KVCP</serial>
+		<titleid>000480044B564350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Adventure in Vegas: Slot Machine</name>
+		<region>EUR-AUS</region>
+		<serial>KVGV</serial>
+		<titleid>000480044B564756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crazy Hunter</name>
+		<region>EUR</region>
+		<serial>KVHP</serial>
+		<titleid>000480044B564850</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Anonymous Notes: Chapter 1 - From the Abyss</name>
 		<region>USA</region>
 		<serial>KVIE</serial>
@@ -24295,10 +26027,40 @@
 		<titleid>000480044B564B56</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Clash of Elementalists</name>
+		<region>EUR</region>
+		<serial>KVLP</serial>
+		<titleid>000480044B564C50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Hello Flowerz</name>
+		<region>EUR-AUS</region>
+		<serial>KVOV</serial>
+		<titleid>000480044B564F56</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Valet Parking 1989</name>
 		<region>EUR-AUS</region>
 		<serial>KVPV</serial>
 		<titleid>000480044B565056</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Aahh! Spot the Difference</name>
+		<region>EUR</region>
+		<serial>KVSP</serial>
+		<titleid>000480044B565350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>VT Tennis</name>
+		<region>EUR-AUS</region>
+		<serial>KVTV</serial>
+		<titleid>000480044B565456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Cat Frenzy</name>
+		<region>EUR</region>
+		<serial>KVXP</serial>
+		<titleid>000480044B565850</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Mario Clock</name>
@@ -24373,6 +26135,12 @@
 		<titleid>000480044B574756</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Mega Words</name>
+		<region>EUR</region>
+		<serial>KWKP</serial>
+		<titleid>000480044B574B50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>G.G Series: Wonder Land</name>
 		<region>USA</region>
 		<serial>KWLE</serial>
@@ -24383,6 +26151,12 @@
 		<region>USA</region>
 		<serial>KWME</serial>
 		<titleid>000480044B574D45</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Magical Whip</name>
+		<region>EUR</region>
+		<serial>KWMP</serial>
+		<titleid>000480044B574D50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Pocket Pack: Words &amp; Numbers</name>
@@ -24403,6 +26177,12 @@
 		<titleid>000480044B575145</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Word Searcher</name>
+		<region>EUR</region>
+		<serial>KWSP</serial>
+		<titleid>000480044B575350</titleid>
+	</Ticket>
+	<Ticket>
 		<name>GO Series - Defense Wars</name>
 		<region>USA</region>
 		<serial>KWTE</serial>
@@ -24413,6 +26193,12 @@
 		<region>USA</region>
 		<serial>KWYE</serial>
 		<titleid>000480044B575945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Mighty Milky Way</name>
+		<region>EUR</region>
+		<serial>KWYP</serial>
+		<titleid>000480044B575950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Cosmos X2</name>
@@ -24427,10 +26213,40 @@
 		<titleid>000480044B583445</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Come On! Dragons</name>
+		<region>EUR</region>
+		<serial>KX4P</serial>
+		<titleid>000480044B583450</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Snowboard Xtreme</name>
+		<region>EUR</region>
+		<serial>KX5P</serial>
+		<titleid>000480044B583550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Wizard Defenders</name>
+		<region>EUR</region>
+		<serial>KX6P</serial>
+		<titleid>000480044B583650</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Pirates Assault</name>
+		<region>EUR-AUS</region>
+		<serial>KXAV</serial>
+		<titleid>000480044B584156</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Castle Conqueror: Heroes 2</name>
 		<region>EUR-AUS</region>
 		<serial>KXCV</serial>
 		<titleid>000480044B584356</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crystal Adventure</name>
+		<region>EUR</region>
+		<serial>KXDP</serial>
+		<titleid>000480044B584450</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Escape the Virus: Swarm Survival</name>
@@ -24439,10 +26255,22 @@
 		<titleid>000480044B584550</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Color Commando</name>
+		<region>EUR</region>
+		<serial>KXFP</serial>
+		<titleid>000480044B584650</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Abyss</name>
 		<region>USA</region>
 		<serial>KXGE</serial>
 		<titleid>000480044B584745</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Abyss</name>
+		<region>EUR</region>
+		<serial>KXGP</serial>
+		<titleid>000480044B584750</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Extreme Hangman 2</name>
@@ -24451,10 +26279,28 @@
 		<titleid>000480044B584845</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Extreme Hangman 2</name>
+		<region>EUR-AUS</region>
+		<serial>KXHV</serial>
+		<titleid>000480044B584856</titleid>
+	</Ticket>
+	<Ticket>
 		<name>101 MiniGolf World</name>
 		<region>USA</region>
 		<serial>KXIE</serial>
 		<titleid>000480044B584945</titleid>
+	</Ticket>
+	<Ticket>
+		<name>101 MiniGolf World</name>
+		<region>EUR</region>
+		<serial>KXIP</serial>
+		<titleid>000480044B584950</titleid>
+	</Ticket>
+	<Ticket>
+		<name>I am in the movie</name>
+		<region>EUR</region>
+		<serial>KXJP</serial>
+		<titleid>000480044B584A50</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Goony</name>
@@ -24463,10 +26309,46 @@
 		<titleid>000480044B584B45</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Goony</name>
+		<region>EUR</region>
+		<serial>KXKP</serial>
+		<titleid>000480044B584B50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Telegraph Sudoku &amp; Kakuro</name>
+		<region>EUR</region>
+		<serial>KXLP</serial>
+		<titleid>000480044B584C50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Accel Knights: Imashi ga Tame Ware wa Tsurugi o Toru</name>
 		<region>JPN</region>
 		<serial>KXNJ</serial>
 		<titleid>000480044B584E4A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>18th Gate</name>
+		<region>EUR-AUS</region>
+		<serial>KXOV</serial>
+		<titleid>000480044B584F56</titleid>
+	</Ticket>
+	<Ticket>
+		<name>90's Pool</name>
+		<region>EUR</region>
+		<serial>KXPP</serial>
+		<titleid>000480044B585050</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Telegraph Crosswords</name>
+		<region>EUR</region>
+		<serial>KXQP</serial>
+		<titleid>000480044B585150</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Retro Pocket</name>
+		<region>EUR</region>
+		<serial>KXRP</serial>
+		<titleid>000480044B585250</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Escape the Virus: Shoot'em Up!</name>
@@ -24475,10 +26357,22 @@
 		<titleid>000480044B585345</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Escape the Virus: Shoot'Em Up!</name>
+		<region>EUR</region>
+		<serial>KXSP</serial>
+		<titleid>000480044B585350</titleid>
+	</Ticket>
+	<Ticket>
 		<name>99Seconds</name>
 		<region>USA</region>
 		<serial>KXTE</serial>
 		<titleid>000480044B585445</titleid>
+	</Ticket>
+	<Ticket>
+		<name>99Seconds</name>
+		<region>EUR</region>
+		<serial>KXTP</serial>
+		<titleid>000480044B585450</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Publisher Dream</name>
@@ -24487,10 +26381,46 @@
 		<titleid>000480044B585545</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Publisher Dream</name>
+		<region>EUR</region>
+		<serial>KXUP</serial>
+		<titleid>000480044B585550</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Christmas Wonderland</name>
+		<region>EUR</region>
+		<serial>KXWP</serial>
+		<titleid>000480044B585750</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rhythm Core Alpha 2</name>
+		<region>EUR-AUS</region>
+		<serial>KY4V</serial>
+		<titleid>000480044B593456</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Jewel Match</name>
+		<region>EUR</region>
+		<serial>KY5P</serial>
+		<titleid>000480044B593550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Arrow of Laputa</name>
 		<region>JPN</region>
 		<serial>KYAJ</serial>
 		<titleid>000480044B59414A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Face Pilot: Fly With Your Nintendo DSi  Camera!</name>
+		<region>EUR-AUS</region>
+		<serial>KYBV</serial>
+		<titleid>000480044B594256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Rytmik: World Music</name>
+		<region>EUR-AUS</region>
+		<serial>KYHV</serial>
+		<titleid>000480044B594856</titleid>
 	</Ticket>
 	<Ticket>
 		<name>myDiary</name>
@@ -24499,10 +26429,28 @@
 		<titleid>000480044B594945</titleid>
 	</Ticket>
 	<Ticket>
+		<name>myDiary</name>
+		<region>EUR-AUS</region>
+		<serial>KYIV</serial>
+		<titleid>000480044B594956</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Make Up &amp; Style</name>
+		<region>EUR</region>
+		<serial>KYLP</serial>
+		<titleid>000480044B594C50</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Cake Ninja: XMAS</name>
 		<region>EUR</region>
 		<serial>KYNP</serial>
 		<titleid>000480044B594E50</titleid>
+	</Ticket>
+	<Ticket>
+		<name>1st Class Poker &amp; BlackJack</name>
+		<region>EUR</region>
+		<serial>KYPP</serial>
+		<titleid>000480044B595050</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Rytmik: Retrobits</name>
@@ -24511,10 +26459,34 @@
 		<titleid>000480044B595245</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Rytmik: Retrobits</name>
+		<region>EUR-AUS</region>
+		<serial>KYRV</serial>
+		<titleid>000480044B595256</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Spot The Difference</name>
+		<region>EUR</region>
+		<serial>KYSP</serial>
+		<titleid>000480044B595350</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Yummy Yummy Cooking Jam</name>
+		<region>EUR-AUS</region>
+		<serial>KYUV</serial>
+		<titleid>000480044B595556</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Afterzoom</name>
 		<region>USA</region>
 		<serial>KZ6E</serial>
 		<titleid>000480044B5A3645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>AfterZoom</name>
+		<region>EUR</region>
+		<serial>KZ6P</serial>
+		<titleid>000480044B5A3650</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Zenonia</name>
@@ -24529,10 +26501,40 @@
 		<titleid>000480044B5A4156</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Little Red Riding Hood's Zombie BBQ</name>
+		<region>EUR</region>
+		<serial>KZBP</serial>
+		<titleid>000480044B5A4250</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Bounce &amp; Break</name>
+		<region>EUR</region>
+		<serial>KZEP</serial>
+		<titleid>000480044B5A4550</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Zoo Frenzy</name>
 		<region>USA</region>
 		<serial>KZFE</serial>
 		<titleid>000480044B5A4645</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Zoo Frenzy</name>
+		<region>EUR-AUS</region>
+		<serial>KZFV</serial>
+		<titleid>000480044B5A4656</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Crazy Golf</name>
+		<region>EUR-AUS</region>
+		<serial>KZGV</serial>
+		<titleid>000480044B5A4756</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Halloween: Trick or Treat</name>
+		<region>EUR</region>
+		<serial>KZHP</serial>
+		<titleid>000480044B5A4850</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Plants vs. Zombies</name>
@@ -24559,16 +26561,34 @@
 		<titleid>000480044B5A5045</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Pinball Pulse: The Ancients Beckon</name>
+		<region>EUR-AUS</region>
+		<serial>KZPV</serial>
+		<titleid>000480044B5A5056</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Zoonies - Escape from Makatu</name>
 		<region>EUR-AUS</region>
 		<serial>KZSV</serial>
 		<titleid>000480044B5A5356</titleid>
 	</Ticket>
 	<Ticket>
+		<name>Zuma's Revenge!</name>
+		<region>EUR-AUS</region>
+		<serial>KZTV</serial>
+		<titleid>000480044B5A5456</titleid>
+	</Ticket>
+	<Ticket>
 		<name>Zacross</name>
 		<region>JPN</region>
 		<serial>KZXJ</serial>
 		<titleid>000480044B5A584A</titleid>
+	</Ticket>
+	<Ticket>
+		<name>Zombie Skape</name>
+		<region>EUR</region>
+		<serial>KZYP</serial>
+		<titleid>000480044B5A5950</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Sawaru Made in Wario DL</name>
@@ -27229,12 +29249,6 @@
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>00040000FFDEC900</titleid>
-	</Ticket>
-	<Ticket>
-		<name>Micro SD Managment US-NAND</name>
-		<region>ALL</region>
-		<serial></serial>
-		<titleid>0004001020024100</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Decrypt9WIP Cia For Arm9Hax</name>
