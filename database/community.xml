@@ -44452,37 +44452,37 @@
 	<Ticket>
 		<name>DS Internet</name>
 		<region>ALL</region>
-		<serial>B88A</serial>
+		<serial>TWL-N-B88A</serial>
 		<titleid>0004800542383841</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Download Play</name>
 		<region>ALL</region>
-		<serial>HNDA</serial>
+		<serial>TWL-N-HNDA</serial>
 		<titleid>00048005484E4441</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Download Play</name>
 		<region>CHN</region>
-		<serial>HNDC</serial>
+		<serial>TWL-N-HNDC</serial>
 		<titleid>00048005484E4443</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Download Play</name>
 		<region>KOR</region>
-		<serial>HNDK</serial>
+		<serial>TWL-N-HNDK</serial>
 		<titleid>00048005484E444B</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Nintendo DS Cart Whitelist</name>
 		<region>ALL</region>
-		<serial>HNHA</serial>
+		<serial>TWL-N-HNHA</serial>
 		<titleid>0004800F484E4841</titleid>
 	</Ticket>
 	<Ticket>
 		<name>Version Data</name>
 		<region>ALL</region>
-		<serial>HNLA</serial>
+		<serial>TWL-N-HNLA</serial>
 		<titleid>0004800F484E4C41</titleid>
 	</Ticket>
 	<Ticket>
@@ -44823,25 +44823,25 @@
 		<titleid>000400000FF40000</titleid>
 	</Ticket>
 	<Ticket>
-		<name>DevMenu 11.4 NAND</name>
+		<name>DevMenu 11.4 (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF40002</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Config_NAND</name>
+		<name>Config (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF40102</titleid>
 	</Ticket>
 	<Ticket>
-		<name>DlpClient_NAND</name>
+		<name>DlpClient (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF40402</titleid>
 	</Ticket>
 	<Ticket>
-		<name>NetworkSetting_NAND</name>
+		<name>NetworkSetting (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF40702</titleid>
@@ -44853,7 +44853,7 @@
 		<titleid>000400000FF40A00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>SaveDataFiler_NAND</name>
+		<name>SaveDataFiler (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF40A02</titleid>
@@ -44865,25 +44865,25 @@
 		<titleid>000400000FF40D00</titleid>
 	</Ticket>
 	<Ticket>
-		<name>CecBoxTool_NAND</name>
+		<name>CecBoxTool (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FF41602</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Decrypt9UI Cia For A9LH</name>
+		<name>Decrypt9UI CIA</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>000400000FFDF900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Decrypt9WIP Cia For A9LH NAND</name>
+		<name>Decrypt9WIP CIA (NAND)</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>00040000FFDEC900</titleid>
 	</Ticket>
 	<Ticket>
-		<name>Decrypt9WIP CIA For A9LH</name>
+		<name>Decrypt9WIP CIA</name>
 		<region>ALL</region>
 		<serial></serial>
 		<titleid>00040010FFDEC900</titleid>
