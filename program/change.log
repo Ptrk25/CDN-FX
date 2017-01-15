@@ -1,5 +1,7 @@
 Update version dev-2.2
 
+Please open CDN-FX.exe after updating!
+
 Changelog:
 - Revert functions to CDN-FX version pre-2.02
 - Needs icon.key again
