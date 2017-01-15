@@ -1,6 +1,8 @@
-Update version dev-2.1
+Update version dev-2.2
 
 Changelog:
-- Preperation for CDN-FX 3.0
+- Revert functions to CDN-FX version pre-2.02
+- Needs icon.key again
+- Removed activation lock
 
 Ptrk25
