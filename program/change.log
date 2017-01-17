@@ -1,5 +1,14 @@
-Update dev-2.2 comming soon!
+Final Update dev-2.2
 
-Press "No" to continue.
+This will be the last update for CDN-FX.
+There won't be any updates anymore.
+
+If you are on dev-2.1 open "CDN-FX.jarCDN-FX.exe" to update.
+
+Changelog:
+- [Bugfix] Titledownloader [Manual] now ask for an output path
+- [make_cdn_cia] x32 and x64 version added
+- [XMLHandler] 3DSDB support added
+- [Updater] removed
 
 Ptrk25
