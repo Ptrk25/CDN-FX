@@ -9,7 +9,7 @@ Changelog:
 - [Bugfix] Titledownloader [Manual] now ask for an output path
 - [make_cdn_cia] x32 and x64 version added
 - [XMLHandler] 3DSDB support added
-- [Updater] removed
+- Updater removed
 - Activation lock removed
 
 Ptrk25
