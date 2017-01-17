@@ -10,5 +10,6 @@ Changelog:
 - [make_cdn_cia] x32 and x64 version added
 - [XMLHandler] 3DSDB support added
 - [Updater] removed
+- Activation lock removed
 
 Ptrk25
